@@ -11,9 +11,12 @@ icon: glyphicon-heart
 
 
 ### 关于我
-程序猿，主要会点java ，喜欢读书，以前挺喜欢跑步。
 
+程序猿，主要干java ，喜欢看各种书，以前挺喜欢跑步。
 
+矮挫穷，国家级扶贫对象。
+
+个人公众号：progresstime  主要记录读书感悟，个人心得体会，装逼等。
 ---
 
 wechat:fuxinzhong123
