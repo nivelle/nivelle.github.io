@@ -18,7 +18,7 @@ icon: glyphicon-heart
 
 个人公众号：progresstime  主要记录读书感悟，个人心得体会，装逼等。
 
-公众号 ![公众号](http://7xpuj1.com1.z0.glb.clouddn.com/cli_300px.png)
+![公众号](http://7xpuj1.com1.z0.glb.clouddn.com/cli_300px.png)
 
 ---
 
