@@ -10,7 +10,7 @@ excerpt: spring之xml
 * content
 {:toc}
 
-## <beans>和<bean>
+## <beans>、<bean>
 
 #### <beans> 是xml文件中最顶层的元素，它下面可以包含0或者1个<description>和多个<bean>、<import>、<alias>
 
