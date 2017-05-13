@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "spring之注解"
+date:   2017-05-14 00:06:05
+categories: 技术
+tags: spring
+excerpt: spring之注解
+---
+
+
+* content
+{:toc}
+
+---
+
+
+### spring 之基于注解的依赖注入
+
+- 注解版的自动绑定（@Autowired）
+
+  1.从自动绑定（autowire）到@Autowired
+
+  @Autowired是基于注解的依赖注入的核心注解，他的存在可以让容器知道需要为当前类注入那些依赖。
+  
+  @Autowired 可以标注于类定义的多个位置，包括如下几个：
+  
+  - 域（Filed）或者说属性（property）.不管申明的访问限制符是private、protected还是public ,只要标注了@Autowired,他们所需要的依赖注入需求就能够被满足。
+  
+  ```
+  public class FXNewsProvider
+  {
+     @Autowired
+     private IFXNewsListener newsListener;
+  }
+  
+  ```
+  - 构造方法定义（Constructor）:抢夺原有自动绑定功能中constructor方式的权利，根据构造方法的参数类型，来决定什么样的依赖对象注入给当前对象。
+  - 方法定义（Method）:不仅可以标注于传统的setter方法之上，而且还可以标注于任意名称的方法定义之上，只要该方法定义了需要的被注入参数。
