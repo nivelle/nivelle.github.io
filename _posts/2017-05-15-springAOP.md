@@ -63,3 +63,6 @@ excerpt: spring之AOP
 
 
 SubjectImpl 和SubjectProxy都实现了相同的接口ISubject，而SubjectProxy内部持有SubjectImpl的引用。当Client通过request()请求服务的时候，SubjectProxy将转发给SubjectImpl。
+
+---
+文章内容出自：《spring揭秘》--王福强
