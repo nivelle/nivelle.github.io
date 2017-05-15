@@ -225,3 +225,4 @@ proxy.request();
 
 
 ```
+通过为enhancer指定需要生成的子类对应的弗雷，以及Callback实现，enhancer最终尾门生成了代理对象实例。
