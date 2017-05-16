@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "spring学习之AOP"
+title:  "spring之AOP"
 date:   2017-04-23 00:06:05
 categories: 技术
 tags: spring
