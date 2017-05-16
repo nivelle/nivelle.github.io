@@ -188,9 +188,11 @@ spring2.0之前通过CustomEditorConfigurer的customEditors属性来指定自定
  
  ![image](http://7xpuj1.com1.z0.glb.clouddn.com/%E8%87%AA%E5%AE%9A%E4%B9%89propertyEditor.png)
  
- ---
+---
  
- ####   bean生命周期
+####   bean生命周期
+
+---
 
 ![image](http://7xpuj1.com1.z0.glb.clouddn.com/beanLife.png)
 
