@@ -190,7 +190,7 @@ spring2.0之前通过CustomEditorConfigurer的customEditors属性来指定自定
  
  ---
  
- ####  bean生命周期
+ ####   bean生命周期
 
 ![image](http://7xpuj1.com1.z0.glb.clouddn.com/beanLife.png)
 
@@ -241,7 +241,7 @@ public interface InitializingBean{
 }
 
 ```
-在对象实例化过程中调用过“BeanPostProcessor的前置处理”之后，检测是否实现了InitializingBean接口，若是，则调用afterPropertiesSet（）方法进一步调整对象实例状态。替代方法：/ <init-method>
+在对象实例化过程中调用过“BeanPostProcessor的前置处理”之后，检测是否实现了InitializingBean接口，若是，则调用afterPropertiesSet（）方法进一步调整对象实例状态。替代方法：\<init-method>
 
 
 5.DisposableBean与destroy_method
