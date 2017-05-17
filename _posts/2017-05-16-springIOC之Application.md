@@ -105,48 +105,84 @@ ResourcePatternResolver 最常用的一个实现就是org.springframework.core.i
 
 ###  ApplicationContext 与ResourceLoader
 
-applocationContext继承了ResourcePatternResolver，当然就间接实现了ResourceLoader接口。
+applocationContext继承了ResourcePatternResolver，当然就间接实现了ResourceLoader接口。所以任何ApplicationContext实现都可以看做是一个ResourceLoader甚至ResourcePatternResolver。这就是ApplicationContext支持Spring内统一资源加载策略的真相。
+
+通常，ApplicationContext直接或间接继承org.springframework.context.support.AbstractApplicationContext。AbstractApplicationContext 继承了DefaultResourceLoader,那么，它的getResource(String)当然就直接用DefaultResourceLoader的了。
+
+
+AbstractApplicationContext 内部申明一个PathMatchingResourcePatternResolver，它可以接受一个resourceLoader,而AbstractApplicationContext本身又继承至DefaultResourceLoader，这样就把自身设置进入了。
+
+![image](http://7xpuj1.com1.z0.glb.clouddn.com/AbsractApplicationContext.png)
+
+
+---
+
+###### Applocation的使用：
+
+- 扮演ResourceLoader角色
+
+
+```
+ResourceLoader resourceLoader = new ClassPathXmlApplicationContext("配置文件路径");
+Resource fileResource = resourceLoader.getResource("D:/spring21site/README");
+```
 
 
 
+- ResourceLoader 类型的注入
+
+如果某个bean需要依赖于ResourceLoader来查找定位资源，我们可以为其注入容器中申明的某个具体的ResourceLoader实现。
+
+或者通过实现ResourceLoaderAware和ApplicationContextAware接口可以通过依赖于SpringAPI 的来实现利用Application的容器作用。
+
+```
+public class FOoBar implements ApplicationContextAware
+{
+   private ResourceLoader resourceLoader;
+   public void foo(String location)
+   {
+      system.out.println(getResourceLoader().getResource(location).getClass());
+   }
+
+   public ResourceLoader getResourceLoader()
+   {
+     return resourceLoader;
+   }
+
+   public void setApplicationContext(ApplicationContext ctx) throws BeansException
+   {
+     this.resourceLoader = ctx;
+   }
+}
 
 
+```
+
+这样，启动容器的时候，就会自动将当前的ApplicationContext容器本身注入到FooBar中，因为ApplicationContext类型容器可以自动识别Aware接口
+
+- Resource 类型的注入
+
+ApplicationContext容器可以正确识别Resource类型并转换后注入相关对象。而不用通过自定义propertyEditors注册到容器以供类型转换使用来识别Resource类型。
 
 
+总结：appliicationContext 启动开始，会通过一个org.springframework.beans.support.ResourceEditorRegistrar来注册针对resource类型的PropertyEditor实现到容器中，这个PropertyEditor叫做org.springframework.core.io.ResourceEditor.
 
+- 特定ApplicationContext的Resource加载行为
 
+ResourceLoader中新增了一种新的资源路径协议----classpath: ,ResourcePatternResolver又增加了一种----classpath*:。
 
+ (1)ClassPathXmlApplicationContext在实例化的时候，即使没有指明classpath:或者classpath*:等前缀，它会默认从classpath中加载bean定义的配置文件
 
+ (2)FileSystemXmlAppliicationContext，如果不加classpath:或者calsspath*:,则会从文件系统加载配置文件。
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+----
 
 
 #####  国际化信息支持
+
+java中国际化信息处理，主要涉及两个类,即java.util.Locale和java.util.ResourceBundle
+
+
 
 
 #####  容器内部事件发布
