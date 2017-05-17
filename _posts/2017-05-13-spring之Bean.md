@@ -205,9 +205,9 @@ spring2.0之前通过CustomEditorConfigurer的customEditors属性来指定自定
    
    实例化结果返回的是包装类，BeanWrapper
 
- 2 .*BeanWrapper* 它通常在Spring框架内部使用，他有个实现类org.springframework.beans.BeanWrapperImpl. 他主要对某个bean进行包裹，然后对这个包裹的bean进行操作，比如设置或获取bean的相应属性值。
+ 2 .BeanWrapper 它通常在Spring框架内部使用，他有个实现类org.springframework.beans.BeanWrapperImpl. 他主要对某个bean进行包裹，然后对这个包裹的bean进行操作，比如设置或获取bean的相应属性值。
 
- BeanWrapper继承了...PropertyAccessor接口可以以统一方式对对象属性进行访问；同时继承了PropertyEditorRegistry和TypeConverter接口。使用BeanWrapper对bean操作更方便，可以免去使用java反射API。
+    BeanWrapper继承了...PropertyAccessor接口可以以统一方式对对象属性进行访问；同时继承了PropertyEditorRegistry和TypeConverter接口。使用BeanWrapper对bean操作更方便，可以免去使用java反射API。
 
  ---
  beanFactory中当对象实例化完成并且相关属性以及依赖设置完成之后，Spring容器会检查当前对象实例是否实现了一系列的Aware命名结尾的接口定义，如果是，则将这些接口定义的规定依赖注入给当前对象实例。
