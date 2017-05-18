@@ -180,7 +180,70 @@ ResourceLoader中新增了一种新的资源路径协议----classpath: ,Resource
 
 #####  国际化信息支持
 
-java中国际化信息处理，主要涉及两个类,即java.util.Locale和java.util.ResourceBundle
+###### java中国际化信息处理，主要涉及两个类,即java.util.Locale和java.util.ResourceBundle
+
+- Locale  不同的locale代表不同的国家和地区，每个国家和地区在Locale这里都有相应的代码简写表示，包括预演代码以及国家代码。
+
+例如：Local.CHINA 代表中国，它的代码表示为zh_CN
+
+- ResourceBundle  用来保存特定于某个Locale的信息（可以是String类型信息，也可以任何类型对象）。通常，管理一组信息序列，所有的信息序列有统一的basename,然后特定的Locale的信息，可以根据basename后追加的语言或者地区代码来区分。
+
+每个资源文件中都有相同的建来标志具体资源条目，但每个资源内部对应的建的资源条目内容，则根据Locale的不同而不同。
+```
+#messages_zh_CN.properties
+menu.file=文件（{0}）
+menu.edit=编辑
+
+#messages_en_US.properties
+menu.file=File({0})
+menu.edit=Edit
+
+```
+有了ResourceBundle对应的资源文件之后，我们就可以通过ResourceBundle的getBundle（String baseName,Locale locale）方法获取的不同Locale对应的ResourceBundle，然后根据资源的键取得相应Locale的资源条目内容。
 
 
+-----
 
+######  MessageSource与ApplicationContext
+
+spring进一步抽象化了国际化信息支持，通过传入相应的Locale、资源建以及相应的参数，就可以取得相应的信息，就不需要根据Locale取得ResourceBundle，然后从再从ResourceBundle查询信息了。
+
+```
+public interface MessageSource
+{
+    String getMessage(String code,Object[]args,String default defauleMessage,Locale locale);
+    
+    String getMessage(String code,Object[]args,Locale locale);
+    
+    String getMessage(MessageSourceResolvable  resolvable,Locale locale);
+}
+
+```
+ApplicationContext将会委派容器中一个名称为messageSource的MessageSource接口来实现完成MessageSource应该完成的职责。如果不存在这样一个名字的MessageSource实现，ApplicationContext内部会默认实例化一个不含任何内容的StaticMessageSouce实例，以保证相应的方法调用。
+
+```
+\<beans>
+  \<bean id="messageSource" calss="org.springframework.context.support.ResourceBundleMessageSource">
+     \<property name="baseName">
+         <list>
+             <value>messages</value>
+             <value>errorcodes</value>
+         </list>
+     </property>
+
+  </bean>
+</beans>
+```
+有了这些我们就可以通过ApplicationContext直接访问相应的Locale对应的信息，如下所示：
+
+```
+ApplicationContext ctx=...;
+String fileMenuName=ctx.getMessage("menu.file",new Object[]{"F"},Locale.US);
+String fileMenuName=ctx.getMessage("menu.file",new Object[]{"F"},Locale.US);
+```
+
+######  messageSource类层次结构
+
+![image](http://7xpuj1.com1.z0.glb.clouddn.com/messageSource.png)
+
+applicationContext启动的时候，会自动识别容器中类型为MessageSourceAware的bean定义，并将自身作为MessageSource注入相应对象实例中。如果某个业务对象需要国际化信息支持，那么最简单的办法就是让它实现MessageSourceAware接口，然后注册到ApplicationContext容器，
