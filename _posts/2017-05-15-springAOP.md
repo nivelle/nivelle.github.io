@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "spring之AOP"
+title:  "spring之AOP基础"
 date:   2017-04-23 00:06:05
 categories: 技术
 tags: spring
-excerpt: spring之AOP
+excerpt: spring之AOP基础
 ---
 
 
