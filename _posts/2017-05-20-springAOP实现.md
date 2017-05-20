@@ -127,8 +127,9 @@ public void ponitcutMethod2(){}
 - Pointcut Expression: Pointcut Expression的载体是@Pointcut,方法级别注解，所以Poictcut Expression 不能脱离某个方法单独申明。Pointcut Expression 附着于上的方法称为该Pointcut Expression 的Pointcut Signature.Pointcut Expression 是真正规定Pointcut 匹配规则的地方，可以通过@Pointcut直接指定AspectJ形式的Pointcut表达式。Pointcut表达式：
   -  Pointcut标志符。将以什么样的行为来匹配表达式
      - execution(modifiers-pattern?ret-type-pattern declaring-type-pattern?name-pattern(param-pattern) throws-pattern?)其中方法的返回类型、方法名以及参数部分的匹配模式是必须指定的，其余部分可以省略。
-      两种通配符
+      #####　两种通配符
       (1) *  可以用于任何部分的匹配模式中，可以匹配*相邻*的多个字符，即一个word.例如：execution(* *(*))
+      
       (2) .. 通配符可以在两个位置使用，一个是在declaring-type-pattern规定的位置，一个是在方法参数匹配模式的位置。如果用于declaring-type-pattern 规定的位置则可以指定多个层次的类型声明：如下：
       
       ```
