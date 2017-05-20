@@ -130,6 +130,7 @@ public void ponitcutMethod2(){}
       两种通配符
       (1) *  可以用于任何部分的匹配模式中，可以匹配*相邻*的多个字符，即一个word.例如：execution(* *(*))
       (2) .. 通配符可以在两个位置使用，一个是在declaring-type-pattern规定的位置，一个是在方法参数匹配模式的位置。如果用于declaring-type-pattern 规定的位置则可以指定多个层次的类型声明：如下：
+      
       ```
       execution (void cn.spring21.*.doSomething(*))；//只能指定到cn.spring21这一层下的所有类型
 
@@ -139,15 +140,15 @@ public void ponitcutMethod2(){}
       execution(void *.doSomething(..)))但是，如果在这里使用*,则只能匹配一个参数。
 
       常见组合：
-      execution(void doSomething(String,*))
+      - execution(void doSomething(String,*))
       
       //匹配两个参数的doSomething方法，第一个参数为String类型，第二个参数类型不变
       
-      execution(void doSomething(..,sting)
+      - execution(void doSomething(..,sting)
       
       //匹配拥有多个参数的doSomething方法，之前参数类型不限，但最后一个参数类型必须为String 
       
-      execution(void doSomething(*,String,..))
+      - execution(void doSomething(*,String,..))
       
       //匹配拥有多个参数的doSomething方法，第一个参数类型不限，第二个必须为String,其他剩余参数数量类型均不限。
       
