@@ -7,7 +7,7 @@
 
 # Site settings
 title: Nivelle
-brief-intro:开拓视野,冲破艰险,看见世界,身临其境,贴近彼此,感受生活
+brief-intro: 开拓视野冲破艰险看见世界 身临其境贴近彼此感受生活
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://nivelle.github.io" # the base hostname & protocol for your site
 
