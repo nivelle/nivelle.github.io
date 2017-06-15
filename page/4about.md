@@ -14,10 +14,10 @@ icon: glyphicon-heart
 
 矮挫穷，国家级扶贫对象。理想就是搞事情，有点钱最好。
 
-个人公众号：progresstime  主要记录读书感悟，个人心得体会，装逼等。
+微信号：fuxinzhong123
+
+个人公众号：progresstime  只是一个长内容朋友圈，欢迎交流。
 
 ---
 
-
-![自我介绍](http://7xpuj1.com1.z0.glb.clouddn.com/img-71d3e5413cb45f8dd400bef4017f5185%281%29.jpg)
 
