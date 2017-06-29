@@ -246,4 +246,8 @@ String fileMenuName=ctx.getMessage("menu.file",new Object[]{"F"},Locale.US);
 
 ![image](http://7xpuj1.com1.z0.glb.clouddn.com/messageSource.png)
 
-applicationContext启动的时候，会自动识别容器中类型为MessageSourceAware的bean定义，并将自身作为MessageSource注入相应对象实例中。如果某个业务对象需要国际化信息支持，那么最简单的办法就是让它实现MessageSourceAware接口，然后注册到ApplicationContext容器，
+applicationContext启动的时候，会自动识别容器中类型为MessageSourceAware的bean定义，并将自身作为MessageSource注入相应对象实例中。如果某个业务对象需要国际化信息支持，那么最简单的办法就是让它实现MessageSourceAware接口，然后注册到ApplicationContext容器.
+
+---
+
+内容来自《Spring 揭秘》 作者：王福强
