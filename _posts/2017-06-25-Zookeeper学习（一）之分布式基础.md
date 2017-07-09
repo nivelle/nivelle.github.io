@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Zookeeper学习（一）之协议基础"
+title:  "Zookeeper学习（一）之分布式基础"
 date:   2016-04-12 01:06:05
 categories: zk
 tags: zk
