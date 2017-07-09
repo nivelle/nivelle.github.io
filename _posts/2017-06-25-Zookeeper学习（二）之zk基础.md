@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Zookeper学习(二)之zk基础"
+title:  "Zookeeper学习(二)之zk基础"
 date:   2016-04-12 01:06:05
 categories: zk
 tags: zk
