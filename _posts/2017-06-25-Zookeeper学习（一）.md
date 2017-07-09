@@ -2,7 +2,7 @@
 layout: post
 title:  "Zookeeper学习（一）"
 date:   2016-04-12 01:06:05
-categories: 技术
+categories: zk
 tags: zk
 excerpt: zk
 ---
