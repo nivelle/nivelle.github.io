@@ -2,7 +2,7 @@
 layout: post
 title:  "springIOC之BeanFactory"
 date:   2017-04-23 00:06:05
-categories: 技术
+categories: spring
 tags: spring
 excerpt: spring之IOC
 author: nivelle
