@@ -2,9 +2,9 @@
 layout: post
 title:  "spring之bean"
 date:   2017-05-13 00:06:05
-categories: 技术
+categories: spring
 tags: spring
-excerpt: springBean
+excerpt: spring之Bean
 author: nivelle
 ---
 
