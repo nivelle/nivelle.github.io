@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Zookeper学习(四)"
+title:  "Zookeper学习(四)之技术内幕"
 date:   2017-04-12 01:06:05
-categories: 技术
+categories: zk
 tags: zk
-excerpt: zk
+excerpt: zk技术内幕
 ---
 
 
