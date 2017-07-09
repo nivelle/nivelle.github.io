@@ -2,7 +2,7 @@
 layout: post
 title:  "Zookeper学习(三)"
 date:   2017-04-12 01:06:05
-categories: 技术
+categories: zk
 tags: zk
 excerpt: zk
 ---
