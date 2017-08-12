@@ -42,7 +42,8 @@ icon: bookmark
 * [外网视频下载](http://en.savefrom.net/)
 * [云盘搜索1](http://www.57fx.com/search/)
 * [云盘搜索2](http://www.sodupan.com/)
-* 
+* [这个博客](https://github.com/Gaohaoyang/gaohaoyang.github.io)
+
 ## 优秀网站
 * [OurMySQL](http://ourmysql.com/)
 * [并发编程网](http://ifeve.com/)
