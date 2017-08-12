@@ -2,7 +2,7 @@
 layout: page
 title: 关于我
 permalink: /introduce/
-icon: glyphicon-heart
+icon: heart
 type: page
 ---
 
