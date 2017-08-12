@@ -3,8 +3,8 @@ layout: page
 title: 关于我
 permalink: /introduce/
 icon: glyphicon-heart
+type: page
 ---
-
 
 * content
 {:toc}
