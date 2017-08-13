@@ -51,7 +51,3 @@ icon: bookmark
 * [linux](https://linux.cn/article-6759-1.html#3_4214)
 * [前端模板下载](https://www.template.net/web-templates/bootstrap/free-bootstrap-template/)
 
-
-## Comments
-
-{% include comments.html %}
