@@ -23,5 +23,5 @@ type: page
 
 ---
 
-[域名出售：](http://www.jianwallet.icoc.me/)
+[域名出手](http://www.jianwallet.icoc.me/)
 
