@@ -11,18 +11,18 @@ icon: bookmark
 
 ## 书籍
 
-* [IntelliJ IDEA 简体中文专题教程](https://github.com/nivelle/IntelliJ-IDEA-Tutorial)
-* [Java资源大全中文版](https://github.com/nivelle/awesome-java-cn)
-* [费的计算机编程类中文书籍](https://github.com/nivelle/free-programming-books-zh_CN)
-* [java数据结构学习](https://github.com/nivelle/DataStructureAndAlgorithmsMadeEasyInJava)
-* [LeetCode题解，151道题完整版](https://github.com/nivelle/leetcode)
+* [IntelliJ IDEA 简体中文专题教程](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
+* [Java资源大全中文版](https://github.com/jobbole/awesome-java-cn)
+* [费的计算机编程类中文书籍](https://github.com/justjavac/free-programming-books-zh_CN)
+* [java数据结构学习](https://github.com/careermonk/DataStructureAndAlgorithmsMadeEasyInJava)
+* [LeetCode题解，151道题完整版](https://github.com/soulmachine/leetcode)
 * [计算机书籍控](http://bestcbooks.com/)
 * [Kindle114 资源集结计划](http://kindle115.com/)
 * [我收集的电子版书籍](http://note.youdao.com/noteshare?id=d9d5aea6af27f896eeaeda481d3ec190)
 
 ## 工作
 
-* [远程工作资料](https://github.com/nivelle/remote-working)
+* [远程工作资料](https://github.com/greatghoul/remote-working)
 * [通用的Java工具类](https://github.com/nivelle/jutils)
 * [Markdown](http://www.appinn.com/markdown/index.html)
 
