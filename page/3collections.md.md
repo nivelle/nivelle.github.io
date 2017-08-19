@@ -43,6 +43,7 @@ icon: bookmark
 * [云盘搜索1](http://www.57fx.com/search/)
 * [云盘搜索2](http://www.sodupan.com/)
 * [这个博客](https://github.com/Gaohaoyang/gaohaoyang.github.io)
+* [电子书制作](https://www.gitbook.com/@nive)
 
 ## 优秀网站
 * [OurMySQL](http://ourmysql.com/)
