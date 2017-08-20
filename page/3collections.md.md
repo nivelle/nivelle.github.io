@@ -54,3 +54,4 @@ icon: bookmark
 * [IBMDeveloperworks](https://www.ibm.com/developerworks/cn/)
 * [mkyong](http://www.mkyong.com/)
 * [importNew](http://www.importnew.com)
+* [Javarevisited](https://javarevisited.blogspot.jp/)
