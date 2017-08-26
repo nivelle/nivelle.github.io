@@ -21,7 +21,9 @@ type: page
 
 工作公众号:publicdata(数据发布)
 
+专注才能拯救我.
+
 ---
 
-[域名出手](http://www.jianwallet.icoc.me/)
+有几个域名看看谁需要:[域名出手](http://www.jianwallet.icoc.me/)
 
