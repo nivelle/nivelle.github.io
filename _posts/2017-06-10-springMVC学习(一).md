@@ -289,3 +289,71 @@ public class UserController2 {
 
 
 ```
+
+
+### 使用HttpMessageConverter<T>
+
+
+![image](http://images0.cnblogs.com/blog/731047/201506/241347076276283.png)
+
+HttpMessageConverter<T>是Spring的一个重要接口,它负责将请求信息转换为一个对象,(类型为T),将对象(类型为T)输出位响应信息.DispatcherServlet默认已经安装了RequestMappingHandlerAdapter的组件实现类,HTTPMessageConverter即由RequestMappingHandlerAdapter使用,将请求信息转换为对象,或将对象转换为响应信息.
+
+HttpMessageConverter<T>接口定义了以下几个方法:
+
+- boolean canRead(Class<?>clazz,MediaType mediaType):指定转换器可以读取的对象类型,即转换器可将请求信息转换为clazz类型的对象;同时指定支持的MIME媒体类型(如text/html,application/json)
+
+- boolean canWrite(class<?>class,MediaType mediaType):指定转换器可以将class类型的对象写到响应流中,响应流支持的媒体类型在mediaType中定义.
+
+- List<MediaType>getSupportedMediaTypes():该转换器支持的媒体类型
+
+- T read(Class<? extends T> clazz,HttpInputMessage inputMessage):将信息流转换为T类型对象
+
+- void write(T t,MediaType contentType ,HttpOutputMessage outputMessage):将T类型的对象写到响应流中,同时指定响应的媒体类型为contentType.
+
+RequestMappingHandlerAdapter默认已经装配了以下HttpMessageConverter:
+
+- StringHttpMessagerConverter
+- ByteArrayHttpMessageConverter
+- SourceHttpMessageConerter
+- AllEncompassingFormHttpMessageConverer
+
+使用HttpMessageConverter<T>将请求信息转换并绑定到处理方法的入参中呢:
+
+- 使用@RequestBody /@responseBody 对处理方法进行标注
+
+- 使用HttpEntity<T>/ResponseEntity<T>作为处理方法的入参或返回值.
+
+
+```
+@Controller
+@RequestMapping(path="user")
+public class UserController3 {
+  @RequestMapping(path="/handl41")
+    public String handle41(@RequestBody String requesBody){
+      return  "success";
+  }
+
+    @ResponseBody
+    @RequestMapping(path="handle42"/{imageId})
+    public byte[] handle42(@PathVariable("imageId") String imageId)throws IOException{
+        Resource res = new ClassPathResource("/image.jpg");
+        byte[] fileData = FileCopyUtils.copyToByteArray(res.getInputStream());
+        return fileData;
+    }
+}
+
+
+
+```
+
+handle41:将根据RequestBody入参标注一个@RequesBody注解,将根据RequestBody的类型查找匹配的HttpMessageConverter.由于StringHttpMessageConverter的泛型类型对应Srting,所以StringHttpMessageConverter将被选中,用它将请求体信息转换并将结果绑定到RequestBody上.
+
+handle42()方法使用@ResponseBody注解,由于方法返回值类型为byte[],所以SpingMVC根据类型匹配的查找规则将使用ByteArrayHttpMessageConverter对返回值进行处理,将图片数据流输出到客户端.
+
+结论:
+
+- 当控制器处理方法使用@RequestBody/@ResponseBody或HttpEntity<T>/ResponseEntity<T>时,springMVC才使用注册的HttpMessageConverter对请求.响应消息进行处理
+
+- 当控制器处理方法使用@RequestBody/@ResponseBody或或HttpEntity<T>/ResponseEntity<T>时,Spring首先根据请求头或者响应头的Accept属性选择匹配的HttpMessageConverer,然后根据参数类型或泛型类型的过滤得到匹配的HttpMessageConverter,如果如果找不到则报错
+
+- @RequestBody和@ResponseBody不需要成对出现,如果方法入参使用了@RequestBody则使用HttpMessageCOnverter将请求消息转换并绑定到该入参中,如果方法标注了@ResponseBody,则选择匹配的HttpMessageConverter将方法返回值转换并输出响应消息.
