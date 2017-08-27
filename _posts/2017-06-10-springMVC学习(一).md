@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "springMVC学习(一)"
+title:  "springMVC源码学习(一)"
 date:   2017-06-10 00:06:05
 categories: springMVC
 tags: springMVC
@@ -357,3 +357,16 @@ handle42()方法使用@ResponseBody注解,由于方法返回值类型为byte[],�
 - 当控制器处理方法使用@RequestBody/@ResponseBody或或HttpEntity<T>/ResponseEntity<T>时,Spring首先根据请求头或者响应头的Accept属性选择匹配的HttpMessageConverer,然后根据参数类型或泛型类型的过滤得到匹配的HttpMessageConverter,如果如果找不到则报错
 
 - @RequestBody和@ResponseBody不需要成对出现,如果方法入参使用了@RequestBody则使用HttpMessageCOnverter将请求消息转换并绑定到该入参中,如果方法标注了@ResponseBody,则选择匹配的HttpMessageConverter将方法返回值转换并输出响应消息.
+
+
+### 处理XML和JSON
+
+springMVC提供了几个处理XML和JSON格式的请求/响应消息的HTTPMessageConverter
+
+- MarshallingHttpMessageConverter:处理XML格式的请求或响应信息
+
+- Jaxb2RootElementHttpMessageConverter:同上,底层使用JAXB
+
+- MappngJackson2HttpMessageConverter:处理JSON格式的请求或响应消息
+
+通过消息头的Content-Type以及Accept属性来确定消息格式.
