@@ -56,7 +56,7 @@ SpirngMVC在调用目标处理方法前,会逐个调用在方法级别上标注�
 
 SpringMVC 在内部使用一个org.springframework.ui.Model接口存储模型数据,它们功能类似java.util.Map,但它比Map易用.ModelMap实现了Map接口.而org.springframework.ui.ExtendedModelMap扩展与ModelMap的同时实现了Model接口.
 
-SpirngMVC 在调用方法前会创建一个隐含的模型对象,作为模型数据的存储容器,我们称之为"隐含模型".如果处理方法的入参为Map或Model类型,则Sping MVC会将隐含模型的引用传递给这些入参.方法体内,开发者可以通过这个入参对象访问到模型中的所有数据,也可以向明显中添加信息属性数据.
+**SpirngMVC 在调用方法前会创建一个隐含的模型对象,作为模型数据的存储容器,我们称之为"隐含模型".如果处理方法的入参为Map或Model类型,则Sping MVC会将隐含模型的引用传递给这些入参.方法体内,开发者可以通过这个入参对象访问到模型中的所有数据,也可以向明显中添加信息属性数据.**
 
 ![image](http://7xpuj1.com1.z0.glb.clouddn.com/ModelMap.png)
 
