@@ -19,6 +19,7 @@ icon: bookmark
 * [计算机书籍控](http://bestcbooks.com/)
 * [Kindle114 资源集结计划](http://kindle115.com/)
 * [我收集的电子版书籍](http://note.youdao.com/noteshare?id=d9d5aea6af27f896eeaeda481d3ec190)
+* [读读书](http://dodobook.com/)
 
 ## 工作
 
