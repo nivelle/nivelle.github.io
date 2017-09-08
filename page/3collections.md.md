@@ -57,3 +57,4 @@ icon: bookmark
 * [mkyong](http://www.mkyong.com/)
 * [importNew](http://www.importnew.com)
 * [Javarevisited](https://javarevisited.blogspot.jp/)
+* [dubbo梁飞](http://javatar.iteye.com/)
