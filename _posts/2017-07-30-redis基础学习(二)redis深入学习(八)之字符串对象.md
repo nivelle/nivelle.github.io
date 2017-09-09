@@ -1,0 +1,51 @@
+
+---
+layout: post
+title:  "redis深入学习(三)之字符串对象"
+date:   2017-09-04 01:06:05
+categories: noSQL
+tags: redis
+excerpt: redis
+---
+
+
+* conten
+
+### 字符串对象
+
+字符串对象的编码可以是int,raw或者embstr.
+
+如果一个字符串对象保存的是整数值,并且这个整数值可以用long类型来表示,那么字符串对象会将整数值保存在字符串对象结构的ptr属性里面(将void * 转换成long),并将字符串对象的编码设置为int.
+
+![image](http://7xpuj1.com1.z0.glb.clouddn.com/int%E7%BC%96%E7%A0%81%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AF%B9%E8%B1%A1.png)
+
+- 如果字符串对象保存的是一个字符串值,并且这个字符串值的长度大于32字节,那么字符串对象将使用一个简单动态字符串(SDS)来保存这个字符串值,并将对象的编码设置为raw.
+
+![image](http://7xpuj1.com1.z0.glb.clouddn.com/raw%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%BC%96%E7%A0%81.png)
+
+```
+redis> set story "LONG,long ago there lived a king ..."
+OK
+
+redis>STRLEN story
+(integer) 37
+
+redis>OBJECT ENCODING story
+"raw"
+
+```
+
+- 如果字符串对象保存的是一个字符串值,并且这个字符串值长度小于等于32字节,那么字符串对象将使用embstr编码的方式来保存这个字符串值
+
+![image](http://7xpuj1.com1.z0.glb.clouddn.com/embstr%E7%BC%96%E7%A0%81%E5%88%9B%E5%BB%BA%E7%9A%84%E5%86%85%E5%AD%98%E7%BB%93%E6%9E%84.png)
+
+embstr编码的字符串对象来保存短字符串有以下好处:
+
+- embstr编码将创建字符串对象所需要的内存分配次数从raw编码次数降为一次
+- 释放embstr编码的字符串对象只需要调用一次内存释放函数,而释放raw编码的字符串对象需要调用两次内存释放函数
+- 因为embstr编码的字符串对象的所有数据都保存在一块连续的内存里面,所以这种编码的字符串对象必raw编码的字符串对象更好地利用缓存带来的优势
+
+
+redis没有为embstr编码的字符串对象编写任何相应的修改程序,所以embstr编码的字符串实际上是只读的,当对其执行修改命令时,程序会先将对象的编码从embstr转换成raw,然后再执行修改命令.
+
+![image](http://7xpuj1.com1.z0.glb.clouddn.com/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%91%BD%E4%BB%A4%E7%9A%84%E5%AE%9E%E7%8E%B0.png)
