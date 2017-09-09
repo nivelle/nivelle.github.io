@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "redis深入学习(三)之字符串对象"
@@ -7,7 +6,6 @@ categories: noSQL
 tags: redis
 excerpt: redis
 ---
-
 
 * conten
 
