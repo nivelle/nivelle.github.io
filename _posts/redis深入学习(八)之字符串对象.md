@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "redis深入学习(三)之字符串对象"
+title:  "redis深入学习(八)之字符串对象"
 date:   2017-09-04 01:06:05
 categories: noSQL
 tags: redis
