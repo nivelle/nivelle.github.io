@@ -294,7 +294,7 @@ public class UserController2 {
 ### 使用HttpMessageConverter<T>
 
 
-![image](http://images0.cnblogs.com/blog/731047/201506/241347076276283.png)
+![image](http://7xpuj1.com1.z0.glb.clouddn.com/07a94f2d9e3e53efb88f0b21e4671a97_r.jpg)
 
 HttpMessageConverter<T>是Spring的一个重要接口,它负责将请求信息转换为一个对象,(类型为T),将对象(类型为T)输出位响应信息.DispatcherServlet默认已经安装了RequestMappingHandlerAdapter的组件实现类,HTTPMessageConverter即由RequestMappingHandlerAdapter使用,将请求信息转换为对象,或将对象转换为响应信息.
 
