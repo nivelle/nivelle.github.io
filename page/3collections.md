@@ -58,4 +58,5 @@ icon: bookmark
 * [importNew](http://www.importnew.com)
 * [Javarevisited](https://javarevisited.blogspot.jp/)
 * [dubbo梁飞](http://javatar.iteye.com/)
-*[数据库介绍](https://draveness.me/)
+
+* [数据库介绍](https://draveness.me/)
