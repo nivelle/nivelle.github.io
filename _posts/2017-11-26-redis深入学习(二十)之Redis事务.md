@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "redis深入学习(二十)之Redis事物"
+title:  "redis深入学习(二十)之Redis事务"
 date:   2017-11-26 01:06:05
 categories: noSQL
 tags: redis
