@@ -108,3 +108,38 @@ HashMap中我们最常用的就是put(K,V)和get(K).HashMap的K值是唯一的,�
 
 - HashMap通过键的hashCode来快速的存取元素。
 - 当不同的对象hashCode发生碰撞时，HashMap通过单链表来解决，将新元素加入链表表头，通过next指向原有的元素。单链表在Java中的实现就是对象的引用(复合)。
+
+HashMap put方法源码:
+
+```
+
+public V put(K key, V value) {  
+    // 处理key为null，HashMap允许key和value为null  
+    if (key == null)  
+        return putForNullKey(value);  
+    // 得到key的哈希码  
+    int hash = hash(key);  
+    // 通过哈希码计算出bucketIndex  
+    int i = indexFor(hash, table.length);  
+    // 取出bucketIndex位置上的元素，并循环单链表，判断key是否已存在  
+    for (Entry<K,V> e = table[i]; e != null; e = e.next) {  
+        Object k;  
+        // 哈希码相同并且对象相同时  
+        if (e.hash == hash && ((k = e.key) == key || key.equals(k))) {  
+            // 新值替换旧值，并返回旧值  
+            V oldValue = e.value;  
+            e.value = value;  
+            e.recordAccess(this);  
+            return oldValue;  
+        }  
+    }  
+  
+    // key不存在时，加入新元素  
+    modCount++;  
+    addEntry(hash, key, value, i);  
+    return null;  
+} 
+
+```
+
+ 本文来自：高爽|Coder，原文地址：http://blog.csdn.net/ghsau/article/details/16843543
