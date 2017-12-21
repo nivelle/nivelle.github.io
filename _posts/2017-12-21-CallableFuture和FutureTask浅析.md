@@ -119,3 +119,142 @@ FutureTask除了实现了Future接口外还实现了Runnable接口，因此Futur
 **下面我们再来看看FutureTask的方法执行示意图**
 
 ![image](http://7xpuj1.com1.z0.glb.clouddn.com/futureTask.png)
+
+- 当FutureTask处于未启动或已启动状态时，如果此时我们执行FutureTask.get()方法将导致调用线程阻塞；当FutureTask处于已完成状态时，执行FutureTask.get()方法将导致调用线程立即返回结果或者抛出异常。
+- 当FutureTask处于未启动状态时，执行FutureTask.cancel()方法将导致此任务永远不会执行。
+当FutureTask处于已启动状态时，执行cancel(true)方法将以中断执行此任务线程的方式来试图停止任务，如果任务取消成功，cancel(...)返回true；但如果执行cancel(false)方法将不会对正在执行的任务线程产生影响(让线程正常执行到完成)，此时cancel(...)返回false。当任务已经完成，执行cancel(...)方法将返回false。
+
+FutureTask的两种构造函数：
+
+```
+public FutureTask(Callable<V> callable) {  
+}  
+public FutureTask(Runnable runnable, V result) {  
+} 
+
+
+```
+
+### Callable<V>，Future<V>和FutureTask的使用
+
+通过上面的介绍，我们对Callable，Future，FutureTask都有了比较清晰的了解了，那么它们到底有什么用呢？我们前面说过通过这样的方式去创建线程的话，最大的好处就是能够返回结果，加入有这样的场景，我们现在需要计算一个数据，而这个数据的计算比较耗时，而我们后面的程序也要用到这个数据结果，那么这个时Callable岂不是最好的选择？我们可以开设一个线程去执行计算，而主线程继续做其他事，而后面需要使用到这个数据时，我们再使用Future获取不就可以了吗？下面我们就来编写一个这样的实例
+
+#### 使用Callable+Future获取执行结果
+
+```
+public class CallableDemo implements Callable<Integer> {  
+      
+    private int sum;  
+    @Override  
+    public Integer call() throws Exception {  
+        System.out.println("Callable子线程开始计算啦！");  
+        Thread.sleep(2000);  
+          
+        for(int i=0 ;i<5000;i++){  
+            sum=sum+i;  
+        }  
+        System.out.println("Callable子线程计算结束！");  
+        return sum;  
+    }  
+}  
+
+
+public class CallableTest {  
+      
+    public static void main(String[] args) {  
+        //创建线程池  
+        ExecutorService es = Executors.newSingleThreadExecutor();  
+        //创建Callable对象任务  
+        CallableDemo calTask=new CallableDemo();  
+        //提交任务并获取执行结果  
+        Future<Integer> future =es.submit(calTask);  
+        //关闭线程池  
+        es.shutdown();  
+        try {  
+            Thread.sleep(2000);  
+        System.out.println("主线程在执行其他任务");  
+          
+        if(future.get()!=null){  
+            //输出获取到的结果  
+            System.out.println("future.get()-->"+future.get());  
+        }else{  
+            //输出获取到的结果  
+            System.out.println("future.get()未获取到结果");  
+        }  
+          
+        } catch (Exception e) {  
+            e.printStackTrace();  
+        }  
+        System.out.println("主线程在执行完成");  
+    }  
+}  
+
+
+
+```
+
+执行结果:
+
+Callable子线程开始计算啦！
+
+主线程在执行其他任务
+
+Callable子线程计算结束！
+
+future.get()-->12497500
+
+主线程在执行完成
+
+
+#### 使用Callable+Future获取执行结果
+
+```
+
+public class CallableTest {  
+      
+    public static void main(String[] args) {  
+          
+        //创建线程池  
+        ExecutorService es = Executors.newSingleThreadExecutor();  
+        //创建Callable对象任务  
+        CallableDemo calTask=new CallableDemo();  
+        //创建FutureTask  
+        FutureTask<Integer> futureTask=new FutureTask<>(calTask);  
+        //执行任务  
+        es.submit(futureTask);  
+        //关闭线程池  
+        es.shutdown();  
+        try {  
+            Thread.sleep(2000);  
+        System.out.println("主线程在执行其他任务");  
+          
+        if(futureTask.get()!=null){  
+            //输出获取到的结果  
+            System.out.println("futureTask.get()-->"+futureTask.get());  
+        }else{  
+            //输出获取到的结果  
+            System.out.println("futureTask.get()未获取到结果");  
+        }  
+          
+        } catch (Exception e) {  
+            e.printStackTrace();  
+        }  
+        System.out.println("主线程在执行完成");  
+    }  
+}  
+
+
+
+```
+
+执行结果:
+
+Callable子线程开始计算啦！
+
+主线程在执行其他任务
+
+Callable子线程计算结束！
+
+futureTask.get()-->12497500
+
+主线程在执行完成
