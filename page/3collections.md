@@ -21,6 +21,7 @@ icon: bookmark
 * [我收集的电子版书籍](http://note.youdao.com/noteshare?id=d9d5aea6af27f896eeaeda481d3ec190)
 * [读读书](http://dodobook.com/)
 * [周读](http://www.ireadweek.com)
+* [图灵社区](http://www.ituring.com.cn)
 
 ## 工作
 
