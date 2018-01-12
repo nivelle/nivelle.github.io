@@ -23,6 +23,7 @@ icon: bookmark
 * [周读](http://www.ireadweek.com)
 * [图灵社区](http://www.ituring.com.cn)
 * [gitBOOK](https://www.gitbook.com/explore?page=1584&lang=zh)
+* [网络学习](https://community.emc.com/thread/197851)
 
 ## 工作
 
