@@ -24,7 +24,9 @@ icon: bookmark
 * [图灵社区](http://www.ituring.com.cn)
 * [gitBOOK](https://www.gitbook.com/explore?page=1584&lang=zh)
 * [网络学习](https://community.emc.com/thread/197851)
-
+* [雅书](https://www.yabook.org/ruanjian/)
+* [hello girl](http://www.jqhtml.com/down/category/java)
+* [pan sousou](http://www.pansoso.com/)
 ## 工作
 
 * [远程工作资料](https://github.com/greatghoul/remote-working)
