@@ -1,3 +1,17 @@
+---
+layout: post
+title:  "面试基础"
+date:   2018-08-09 00:06:05
+categories: 技术
+tags: interview
+excerpt: interview
+---
+
+* content
+{:toc}
+
+
+
 1. 使用mysql索引都有哪些原则？索引有什么数据结构？ B+tree 和 B tree 什么区别
 
 2. mysql 有哪些存储引擎？有什么区别？ 
