@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "面试基础"
+title:  "开发人员必知必会"
 date:   2018-08-09 00:06:05
 categories: 技术
 tags: interview
@@ -13,6 +13,10 @@ excerpt: interview
 
 
 1. 使用mysql索引都有哪些原则？索引有什么数据结构？ B+tree 和 B tree 什么区别
+
+[mysql索引章节](http://nivelle.me/2017/05/04/索引/)
+
+---
 
 2. mysql 有哪些存储引擎？有什么区别？ 
 
