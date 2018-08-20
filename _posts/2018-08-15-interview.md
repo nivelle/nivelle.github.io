@@ -15,10 +15,10 @@ excerpt: interview
 1. 使用mysql索引都有哪些原则？索引有什么数据结构？ B+tree 和 B tree 什么区别 
   - ([mysql索引章节](http://nivelle.me/2017/05/04/索引/))
   - ([mysql树结构](http://blog.jobbole.com/111680/))
-  - ([mysql索引实现](https://www.cnblogs.com/zlcxbb/p/5757245.html)
+  - ([mysql索引实现](https://www.cnblogs.com/zlcxbb/p/5757245.html))
   
 2. mysql 有哪些存储引擎？有什么区别？ 
-  - ([mysql索引实现](https://www.cnblogs.com/changna1314/p/6878900.html)
+  - ([mysql索引实现](https://www.cnblogs.com/changna1314/p/6878900.html))
  
 3. 设计高并发系统数据库层面应该怎么设计？ 数据库锁有哪些类型？如何实现
 
