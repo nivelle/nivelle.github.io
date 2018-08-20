@@ -33,17 +33,23 @@ excerpt: interview
 - ([高并发系统设计-数据层](https://blog.csdn.net/chenpeng19910926/article/details/51789934))
 
 - ([mysqlAUTO_INCREMENT](https://blog.csdn.net/wangkehuai/article/details/46727203))
-
 - ([mysql 高并发方案](https://blog.csdn.net/kidoo1012/article/details/54691561))
 
 - ([架构设计 数据库方案](https://www.w3cschool.cn/architectroad/architectroad-arv823bf.html))
 
+
 4. 数据库事物有哪些？
 
-5. 如何设计可以动态扩容的分库分表方案？ 以及底层原理？常见的分库分表中间件？优缺点？ 如何让未分库分表的数据动态切换到分库分表的系统上？分库分表解决主键问题?
-6.分布式事物？如何实现？TCC？ 网络出现问题，如何容错？
+- ([数据库事务基础](http://nivelle.me/2017/06/05/%E4%BA%8B%E7%89%A9%E5%AD%A6%E4%B9%A0(%E4%B8%80)%E4%B9%8B%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/))
 
-7.分布式寻址方式方式有哪些算法？ 一致性hash算法
+- ([数据库事务使用](http://nivelle.me/2017/06/10/%E4%BA%8B%E5%8A%A1%E4%BD%BF%E7%94%A8/))
+
+5. 如何设计可以动态扩容的分库分表方案？ 以及底层原理？常见的分库分表中间件？优缺点？ 如何让未分库分表的数据动态切换到分库分表的系统上？分库分表解决主键问题?
+
+
+6. 分布式事物？如何实现？TCC？ 网络出现问题，如何容错？
+
+7. 分布式寻址方式方式有哪些算法？ 一致性hash算法
 
 8. redis 和 memcheched 什么区别？为什么单线程的redis比多线程的memched效率高？
 
@@ -51,9 +57,11 @@ excerpt: interview
 
 10. redis的主从复制怎么实现的？redis集群模式是如何实现的？ redis的key是如何寻址的？
 
+
 11. 使用redis如何设计分布式锁？ 使用zk可以吗？如何实现？两种效率更高？
 
 12. redis持久化？各有什么优缺点？具体底层实现？
+
 13. redis过期策略？lru ? 写下java版本的代码？
 
 14. dubbo的实现过程？注册中心挂了可以继续通信么？dubbo常见配置有哪些
@@ -103,19 +111,35 @@ excerpt: interview
 36. hashmao 和treemap什么区别，数据结构
 
 37. 线程池用过么？都有哪些参数？ 底层如何实现？
+
 38. synchized和lock什么区别？ 底层细节
+
 39. threadLocl是什么？底层如何实现？鞋一个例子
+
 40. volitile的工作原理
+
 41.cas知道吗？如何实现？
+
 42.四种写法，写一个单例模式
+
 43.jvm内存模型？用过哪些垃圾回收器？说说
+
 44.线上频繁发生full GC 如何处理？ CPU使用频率过高怎么办？
+
 45.如何定位问题》如何解决？思路和方法
-46. 字节码有哪些？
+
+46.字节码有哪些？
+
 47. Integer x= 5, int y=5 比较x==y有哪些步骤
+
 48. 类加载机制？ 类加载器？分别加载哪些文件？手写一个
+
 49.osgi?它是如何实现的
+
 50.jvm优化？使用什么方法？达到什么效果
-51. class.forName() 和 class.getClassLoader().loadClass()什么区别
+
+51.class.forName() 和 class.getClassLoader().loadClass()什么区别
+
 52. spring 哪些机制？aop如何实现？IOC如何实现
+
 53.cglib知道么？jdk动态代理？手写一个动态代理的例子
