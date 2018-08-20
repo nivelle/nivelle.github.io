@@ -29,12 +29,15 @@ excerpt: interview
 - ([mysqlAUTO_INCREMENT](https://blog.csdn.net/zm2714/article/details/8482211))
  
 3. 设计高并发系统数据库层面应该怎么设计？ 数据库锁有哪些类型？如何实现
+
 - ([高并发系统设计-数据层](https://blog.csdn.net/chenpeng19910926/article/details/51789934))
 
 - ([mysqlAUTO_INCREMENT](https://blog.csdn.net/wangkehuai/article/details/46727203))
+
 - ([mysql 高并发方案](https://blog.csdn.net/kidoo1012/article/details/54691561))
 
 - ([架构设计 数据库方案](https://www.w3cschool.cn/architectroad/architectroad-arv823bf.html))
+
 4. 数据库事物有哪些？
 
 5. 如何设计可以动态扩容的分库分表方案？ 以及底层原理？常见的分库分表中间件？优缺点？ 如何让未分库分表的数据动态切换到分库分表的系统上？分库分表解决主键问题?
