@@ -22,7 +22,9 @@ excerpt: interview
   
 2. mysql 有哪些存储引擎？有什么区别？ 
 
-- ([mysql索引类型比较](https://www.cnblogs.com/changna1314/p/6878900.html))
+- ([mysql索引类型比较](https://www.cnblogs.com/changna1314/p/6878900.html)) 
+
+- ([mysql索引类型以及特点](https://my.oschina.net/junn/blog/183341))
  
 3. 设计高并发系统数据库层面应该怎么设计？ 数据库锁有哪些类型？如何实现
 
