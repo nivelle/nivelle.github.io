@@ -28,7 +28,7 @@ excerpt: interview
 - ([mysql索引类型以及特点](https://my.oschina.net/junn/blog/183341))
 
 - ([mysqlAUTO_INCREMENT](https://blog.csdn.net/zm2714/article/details/8482211))
- 
+
 3. 设计高并发系统数据库层面应该怎么设计？ 数据库锁有哪些类型？如何实现
 
 - ([高并发系统设计-数据层](https://blog.csdn.net/chenpeng19910926/article/details/51789934))
@@ -46,6 +46,7 @@ excerpt: interview
 - ([数据库事务使用](http://nivelle.me/2017/06/10/%E4%BA%8B%E5%8A%A1%E4%BD%BF%E7%94%A8/))
 
 5. 如何设计可以动态扩容的分库分表方案？ 以及底层原理？常见的分库分表中间件？优缺点？ 如何让未分库分表的数据动态切换到分库分表的系统上？分库分表解决主键问题?
+
 - ([分库分表方案](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650994413&idx=1&sn=24a01089ee47793b5d82381b04a34499&chksm=bdbf0ebe8ac887a8a75a0cd9226bb7e0427f1a77c43323d14dc6932c7dc77555531bce5dce0f&scene=0))
 
 
@@ -54,11 +55,13 @@ excerpt: interview
 - ([分布式事务](http://www.infoq.com/cn/articles/solution-of-distributed-system-transaction-consistency#))
 - ([分布式事务阶段提交](http://int64.me/2016/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A12PC%20&&%203PC.html))
 - ([TCC](https://juejin.im/post/5a74f3bc6fb9a0633f0df127))
+
 7. 分布式寻址方式方式有哪些算法？ 一致性hash算法
 
 - ([一致性hash算法](http://www.zsythink.net/archives/1182))
 
-8. redis 和 memcheched 什么区别？为什么单线程的redis比多线程的memched效率高？
+8. redis 和 memcheched什么区别？为什么单线程的redis比多线程的memched效率高？
+
 - ([redis的特点和原理](https://juejin.im/post/5ad6e4066fb9a028d82c4b66))
 
 9. redis主要数据类型？分别那种场景下使用？
