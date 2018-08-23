@@ -121,7 +121,9 @@ excerpt: interview
 
 #### **http的工作流程？越细节越好。  http1.0 1.1 1.2有哪些区别**
 - ([http工作流程](https://zrj.me/archives/tag/%E4%BB%8E%E7%82%B9%E5%87%BB%E5%88%B0%E5%91%88%E7%8E%B0))
+
 - ([http工作细节](https://juejin.im/post/5b10be81518825139e0d8160))
+
 #### **tcp 三次握手，四层分手的工作流程〉为什么不是其他次数**？
 
 - ([计算机网络面试常见](https://www.jianshu.com/p/d0dd47afabad))
