@@ -64,19 +64,35 @@ excerpt: interview
 
 - ([redis的特点和原理](https://juejin.im/post/5ad6e4066fb9a028d82c4b66))
 
-**redis主要数据类型？分别那种场景下使用**？
+#### **redis主要数据类型？分别那种场景下使用**？
+
+ - ([动态字符串](http://nivelle.me/2017/07/24/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E4%B8%80)/))
+
+- ([链表](http://nivelle.me/2017/07/24/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E4%BA%8C)%E4%B9%8B%E9%93%BE%E8%A1%A8/))
+
+- ([跳跃表](http://nivelle.me/2017/09/07/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E4%B8%89)%E4%B9%8B%E8%B7%B3%E8%B7%83%E8%A1%A8/))
+- ([字典](http://nivelle.me/2017/09/04/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E5%9B%9B)%E4%B9%8B%E5%AD%97%E5%85%B8/)) 
+
 
 **redis的主从复制怎么实现的？redis集群模式是如何实现的？ redis的key是如何寻址的**？
 
 **使用redis如何设计分布式锁？ 使用zk可以吗？如何实现？两种效率更高**？
 
-**redis持久化？各有什么优缺点？具体底层实现**？
+#### **redis持久化？各有什么优缺点？具体底层实现**？
+- ([RDB](http://nivelle.me/2017/09/18/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E5%8D%81%E5%9B%9B)%E4%B9%8BRDB/)) 
+- ([AOF](http://nivelle.me/2017/09/22/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E5%8D%81%E4%BA%94)%E4%B9%8BAOF/)) 
 
 **redis过期策略？lru ? 写下java版本的代码**？
 
 **dubbo的实现过程？注册中心挂了可以继续通信么？dubbo常见配置有哪些**
 
-**zk原理? zk的应用？ paxos算法**？
+#### **zk原理? zk的应用？ paxos算法**？
+
+- ([zk原理](http://nivelle.me/2016/04/12/Zookeeper%E5%AD%A6%E4%B9%A0-%E4%BA%8C-%E4%B9%8Bzk%E5%9F%BA%E7%A1%80/))
+
+- ([zk应用](http://nivelle.me/2017/04/12/Zookeeper%E5%AD%A6%E4%B9%A0-%E4%B8%89-%E4%B9%8Bzk%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF/))
+
+- ([paxos算法](https://www.cnblogs.com/linbingdong/p/6253479.html))
 
 #### **dubbo支持哪些序列化协议？hession?hession数据结构？ pb知道么？为啥PB的效率是最高的**？
 - ([dubbo原理](https://juejin.im/post/5b1203f2e51d450689495cea))
@@ -103,25 +119,35 @@ excerpt: interview
 
 **如何降级？如何进行系统拆分，如何进行数据库拆分**？
 
-**说下tcp/ip四层协议**
-
-**http的工作流程？越细节越好。  http1.0 1.1 1.2有哪些区别**
-
+#### **http的工作流程？越细节越好。  http1.0 1.1 1.2有哪些区别**
+- ([http工作流程](https://zrj.me/archives/tag/%E4%BB%8E%E7%82%B9%E5%87%BB%E5%88%B0%E5%91%88%E7%8E%B0))
+- ([http工作细节](https://juejin.im/post/5b10be81518825139e0d8160))
 #### **tcp 三次握手，四层分手的工作流程〉为什么不是其他次数**？
 
 - ([计算机网络面试常见](https://www.jianshu.com/p/d0dd47afabad))
 
 **45亿阿拉伯数据，如何进行去重复？如何找出最大的那个**？
 
-**二叉树和红黑树等常见数据结构**
-
 **hashcode相等两个类一定相等吗？ equals 呢？ 相反呢**？
 
-**介绍下集合框架**
+#### **介绍下集合框架**
+- ([容器](https://blog.csdn.net/u013256816/article/details/50925091))
 
-**hashmap和hashtable底层实现？ hashtable 和 concurrenthashtable呢**？
+#### **hashmap和hashtable底层实现？ hashtable 和 concurrenthashtable呢**？
 
-**hashmao 和treemap什么区别，数据结构**
+- ([hashMap](http://nivelle.me/2017/11/28/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(1)-hashMap/))
+
+- ([ConcurrentHashMap](http://nivelle.me/2017/12/02/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(6)-ConcurrentHashMap/))
+
+- ([ArrayList](http://nivelle.me/2017/11/28/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(3)-ArrayList/))
+
+- ([LikedList](http://nivelle.me/2017/11/28/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(4)-LinkedList/))
+
+- ([hashSet](http://nivelle.me/2017/12/02/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(5)-HashSet/))
+
+- ([队列](http://nivelle.me/2017/12/02/%E9%98%9F%E5%88%97/))
+
+- ([hashtable和hashMap](https://blog.csdn.net/tgxblue/article/details/8479147))
 
 **线程池用过么？都有哪些参数？ 底层如何实现？**
 
@@ -141,7 +167,9 @@ excerpt: interview
 
 **四种写法**，**写一个单例模式**
 
-**jvm内存模型？用过哪些垃圾回收器？说说**
+#### **jvm内存模型？用过哪些垃圾回收器？说说**
+
+- ([java内存模型](https://juejin.im/post/5b7d69e4e51d4538ca5730cb))
 
 **线上频繁发生fullGC 如何处理？ CPU使用频率过高怎么办**？
 
@@ -152,6 +180,8 @@ excerpt: interview
 **Integer x= 5, int y=5 比较x==y有哪些步骤**
 
 **类加载机制？ 类加载器？分别加载哪些文件？手写一个**
+
+- ([类加载机制](http://nivelle.me/2017/09/23/java%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6/))
 
 **osgi?它是如何实现的**
 
