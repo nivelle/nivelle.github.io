@@ -103,9 +103,14 @@ excerpt: interview
 
 **为什么要进行系统拆分啊？ 拆分不用dubbo可以么？ dubbo和thirft什么区别**？
 
-**为什么使用消息队列？消息队列的优点和缺点**？
+#### **为什么使用消息队列？消息队列的优点和缺点**？
 
-**如何保证消息队列的高可用？如何保证消息不被重复消费**？
+- （[消息队列的意义](https://www.w3cschool.cn/architectroad/architectroad-message-queue.html)）
+
+#### **如何保证消息队列的高可用？如何保证消息不被重复消费**？
+
+- ([消息队列的幂等](https://www.w3cschool.cn/architectroad/architectroad-message-idempotence.html))
+- ([消息队列的高可用](https://www.w3cschool.cn/architectroad/architectroad-message-delivery.html))
 
 **kafka，activemq,rabbitmq,rocketmq 都有什么优点和缺点**？
 
@@ -113,17 +118,19 @@ excerpt: interview
 
 **如何设计一个高并发高可用系统？**
 
-**如何限流？工程中怎么做的？说下具体实现**？
+#### **如何限流？工程中怎么做的？说下具体实现**？
+
+- ([限流](https://www.w3cschool.cn/architectroad/architectroad-optimization-of-seckilling-system.html))
 
 **缓存如何使用？缓存使用不当带来什么问题**？
 
-**如何降级？如何进行系统拆分，如何进行数据库拆分**？
+#### **如何降级？如何进行系统拆分，如何进行数据库拆分**？
+
+- ([服务降级](http://jinnianshilongnian.iteye.com/blog/2306477))
 
 #### **http的工作流程？越细节越好。  http1.0 1.1 1.2有哪些区别**
 - ([http工作流程](https://zrj.me/archives/tag/%E4%BB%8E%E7%82%B9%E5%87%BB%E5%88%B0%E5%91%88%E7%8E%B0))
-
 - ([http工作细节](https://juejin.im/post/5b10be81518825139e0d8160))
-
 #### **tcp 三次握手，四层分手的工作流程〉为什么不是其他次数**？
 
 - ([计算机网络面试常见](https://www.jianshu.com/p/d0dd47afabad))
@@ -179,9 +186,13 @@ excerpt: interview
 
 **字节码有哪些**？
 
-**Integer x= 5, int y=5 比较x==y有哪些步骤**
+#### **Integer x= 5, int y=5 比较x==y有哪些步骤**
 
-**类加载机制？ 类加载器？分别加载哪些文件？手写一个**
+- ([基本数据类型拆箱装箱1](https://juejin.im/post/5ad158d2f265da2381560d83))
+
+ - ([基本数据类型拆箱装箱2](https://juejin.im/post/5ad1e46951882555784e65d8))
+
+#### **类加载机制？ 类加载器？分别加载哪些文件？手写一个**
 
 - ([类加载机制](http://nivelle.me/2017/09/23/java%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6/))
 
@@ -206,3 +217,12 @@ excerpt: interview
 #### **子网掩码**
 
 - ([子网掩码的原理和应用](https://blog.csdn.net/faker_wang/article/details/80747407))
+
+#### 动态代理
+
+- ([基于CGLIB](https://juejin.im/post/5b3e05caf265da0f652364ce))
+- ([基于JDK](https://juejin.im/post/5b39dee0e51d4558cc35e3a5))
+
+#### NIO
+
+- ([javaNIO](https://juejin.im/post/5b21d775e51d4506b53ec412))
