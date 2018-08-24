@@ -50,6 +50,8 @@ excerpt: interview
 - ([分库分表方案](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650994413&idx=1&sn=24a01089ee47793b5d82381b04a34499&chksm=bdbf0ebe8ac887a8a75a0cd9226bb7e0427f1a77c43323d14dc6932c7dc77555531bce5dce0f&scene=0))
 
 
+
+
 #### **分布式事物？如何实现？TCC？ 网络出现问题，如何容错**？
 
 - ([分布式事务](http://www.infoq.com/cn/articles/solution-of-distributed-system-transaction-consistency#))
@@ -84,7 +86,9 @@ excerpt: interview
 
 **redis过期策略？lru ? 写下java版本的代码**？
 
-**dubbo的实现过程？注册中心挂了可以继续通信么？dubbo常见配置有哪些**
+#### **dubbo的实现过程？注册中心挂了可以继续通信么？dubbo常见配置有哪些**
+
+- ([dubbo常见特性](https://www.cnblogs.com/aspirant/p/9003255.html))
 
 #### **zk原理? zk的应用？ paxos算法**？
 
@@ -112,9 +116,9 @@ excerpt: interview
 - ([消息队列的幂等](https://www.w3cschool.cn/architectroad/architectroad-message-idempotence.html))
 - ([消息队列的高可用](https://www.w3cschool.cn/architectroad/architectroad-message-delivery.html))
 
-**kafka，activemq,rabbitmq,rocketmq 都有什么优点和缺点**？
+#### **kafka，activemq,rabbitmq,rocketmq 都有什么优点和缺点？如何自己设计一个消息队列，该如何进行架构设计**
 
-**如何自己设计一个消息队列，该如何进行架构设计**
+-([消息队列大全](https://www.cnblogs.com/aspirant/category/1195858.html))
 
 **如何设计一个高并发高可用系统？**
 
@@ -180,6 +184,8 @@ excerpt: interview
 
 - ([java内存模型](https://juejin.im/post/5b7d69e4e51d4538ca5730cb))
 
+- ([垃圾回收大全](https://www.cnblogs.com/aspirant/category/1195271.html))
+
 **线上频繁发生fullGC 如何处理？ CPU使用频率过高怎么办**？
 
 **如何定位问题?如何解决？思路和方法**
@@ -195,16 +201,22 @@ excerpt: interview
 #### **类加载机制？ 类加载器？分别加载哪些文件？手写一个**
 
 - ([类加载机制](http://nivelle.me/2017/09/23/java%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6/))
+- ([图解类加载](https://www.cnblogs.com/aspirant/p/8991830.html))
 
 **osgi?它是如何实现的**
 
 **jvm优化？使用什么方法？达到什么效果**
 
+- ([java调优]())
+
 **class.forName() 和 class.getClassLoader().loadClass()什么区别**
+
+- ([类加载时机](https://www.cnblogs.com/aspirant/p/9036010.html))
 
 **spring 哪些机制？aop如何实现？IOC如何实现**
 
-**cglib知道么？jdk动态代理？手写一个动态代理的例子**
+- ([自己实现AOP和IOC](https://www.cnblogs.com/aspirant/p/9187973.html))
+
 
 #### **https**
 
@@ -226,3 +238,18 @@ excerpt: interview
 #### NIO
 
 - ([javaNIO](https://juejin.im/post/5b21d775e51d4506b53ec412))
+
+#### dump
+
+- ([dump使用](https://www.cnblogs.com/aspirant/p/8881047.html))
+
+### 面试大全
+
+- ([大厂面试集锦](https://www.cnblogs.com/aspirant/p/8575628.html))
+- ([备战阿里](http://www.cnblogs.com/zhengbin/category/787240.html))
+- ([数据库面试大全](https://www.cnblogs.com/aspirant/category/773065.html))
+- ([数据结构](https://www.cnblogs.com/aspirant/category/560576.html))
+- ([计算机网络面试大全](https://www.cnblogs.com/aspirant/category/581827.html))
+- ([消息队列](https://www.cnblogs.com/aspirant/category/1195858.html))
+- ([多线程](https://www.cnblogs.com/aspirant/category/1017858.html))
+- ([spring](https://www.cnblogs.com/aspirant/category/1012476.html))
