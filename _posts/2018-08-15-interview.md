@@ -243,6 +243,17 @@ excerpt: interview
 
 - ([dump使用](https://www.cnblogs.com/aspirant/p/8881047.html))
 
+
+#### 基于socket的网络编程
+
+- ([socket](https://blog.csdn.net/zhangchenghaopeng/article/details/50571079))
+
+
+#### rabbitMQ
+
+- ([rabbitMQ](https://blog.csdn.net/column/details/rabbitmq.html))
+
+
 ### 面试大全
 
 - ([大厂面试集锦](https://www.cnblogs.com/aspirant/p/8575628.html))
@@ -250,6 +261,5 @@ excerpt: interview
 - ([数据库面试大全](https://www.cnblogs.com/aspirant/category/773065.html))
 - ([数据结构](https://www.cnblogs.com/aspirant/category/560576.html))
 - ([计算机网络面试大全](https://www.cnblogs.com/aspirant/category/581827.html))
-- ([消息队列](https://www.cnblogs.com/aspirant/category/1195858.html))
 - ([多线程](https://www.cnblogs.com/aspirant/category/1017858.html))
 - ([spring](https://www.cnblogs.com/aspirant/category/1012476.html))
