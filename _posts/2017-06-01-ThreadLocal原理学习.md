@@ -2,7 +2,7 @@
 layout: post
 title:  "ThreadLocal原理学习"
 date:   2017-07-01 00:06:05
-categories: 多线程
+categories: java
 tags: 多线程
 excerpt: ThreadLocal原理学习
 ---
