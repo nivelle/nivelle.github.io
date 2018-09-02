@@ -2,8 +2,8 @@
 layout: post
 title:  "Zookeeper学习(一)之分布式基础"
 date:   2016-04-12 01:06:05
-categories: zk
-tags: 分布式
+categories: 分布式
+tags: zk
 excerpt: zk
 ---
 
