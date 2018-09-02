@@ -2,7 +2,7 @@
 layout: post
 title:  Callable、Future和FutureTask浅析
 date:   2017-12-21 00:06:05
-categories: 多线程
+categories: java
 tags: callable
 excerpt: Callable、Future和FutureTask浅析
 author: nivelle
