@@ -2,7 +2,7 @@
 layout: post
 title:  "Zookeeper学习(三)之应用"
 date:   2017-04-12 01:06:05
-categories: zk
+categories: 分布式
 tags: zk
 excerpt: zk
 ---
