@@ -2,8 +2,8 @@
 layout: post
 title:  "springMVC学习(一)"
 date:   2017-06-10 00:06:05
-categories: springMVC
-tags: spring
+categories: spring
+tags: springMVC
 excerpt: springMVC
 author: nivelle
 ---
