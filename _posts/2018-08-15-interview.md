@@ -161,6 +161,8 @@ excerpt: interview
 - ([队列](http://nivelle.me/2017/12/02/%E9%98%9F%E5%88%97/))
 
 - ([hashtable和hashMap](https://blog.csdn.net/tgxblue/article/details/8479147))
+- ([hashMap非线程安全分析](http://www.importnew.com/22011.html))
+- ([hashMapjdk7&8实现](https://my.oschina.net/hosee/blog/618953))
 
 **线程池用过么？都有哪些参数？ 底层如何实现？**
 
@@ -186,7 +188,11 @@ excerpt: interview
 
 - ([垃圾回收大全](https://www.cnblogs.com/aspirant/category/1195271.html))
 
-**线上频繁发生fullGC 如何处理？ CPU使用频率过高怎么办**？
+#### 线上频繁发生fullGC 如何处理？ CPU使用频率过高怎么办**？
+
+- ([Java GC是在什么时候，对什么东西，做了什么事情？ 转](https://my.oschina.net/hosee/blog/674314))
+- ([什么时候会发生FullGC](https://my.oschina.net/hosee/blog/674261))
+- ([使用CMS垃圾收集器产生的问题和解决方案 ](https://my.oschina.net/hosee/blog/674181))
 
 **如何定位问题?如何解决？思路和方法**
 
@@ -234,6 +240,7 @@ excerpt: interview
 
 - ([基于CGLIB](https://juejin.im/post/5b3e05caf265da0f652364ce))
 - ([基于JDK](https://juejin.im/post/5b39dee0e51d4558cc35e3a5))
+- ([代码实现](https://my.oschina.net/hosee/blog/656945))
 
 #### NIO
 
@@ -254,7 +261,7 @@ excerpt: interview
 - ([rabbitMQ](https://blog.csdn.net/column/details/rabbitmq.html))
 
 
-### 面试大全
+### 链接收集
 
 - ([大厂面试集锦](https://www.cnblogs.com/aspirant/p/8575628.html))
 - ([备战阿里](http://www.cnblogs.com/zhengbin/category/787240.html))
