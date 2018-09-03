@@ -167,7 +167,9 @@ excerpt: interview
 - ([hashMap非线程安全分析](http://www.importnew.com/22011.html))
 - ([hashMapjdk7&8实现](https://my.oschina.net/hosee/blog/618953))
 
-**线程池用过么？都有哪些参数？ 底层如何实现？**
+#### 线程池用过么？都有哪些参数？ 底层如何实现？
+
+- ([多线程](https://www.cnblogs.com/aspirant/category/1017858.html))
 
 #### synchized和lock什么区别？ 底层细节
 
@@ -181,9 +183,13 @@ excerpt: interview
 
 - ([volitile基本原理](https://www.cnblogs.com/dolphin0520/p/3920373.html))
 
-**cas知道吗？如何实现**？
+#### cas知道吗？如何实现？
 
-**四种写法**，**写一个单例模式**
+- ([cas](https://www.cnblogs.com/aspirant/p/7080628.html))
+
+#### 四种写法，写一个单例模式
+
+- ([设计模式](https://www.cnblogs.com/aspirant/category/1024672.html))
 
 #### jvm内存模型？用过哪些垃圾回收器？说说
 
@@ -197,9 +203,8 @@ excerpt: interview
 - ([什么时候会发生FullGC](https://my.oschina.net/hosee/blog/674261))
 - ([使用CMS垃圾收集器产生的问题和解决方案 ](https://my.oschina.net/hosee/blog/674181))
 
-**如何定位问题?如何解决？思路和方法**
 
-**字节码有哪些**？
+### **字节码有哪些**？
 
 #### Integer x= 5, int y=5 比较x==y有哪些步骤
 
@@ -212,11 +217,9 @@ excerpt: interview
 - ([类加载机制](http://nivelle.me/2017/09/23/java%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6/))
 - ([图解类加载](https://www.cnblogs.com/aspirant/p/8991830.html))
 
-**osgi?它是如何实现的**
-
 **jvm优化？使用什么方法？达到什么效果**
 
-- ([java调优]())
+- ([jvm](https://www.cnblogs.com/aspirant/category/1195271.html))
 
 **class.forName() 和 class.getClassLoader().loadClass()什么区别**
 
@@ -271,5 +274,5 @@ excerpt: interview
 - ([数据库面试大全](https://www.cnblogs.com/aspirant/category/773065.html))
 - ([数据结构](https://www.cnblogs.com/aspirant/category/560576.html))
 - ([计算机网络面试大全](https://www.cnblogs.com/aspirant/category/581827.html))
-- ([多线程](https://www.cnblogs.com/aspirant/category/1017858.html))
+
 - ([spring](https://www.cnblogs.com/aspirant/category/1012476.html))
