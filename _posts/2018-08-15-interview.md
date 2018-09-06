@@ -108,9 +108,9 @@ excerpt: interview
 
 - ([NIO,BIO,AIO](https://www.cnblogs.com/aspirant/p/6877350.html))
 
-**dubbo负载均衡策略和高可用策略有哪些？动态代理策略呢**？
+#### dubbo负载均衡策略和高可用策略有哪些？动态代理策略呢?为什么要进行系统拆分啊？ 拆分不用dubbo可以么？ dubbo和thirft什么区别？
 
-**为什么要进行系统拆分啊？ 拆分不用dubbo可以么？ dubbo和thirft什么区别**？
+- ([rpc框架](http://www.cnblogs.com/aspnet2008/p/?page=1))
 
 #### 为什么使用消息队列？消息队列的优点和缺点？
 
@@ -153,7 +153,9 @@ excerpt: interview
 
 **45亿阿拉伯数据，如何进行去重复？如何找出最大的那个**？
 
-**hashcode相等两个类一定相等吗？ equals 呢？ 相反呢**？
+#### hashcode相等两个类一定相等吗？ equals 呢？ 相反呢**？
+
+- ([hashCode()和equals()](https://www.cnblogs.com/skywang12345/p/3324958.html))
 
 #### 介绍下集合框架
 
@@ -215,7 +217,7 @@ excerpt: interview
 - ([使用CMS垃圾收集器产生的问题和解决方案 ](https://my.oschina.net/hosee/blog/674181))
 
 
-### **字节码有哪些**？
+#### 字节码有哪些？
 
 #### Integer x= 5, int y=5 比较x==y有哪些步骤
 
