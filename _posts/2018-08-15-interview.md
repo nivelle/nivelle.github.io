@@ -74,9 +74,14 @@ excerpt: interview
 - ([字典](http://nivelle.me/2017/09/04/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E5%9B%9B)%E4%B9%8B%E5%AD%97%E5%85%B8/)) 
 
 
-**redis的主从复制怎么实现的？redis集群模式是如何实现的？ redis的key是如何寻址的**？
+#### redis的主从复制怎么实现的？redis集群模式是如何实现的？ redis的key是如何寻址的？
 
-**使用redis如何设计分布式锁？ 使用zk可以吗？如何实现？两种效率更高**？
+- ([redis面试总结](http://www.cnblogs.com/DarrenChan/p/8796922.html))
+- ([主从复制](https://my.oschina.net/zhaolin/blog/752520))
+
+#### 使用redis如何设计分布式锁？ 使用zk可以吗？如何实现？两种效率更高**？
+
+- ([分布式锁](http://www.hollischuang.com/archives/1716))
 
 #### redis持久化？各有什么优缺点？具体底层实现？
 - ([RDB](http://nivelle.me/2017/09/18/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E5%8D%81%E5%9B%9B)%E4%B9%8BRDB/)) 
@@ -118,15 +123,20 @@ excerpt: interview
 
 #### kafka，activemq,rabbitmq,rocketmq 都有什么优点和缺点？如何自己设计一个消息队列，该如何进行架构设计
 
--([消息队列大全](https://www.cnblogs.com/aspirant/category/1195858.html))
+- ([消息队列大全](https://www.cnblogs.com/aspirant/category/1195858.html))
 
-**如何设计一个高并发高可用系统？**
+#### 如何设计一个高并发高可用系统？
+
+- ([高并发](https://www.w3cschool.cn/architectroad/architectroad-high-concurrent.html))
+- ([高可用](https://www.w3cschool.cn/architectroad/architectroad-high-availability.html))
 
 #### 如何限流？工程中怎么做的？说下具体实现？
 
 - ([限流](https://www.w3cschool.cn/architectroad/architectroad-optimization-of-seckilling-system.html))
 
-**缓存如何使用？缓存使用不当带来什么问题**？
+#### 缓存如何使用？缓存使用不当带来什么问题**？
+
+- ([缓存界的三大问题](https://juejin.im/post/5aa8d3d9f265da2392360a37))
 
 #### 如何降级？如何进行系统拆分，如何进行数据库拆分？
 
@@ -166,6 +176,7 @@ excerpt: interview
 - ([hashtable和hashMap](https://blog.csdn.net/tgxblue/article/details/8479147))
 - ([hashMap非线程安全分析](http://www.importnew.com/22011.html))
 - ([hashMapjdk7&8实现](https://my.oschina.net/hosee/blog/618953))
+- ([hashMap key==null 分析](https://blog.csdn.net/glory1234work2115/article/details/50825503))
 
 #### 线程池用过么？都有哪些参数？ 底层如何实现？
 
