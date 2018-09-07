@@ -293,3 +293,4 @@ excerpt: interview
 - ([计算机网络面试大全](https://www.cnblogs.com/aspirant/category/581827.html))
 
 - ([spring](https://www.cnblogs.com/aspirant/category/1012476.html))
+- ([java core](https://www.cnblogs.com/skywang12345/archive/2013/06/14/index.html))
