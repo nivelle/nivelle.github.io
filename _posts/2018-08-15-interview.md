@@ -27,7 +27,7 @@ excerpt: interview
 
 - ([mysql索引类型以及特点](https://my.oschina.net/junn/blog/183341))
 
-- ([mysqlAUTO_INCREMENT](https://blog.csdn.net/zm2714/article/details/8482211))
+- ([mysqlAUTO_INCREMENT](https://blog.csdn.net/iamczb/article/details/43112689))
 
 #### 设计高并发系统数据库层面应该怎么设计？ 数据库锁有哪些类型？如何实现
 
