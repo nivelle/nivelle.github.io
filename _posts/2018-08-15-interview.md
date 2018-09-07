@@ -151,9 +151,13 @@ excerpt: interview
 
 - ([计算机网络面试常见](https://www.jianshu.com/p/d0dd47afabad))
 
-**45亿阿拉伯数据，如何进行去重复？如何找出最大的那个**？
+#### 海量数据如何去重？
 
-#### hashcode相等两个类一定相等吗？ equals 呢？ 相反呢**？
+- ([海量数据去重](https://blog.csdn.net/paul_wei2008/article/details/21170999))
+
+- ([大数据排序](https://blog.csdn.net/michellechouu/article/details/27230451))
+
+#### hashcode相等两个类一定相等吗？ equals 呢？ 相反呢？
 
 - ([hashCode()和equals()](https://www.cnblogs.com/skywang12345/p/3324958.html))
 
