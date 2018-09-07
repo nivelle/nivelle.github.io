@@ -206,6 +206,8 @@ excerpt: interview
 
 #### 四种写法，写一个单例模式
 
+- ([彻底理解单例模式](https://blog.csdn.net/justloveyou_/article/details/64127789))
+
 - ([设计模式](https://www.cnblogs.com/aspirant/category/1024672.html))
 
 #### jvm内存模型？用过哪些垃圾回收器？说说
@@ -231,8 +233,10 @@ excerpt: interview
 
 #### 类加载机制？ 类加载器？分别加载哪些文件？手写一个
 
-- ([类加载机制](http://nivelle.me/2017/09/23/java%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6/))
-- ([图解类加载](https://www.cnblogs.com/aspirant/p/8991830.html))
+- ([类加载机制](https://blog.csdn.net/justloveyou_/article/details/72217806))
+- ([图解tomcat类加载](https://www.cnblogs.com/aspirant/p/8991830.html))
+- ([类加载时机](https://blog.csdn.net/justloveyou_/article/details/72466105))
+- ([何时初始化类](http://www.cnblogs.com/aspirant/p/7200523.html))
 
 **jvm优化？使用什么方法？达到什么效果**
 
