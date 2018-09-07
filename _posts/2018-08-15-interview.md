@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "开发人员必知必会"
+title:  "java必知必会"
 date:   2018-08-09 00:06:05
 categories: 技术
 tags: interview
