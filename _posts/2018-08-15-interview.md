@@ -19,6 +19,7 @@ excerpt: interview
 - ([mysql树结构](http://blog.jobbole.com/111680/))
 
 - ([mysql索引实现](https://www.cnblogs.com/zlcxbb/p/5757245.html))
+
 - ([索引使用](https://juejin.im/post/5b14e0fd6fb9a01e8c5fc663))
   
 #### mysql 有哪些存储引擎？有什么区别？
@@ -34,6 +35,7 @@ excerpt: interview
 - ([高并发系统设计-数据层](https://blog.csdn.net/chenpeng19910926/article/details/51789934))
 
 - ([mysqlAUTO_INCREMENT](https://blog.csdn.net/wangkehuai/article/details/46727203))
+
 - ([mysql 高并发方案](https://blog.csdn.net/kidoo1012/article/details/54691561))
 
 - ([架构设计 数据库方案](https://www.w3cschool.cn/architectroad/architectroad-arv823bf.html))
@@ -53,7 +55,9 @@ excerpt: interview
 #### 分布式事物？如何实现？TCC？ 网络出现问题，如何容错？
 
 - ([分布式事务](http://www.infoq.com/cn/articles/solution-of-distributed-system-transaction-consistency#))
+
 - ([分布式事务阶段提交](http://int64.me/2016/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A12PC%20&&%203PC.html))
+
 - ([TCC](https://juejin.im/post/5a74f3bc6fb9a0633f0df127))
 
 #### 分布式寻址方式方式有哪些算法？ 一致性hash算法
@@ -71,12 +75,14 @@ excerpt: interview
 - ([链表](http://nivelle.me/2017/07/24/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E4%BA%8C)%E4%B9%8B%E9%93%BE%E8%A1%A8/))
 
 - ([跳跃表](http://nivelle.me/2017/09/07/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E4%B8%89)%E4%B9%8B%E8%B7%B3%E8%B7%83%E8%A1%A8/))
+
 - ([字典](http://nivelle.me/2017/09/04/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E5%9B%9B)%E4%B9%8B%E5%AD%97%E5%85%B8/)) 
 
 
 #### redis的主从复制怎么实现的？redis集群模式是如何实现的？ redis的key是如何寻址的？
 
 - ([redis面试总结](http://www.cnblogs.com/DarrenChan/p/8796922.html))
+
 - ([主从复制](https://my.oschina.net/zhaolin/blog/752520))
 
 #### 使用redis如何设计分布式锁？ 使用zk可以吗？如何实现？两种效率更高**？
@@ -84,7 +90,9 @@ excerpt: interview
 - ([分布式锁](http://www.hollischuang.com/archives/1716))
 
 #### redis持久化？各有什么优缺点？具体底层实现？
-- ([RDB](http://nivelle.me/2017/09/18/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E5%8D%81%E5%9B%9B)%E4%B9%8BRDB/)) 
+
+- ([RDB](http://nivelle.me/2017/09/18/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E5%8D%81%E5%9B%9B)%E4%B9%8BRDB/))
+
 - ([AOF](http://nivelle.me/2017/09/22/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E5%8D%81%E4%BA%94)%E4%B9%8BAOF/)) 
 
 **redis过期策略？lru ? 写下java版本的代码**？
@@ -119,6 +127,7 @@ excerpt: interview
 #### 如何保证消息队列的高可用？如何保证消息不被重复消费？
 
 - ([消息队列的幂等](https://www.w3cschool.cn/architectroad/architectroad-message-idempotence.html))
+
 - ([消息队列的高可用](https://www.w3cschool.cn/architectroad/architectroad-message-delivery.html))
 
 #### kafka，activemq,rabbitmq,rocketmq 都有什么优点和缺点？如何自己设计一个消息队列，该如何进行架构设计
@@ -128,6 +137,7 @@ excerpt: interview
 #### 如何设计一个高并发高可用系统？
 
 - ([高并发](https://www.w3cschool.cn/architectroad/architectroad-high-concurrent.html))
+
 - ([高可用](https://www.w3cschool.cn/architectroad/architectroad-high-availability.html))
 
 #### 如何限流？工程中怎么做的？说下具体实现？
@@ -143,6 +153,7 @@ excerpt: interview
 - ([服务降级](http://jinnianshilongnian.iteye.com/blog/2306477))
 
 #### http的工作流程？越细节越好。  http1.0 1.1 1.2有哪些区别
+
 - ([http工作流程](https://zrj.me/archives/tag/%E4%BB%8E%E7%82%B9%E5%87%BB%E5%88%B0%E5%91%88%E7%8E%B0))
 
 - ([http工作细节](https://juejin.im/post/5b10be81518825139e0d8160))
@@ -180,17 +191,22 @@ excerpt: interview
 - ([队列](http://nivelle.me/2017/12/02/%E9%98%9F%E5%88%97/))
 
 - ([hashtable和hashMap](https://blog.csdn.net/tgxblue/article/details/8479147))
+
 - ([hashMap非线程安全分析](http://www.importnew.com/22011.html))
+
 - ([hashMapjdk7&8实现](https://my.oschina.net/hosee/blog/618953))
+
 - ([hashMap key==null 分析](https://blog.csdn.net/glory1234work2115/article/details/50825503))
 
 #### 线程池用过么？都有哪些参数？ 底层如何实现？
 
 - ([多线程](https://www.cnblogs.com/aspirant/category/1017858.html))
 
+- ([任务的抽象](https://blog.csdn.net/justloveyou_/article/details/79846241))
+
 #### synchized和lock什么区别？ 底层细节
 
-- ([Synchronized](https://juejin.im/post/5b4eec7df265da0fa00a118f))
+- ([*Synchronized*](https://juejin.im/post/5b4eec7df265da0fa00a118f))
 
 #### threadLocal是什么？底层如何实现？鞋一个例子
 
@@ -219,11 +235,10 @@ excerpt: interview
 #### 线上频繁发生fullGC 如何处理？ CPU使用频率过高怎么办？
 
 - ([Java GC是在什么时候，对什么东西，做了什么事情？ 转](https://my.oschina.net/hosee/blog/674314))
+
 - ([什么时候会发生FullGC](https://my.oschina.net/hosee/blog/674261))
+
 - ([使用CMS垃圾收集器产生的问题和解决方案 ](https://my.oschina.net/hosee/blog/674181))
-
-
-#### 字节码有哪些？
 
 #### Integer x= 5, int y=5 比较x==y有哪些步骤
 
@@ -234,17 +249,16 @@ excerpt: interview
 #### 类加载机制？ 类加载器？分别加载哪些文件？手写一个
 
 - ([*加载器原理*](https://blog.csdn.net/justloveyou_/article/details/72217806))
+
 - ([图解tomcat类加载](https://www.cnblogs.com/aspirant/p/8991830.html))
+
 - ([*类加载时机和过程*](https://blog.csdn.net/justloveyou_/article/details/72466105))
-- ([*对象初始化*](http://mysun.iteye.com/blog/1596959))
+
+- ([*对象初始化*](https://blog.csdn.net/justloveyou_/article/details/72466416))
 
 **jvm优化？使用什么方法？达到什么效果**
 
 - ([jvm](https://www.cnblogs.com/aspirant/category/1195271.html))
-
-**class.forName() 和 class.getClassLoader().loadClass()什么区别**
-
-- ([类加载时机](https://www.cnblogs.com/aspirant/p/9036010.html))
 
 #### spring 哪些机制？aop如何实现？IOC如何实现
 
@@ -266,7 +280,9 @@ excerpt: interview
 #### 动态代理
 
 - ([基于CGLIB](https://juejin.im/post/5b3e05caf265da0f652364ce))
+
 - ([基于JDK](https://juejin.im/post/5b39dee0e51d4558cc35e3a5))
+
 - ([代码实现](https://my.oschina.net/hosee/blog/656945))
 
 #### NIO
@@ -295,6 +311,5 @@ excerpt: interview
 - ([数据库面试大全](https://www.cnblogs.com/aspirant/category/773065.html))
 - ([数据结构](https://www.cnblogs.com/aspirant/category/560576.html))
 - ([计算机网络面试大全](https://www.cnblogs.com/aspirant/category/581827.html))
-
 - ([spring](https://www.cnblogs.com/aspirant/category/1012476.html))
 - ([java core](https://www.cnblogs.com/skywang12345/archive/2013/06/14/index.html))
