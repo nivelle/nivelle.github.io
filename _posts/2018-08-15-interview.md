@@ -64,6 +64,8 @@ excerpt: interview
 
 - ([一致性hash算法](http://www.zsythink.net/archives/1182))
 
+- （[递归算法]（https://blog.csdn.net/justloveyou_/article/details/71787149））
+
 #### redis和 memcheched什么区别？为什么单线程的redis比多线程的memched效率高？
 
 - ([redis的特点和原理](https://juejin.im/post/5ad6e4066fb9a028d82c4b66))
@@ -177,7 +179,7 @@ excerpt: interview
 
 - ([容器](https://blog.csdn.net/u013256816/article/details/50925091))
 
-#### hashmap和hashtable底层实现？ hashtable 和 concurrenthashtable呢？
+#### 常见数据结构
 
 - ([hashMap](http://nivelle.me/2017/11/28/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(1)-hashMap/))
 
@@ -198,6 +200,10 @@ excerpt: interview
 - ([hashMapjdk7&8实现](https://my.oschina.net/hosee/blog/618953))
 
 - ([hashMap key==null 分析](https://blog.csdn.net/glory1234work2115/article/details/50825503))
+
+- （[String1](https://blog.csdn.net/justloveyou_/article/details/52556427)）
+
+- ([String2](https://blog.csdn.net/justloveyou_/article/details/60983034))
 
 #### 线程池用过么？都有哪些参数？ 底层如何实现？
 
