@@ -233,10 +233,10 @@ excerpt: interview
 
 #### 类加载机制？ 类加载器？分别加载哪些文件？手写一个
 
-- ([*类加载机制*](https://blog.csdn.net/justloveyou_/article/details/72217806))
+- ([*加载器原理*](https://blog.csdn.net/justloveyou_/article/details/72217806))
 - ([图解tomcat类加载](https://www.cnblogs.com/aspirant/p/8991830.html))
-- ([类加载时机](https://blog.csdn.net/justloveyou_/article/details/72466105))
-- ([何时初始化类](http://www.cnblogs.com/aspirant/p/7200523.html))
+- ([*类加载时机和过程*](https://blog.csdn.net/justloveyou_/article/details/72466105))
+- ([*对象初始化*](http://mysun.iteye.com/blog/1596959))
 
 **jvm优化？使用什么方法？达到什么效果**
 
