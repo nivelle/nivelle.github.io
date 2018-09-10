@@ -105,11 +105,11 @@ excerpt: interview
 
 #### zk原理? zk的应用？ paxos算法？
 
-- ([zk原理](http://nivelle.me/2016/04/12/Zookeeper%E5%AD%A6%E4%B9%A0-%E4%BA%8C-%E4%B9%8Bzk%E5%9F%BA%E7%A1%80/))
+- ([**zk原理**](http://nivelle.me/2016/04/12/Zookeeper%E5%AD%A6%E4%B9%A0-%E4%BA%8C-%E4%B9%8Bzk%E5%9F%BA%E7%A1%80/))
 
-- ([zk应用](http://nivelle.me/2017/04/12/Zookeeper%E5%AD%A6%E4%B9%A0-%E4%B8%89-%E4%B9%8Bzk%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF/))
+- ([**zk应用**](http://nivelle.me/2017/04/12/Zookeeper%E5%AD%A6%E4%B9%A0-%E4%B8%89-%E4%B9%8Bzk%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF/))
 
-- ([paxos算法](https://www.cnblogs.com/linbingdong/p/6253479.html))
+- ([**paxos算法**](https://www.cnblogs.com/linbingdong/p/6253479.html))
 
 #### dubbo支持哪些序列化协议？hession?hession数据结构？ pb知道么？为啥PB的效率是最高的？
 
