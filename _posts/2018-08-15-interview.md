@@ -282,11 +282,11 @@ excerpt: interview
 
 #### 动态代理
 
-- ([基于CGLIB](https://juejin.im/post/5b3e05caf265da0f652364ce))
+- ([**基于CGLIB**](https://juejin.im/post/5b3e05caf265da0f652364ce))
 
-- ([基于JDK](https://juejin.im/post/5b39dee0e51d4558cc35e3a5))
+- ([**基于JDK**](https://juejin.im/post/5b39dee0e51d4558cc35e3a5))
 
-- ([代码实现](https://my.oschina.net/hosee/blog/656945))
+- ([**代码实现**](https://my.oschina.net/hosee/blog/656945))
 
 #### NIO
 
