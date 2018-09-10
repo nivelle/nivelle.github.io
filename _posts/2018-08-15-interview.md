@@ -265,9 +265,9 @@ excerpt: interview
 
 #### spring 哪些机制？aop如何实现？IOC如何实现
 
-- ([自己实现AOP和IOC](https://www.cnblogs.com/aspirant/p/9187973.html))
+- ([**自己实现AOP和IOC**](https://www.cnblogs.com/aspirant/p/9187973.html))
 
-- ([ioc原理](https://blog.csdn.net/it_man/article/details/4402245))
+- ([**ioc原理**](https://blog.csdn.net/it_man/article/details/4402245))
 
 
 #### https
