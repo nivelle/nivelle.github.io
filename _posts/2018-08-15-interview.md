@@ -201,7 +201,7 @@ excerpt: interview
 
 - ([hashMap key==null 分析](https://blog.csdn.net/glory1234work2115/article/details/50825503))
 
-- ([**String**](https://blog.csdn.net/justloveyou_/article/details/52556427;https://blog.csdn.net/justloveyou_/article/details/60983034))
+- ([**String**](https://blog.csdn.net/justloveyou_/article/details/52556427))
 
 #### 线程池用过么？都有哪些参数？ 底层如何实现？
 
