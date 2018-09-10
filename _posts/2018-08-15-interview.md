@@ -247,7 +247,7 @@ excerpt: interview
 
 #### Integer x= 5, int y=5 比较x==y有哪些步骤
 
-- ([原生类型和包装器类型](https://juejin.im/post/5ad158d2f265da2381560d83))
+- ([**原生类型和包装器类型**](https://juejin.im/post/5ad158d2f265da2381560d83))
 
 #### 类加载机制？ 类加载器？分别加载哪些文件？手写一个
 
