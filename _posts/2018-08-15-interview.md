@@ -173,7 +173,7 @@ excerpt: interview
 
 #### hashcode相等两个类一定相等吗？ equals 呢？ 相反呢？
 
-- ([hashCode()和equals()](https://www.cnblogs.com/skywang12345/p/3324958.html))
+- ([**hashCode()和equals()**](https://www.cnblogs.com/skywang12345/p/3324958.html))
 
 #### 介绍下集合框架
 
