@@ -117,7 +117,7 @@ excerpt: interview
 
 #### netty 可以干什么？ NIO，BIO ，AIO 都是什么？ 有什么区别
 
-- ([NIO,BIO,AIO](https://www.cnblogs.com/aspirant/p/6877350.html))
+- ([**NIO,BIO,AIO**](https://www.cnblogs.com/aspirant/p/6877350.html))
 
 #### dubbo负载均衡策略和高可用策略有哪些？动态代理策略呢?为什么要进行系统拆分啊？ 拆分不用dubbo可以么？ dubbo和thirft什么区别？
 
