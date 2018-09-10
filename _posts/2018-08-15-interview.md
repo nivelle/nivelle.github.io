@@ -308,7 +308,7 @@ excerpt: interview
 
 #### javaCore
 
-- ([序列化](https://juejin.im/post/5b4c69dcf265da0fa959aa06))
+- ([**序列化**](https://juejin.im/post/5b4c69dcf265da0fa959aa06))
 
 
 ### 链接收集
