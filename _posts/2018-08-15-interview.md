@@ -267,6 +267,8 @@ excerpt: interview
 
 - ([自己实现AOP和IOC](https://www.cnblogs.com/aspirant/p/9187973.html))
 
+- ([ioc原理](https://blog.csdn.net/it_man/article/details/4402245))
+
 
 #### https
 
