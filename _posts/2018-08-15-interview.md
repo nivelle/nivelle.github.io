@@ -14,7 +14,7 @@ excerpt: interview
 
 #### 使用mysql索引都有哪些原则？索引有什么数据结构？ B+tree 和 B tree 什么区别
 
-- ([mysql索引章节](http://nivelle.me/2017/05/04/索引/))
+- ([**mysql索引章节**](http://nivelle.me/2017/05/04/索引/))
 
 - ([mysql树结构](http://blog.jobbole.com/111680/))
 
