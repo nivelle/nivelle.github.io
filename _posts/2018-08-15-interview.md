@@ -62,9 +62,9 @@ excerpt: interview
 
 #### 分布式寻址方式方式有哪些算法？ 一致性hash算法
 
-- ([一致性hash算法](http://www.zsythink.net/archives/1182))
+- ([**一致性hash算法**](http://www.zsythink.net/archives/1182))
 
-- ([递归算法](https://blog.csdn.net/justloveyou_/article/details/71787149))
+- ([**递归算法**](https://blog.csdn.net/justloveyou_/article/details/71787149))
 
 #### redis和 memcheched什么区别？为什么单线程的redis比多线程的memched效率高？
 
