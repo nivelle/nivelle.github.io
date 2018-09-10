@@ -91,9 +91,9 @@ excerpt: interview
 
 - ([分布式锁](http://www.hollischuang.com/archives/1716))
 
-#### redis基本知识？
+#### redis基本知识
 
-- ([redis基本知识](https://github.com/CyC2018/CS-Notes/blob/master/notes/Redis.md#%E5%8D%81%E4%B8%89%E6%95%B0%E6%8D%AE%E6%B7%98%E6%B1%B0%E7%AD%96%E7%95%A5))
+- ([**redis基本知识**](https://github.com/CyC2018/CS-Notes/blob/master/notes/Redis.md#%E5%8D%81%E4%B8%89%E6%95%B0%E6%8D%AE%E6%B7%98%E6%B1%B0%E7%AD%96%E7%95%A5))
 
 #### dubbo的实现过程？注册中心挂了可以继续通信么？dubbo常见配置有哪些
 
