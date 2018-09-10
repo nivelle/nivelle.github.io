@@ -201,9 +201,7 @@ excerpt: interview
 
 - ([hashMap key==null 分析](https://blog.csdn.net/glory1234work2115/article/details/50825503))
 
-- ([**String1**](https://blog.csdn.net/justloveyou_/article/details/52556427))
-
-- ([**String2**](https://blog.csdn.net/justloveyou_/article/details/60983034))
+- ([**String**](https://blog.csdn.net/justloveyou_/article/details/52556427;https://blog.csdn.net/justloveyou_/article/details/60983034))
 
 #### 线程池用过么？都有哪些参数？ 底层如何实现？
 
@@ -307,6 +305,10 @@ excerpt: interview
 #### rabbitMQ
 
 - ([rabbitMQ](https://blog.csdn.net/column/details/rabbitmq.html))
+
+#### javaCore
+
+- ([序列化](https://juejin.im/post/5b4c69dcf265da0fa959aa06))
 
 
 ### 链接收集
