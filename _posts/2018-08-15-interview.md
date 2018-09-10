@@ -213,11 +213,11 @@ excerpt: interview
 
 #### synchized和lock什么区别？ 底层细节
 
-- ([*Synchronized*](https://juejin.im/post/5b4eec7df265da0fa00a118f))
+- ([**Synchronized**](https://juejin.im/post/5b4eec7df265da0fa00a118f))
 
 #### threadLocal是什么？底层如何实现？鞋一个例子
 
-- ([threadLocal基本原理](http://nivelle.me/2017/07/01/ThreadLocal%E5%8E%9F%E7%90%86%E5%AD%A6%E4%B9%A0/))
+- ([**threadLocal基本原理**](http://nivelle.me/2017/07/01/ThreadLocal%E5%8E%9F%E7%90%86%E5%AD%A6%E4%B9%A0/))
 
 #### volitile的工作原理
 
