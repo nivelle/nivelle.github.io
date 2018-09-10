@@ -91,13 +91,7 @@ excerpt: interview
 
 - ([分布式锁](http://www.hollischuang.com/archives/1716))
 
-#### redis持久化？各有什么优缺点？具体底层实现？
-
-- ([RDB](http://nivelle.me/2017/09/18/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E5%8D%81%E5%9B%9B)%E4%B9%8BRDB/))
-
-- ([AOF](http://nivelle.me/2017/09/22/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E5%8D%81%E4%BA%94)%E4%B9%8BAOF/)) 
-
-#### redis过期策略？lru ? 写下java版本的代码？
+#### redis基本知识？
 
 - ([redis过期策略]（https://github.com/CyC2018/CS-Notes/blob/master/notes/Redis.md#%E5%8D%81%E4%B8%89%E6%95%B0%E6%8D%AE%E6%B7%98%E6%B1%B0%E7%AD%96%E7%95%A5）)
 
