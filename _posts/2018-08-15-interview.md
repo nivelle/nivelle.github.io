@@ -125,9 +125,9 @@ excerpt: interview
 
 #### 如何保证消息队列的高可用？如何保证消息不被重复消费？
 
-- ([消息队列的幂等](https://www.w3cschool.cn/architectroad/architectroad-message-idempotence.html))
+- ([**消息队列的幂等**](https://www.w3cschool.cn/architectroad/architectroad-message-idempotence.html))
 
-- ([消息队列的高可用](https://www.w3cschool.cn/architectroad/architectroad-message-delivery.html))
+- ([**消息队列的高可用**](https://www.w3cschool.cn/architectroad/architectroad-message-delivery.html))
 
 #### kafka，activemq,rabbitmq,rocketmq 都有什么优点和缺点？如何自己设计一个消息队列，该如何进行架构设计
 
