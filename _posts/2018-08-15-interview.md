@@ -237,9 +237,9 @@ excerpt: interview
 
 #### 线上频繁发生fullGC 如何处理？ CPU使用频率过高怎么办？
 
-- ([Java GC是在什么时候，对什么东西，做了什么事情？ 转](https://my.oschina.net/hosee/blog/674314))
+- ([**Java GC是在什么时候，对什么东西，做了什么事情**](https://my.oschina.net/hosee/blog/674314))
 
-- ([什么时候会发生FullGC](https://my.oschina.net/hosee/blog/674261))
+- ([**什么时候会发生FullGC**](https://my.oschina.net/hosee/blog/674261))
 
 - ([使用CMS垃圾收集器产生的问题和解决方案 ](https://my.oschina.net/hosee/blog/674181))
 
