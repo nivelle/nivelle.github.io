@@ -231,9 +231,9 @@ excerpt: interview
 
 - ([**java内存模型**](https://juejin.im/post/5b7d69e4e51d4538ca5730cb))
 
-- ([Java8内存模型—永久代(PermGen)和元空间(Metaspace)](http://www.cnblogs.com/paddix/p/5309550.html))
+- ([**Java8内存模型—永久代(PermGen)和元空间(Metaspace)**](http://www.cnblogs.com/paddix/p/5309550.html))
 
-- ([常量区](https://blog.csdn.net/qq_26222859/article/details/73135660))
+- ([**常量区**](https://blog.csdn.net/qq_26222859/article/details/73135660))
 
 #### 线上频繁发生fullGC 如何处理？ CPU使用频率过高怎么办？
 
