@@ -241,7 +241,7 @@ excerpt: interview
 
 - ([**什么时候会发生FullGC**](https://my.oschina.net/hosee/blog/674261))
 
-- ([使用CMS垃圾收集器产生的问题和解决方案 ](https://my.oschina.net/hosee/blog/674181))
+- ([**使用CMS垃圾收集器产生的问题和解决方案**](https://my.oschina.net/hosee/blog/674181))
 
 - ([垃圾回收大全](https://www.cnblogs.com/aspirant/category/1195271.html))
 
