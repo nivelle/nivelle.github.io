@@ -229,7 +229,9 @@ excerpt: interview
 
 #### jvm内存模型？用过哪些垃圾回收器？说说
 
-- ([java内存模型](https://juejin.im/post/5b7d69e4e51d4538ca5730cb))
+- ([**java内存模型**](https://juejin.im/post/5b7d69e4e51d4538ca5730cb))
+
+- ([Java8内存模型—永久代(PermGen)和元空间(Metaspace)](http://www.cnblogs.com/paddix/p/5309550.html))
 
 - ([垃圾回收大全](https://www.cnblogs.com/aspirant/category/1195271.html))
 
