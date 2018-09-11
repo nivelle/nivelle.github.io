@@ -233,7 +233,7 @@ excerpt: interview
 
 - ([Java8内存模型—永久代(PermGen)和元空间(Metaspace)](http://www.cnblogs.com/paddix/p/5309550.html))
 
-- ([垃圾回收大全](https://www.cnblogs.com/aspirant/category/1195271.html))
+- ([常量区](https://blog.csdn.net/qq_26222859/article/details/73135660))
 
 #### 线上频繁发生fullGC 如何处理？ CPU使用频率过高怎么办？
 
@@ -242,6 +242,8 @@ excerpt: interview
 - ([什么时候会发生FullGC](https://my.oschina.net/hosee/blog/674261))
 
 - ([使用CMS垃圾收集器产生的问题和解决方案 ](https://my.oschina.net/hosee/blog/674181))
+
+- ([垃圾回收大全](https://www.cnblogs.com/aspirant/category/1195271.html))
 
 #### Integer x= 5, int y=5 比较x==y有哪些步骤
 
