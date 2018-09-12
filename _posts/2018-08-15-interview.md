@@ -219,7 +219,7 @@ excerpt: interview
 
 #### cas知道吗？如何实现？
 
-- ([cas](http://zl198751.iteye.com/blog/1848575))
+- ([**cas**](http://zl198751.iteye.com/blog/1848575))
 
 #### 四种写法，写一个单例模式
 
