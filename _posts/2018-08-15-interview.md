@@ -199,7 +199,7 @@ excerpt: interview
 
 #### 线程池用过么？都有哪些参数？ 底层如何实现？
 
-- ([多线程](https://www.cnblogs.com/aspirant/category/1017858.html))
+- ([多线程面试](https://www.cnblogs.com/aspirant/category/1017858.html))
 
 - ([**任务的抽象**](https://blog.csdn.net/justloveyou_/article/details/79846241))
 
