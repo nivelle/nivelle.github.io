@@ -201,7 +201,9 @@ excerpt: interview
 
 - ([多线程](https://www.cnblogs.com/aspirant/category/1017858.html))
 
-- ([任务的抽象](https://blog.csdn.net/justloveyou_/article/details/79846241))
+- ([**任务的抽象**](https://blog.csdn.net/justloveyou_/article/details/79846241))
+
+- ([线程池](https://blog.csdn.net/fngy123/article/details/48738409))
 
 #### synchized和lock什么区别？ 底层细节
 
