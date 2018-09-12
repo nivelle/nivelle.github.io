@@ -36,7 +36,7 @@ excerpt: interview
 
 - ([mysqlAUTO_INCREMENT](https://blog.csdn.net/wangkehuai/article/details/46727203))
 
-- ([mysql 高并发方案](https://blog.csdn.net/kidoo1012/article/details/54691561))
+- ([**mysql高并发方案**](https://blog.csdn.net/kidoo1012/article/details/54691561))
 
 - ([架构设计 数据库方案](https://www.w3cschool.cn/architectroad/architectroad-arv823bf.html))
 
