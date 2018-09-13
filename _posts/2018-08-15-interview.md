@@ -203,7 +203,9 @@ excerpt: interview
 
 - ([**任务的抽象**](https://blog.csdn.net/justloveyou_/article/details/79846241))
 
-- ([线程池](https://blog.csdn.net/fngy123/article/details/48738409))
+- ([**线程池**](https://blog.csdn.net/fngy123/article/details/48738409))
+
+- ([AQS](http://www.idouba.net/sync-implementation-by-aqs/))
 
 #### synchized和lock什么区别？ 底层细节
 
