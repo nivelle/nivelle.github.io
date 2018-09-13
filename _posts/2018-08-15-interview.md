@@ -133,6 +133,10 @@ excerpt: interview
 
 - ([消息队列大全](https://www.cnblogs.com/aspirant/category/1195858.html))
 
+#### rabbitMQ基础
+
+- ([rabbitMQ](https://www.kancloud.cn/longxuan/rabbitmq-arron/117513))
+
 #### 如何设计一个高并发高可用系统？
 
 - ([高并发](https://www.w3cschool.cn/architectroad/architectroad-high-concurrent.html))
