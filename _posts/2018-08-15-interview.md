@@ -305,11 +305,6 @@ excerpt: interview
 
 - ([socket](https://blog.csdn.net/zhangchenghaopeng/article/details/50571079))
 
-
-#### rabbitMQ
-
-- ([rabbitMQ](https://blog.csdn.net/column/details/rabbitmq.html))
-
 #### javaCore
 
 - ([**序列化**](https://juejin.im/post/5b4c69dcf265da0fa959aa06))
