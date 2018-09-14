@@ -107,6 +107,8 @@ excerpt: interview
 
 - ([**paxos算法**](https://www.cnblogs.com/linbingdong/p/6253479.html))
 
+- ([zk概述](https://www.cnblogs.com/felixzh/p/5869212.html))
+
 #### dubbo支持哪些序列化协议？hession?hession数据结构？ pb知道么？为啥PB的效率是最高的？
 
 - ([dubbo原理](https://juejin.im/post/5b1203f2e51d450689495cea))
