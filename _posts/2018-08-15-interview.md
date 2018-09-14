@@ -137,7 +137,7 @@ excerpt: interview
 
 #### rabbitMQ基础
 
-- ([rabbitMQ](https://www.kancloud.cn/longxuan/rabbitmq-arron/117513))
+- ([**rabbitMQ**](https://www.kancloud.cn/longxuan/rabbitmq-arron/117513))
 
 #### 如何设计一个高并发高可用系统？
 
