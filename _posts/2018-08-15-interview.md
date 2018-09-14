@@ -60,6 +60,8 @@ excerpt: interview
 
 - ([TCC](https://juejin.im/post/5a74f3bc6fb9a0633f0df127))
 
+- ([分布式事务实现](https://blog.csdn.net/tzs_1041218129/article/details/80086991))
+
 #### 分布式寻址方式方式有哪些算法？ 一致性hash算法
 
 - ([**一致性hash算法**](http://www.zsythink.net/archives/1182))
