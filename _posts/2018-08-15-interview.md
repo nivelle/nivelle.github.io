@@ -133,6 +133,8 @@ excerpt: interview
 
 - ([消息队列大全](https://www.cnblogs.com/aspirant/category/1195858.html))
 
+- ([消息队列细节学习](https://blog.csdn.net/u013256816))
+
 #### rabbitMQ基础
 
 - ([rabbitMQ](https://www.kancloud.cn/longxuan/rabbitmq-arron/117513))
