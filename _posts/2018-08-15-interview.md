@@ -151,6 +151,8 @@ excerpt: interview
 
 - ([消息队列细节学习](https://blog.csdn.net/u013256816))
 
+- ([kafka数据一致性和zk的比较](https://www.cnblogs.com/aspirant/p/9179045.html))
+
 #### rabbitMQ基础
 
 - ([**rabbitMQ**](https://www.kancloud.cn/longxuan/rabbitmq-arron/117513))
