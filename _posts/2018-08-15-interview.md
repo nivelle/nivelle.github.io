@@ -124,6 +124,10 @@ excerpt: interview
 
 - ([dubbo的负载均衡](https://www.cnblogs.com/aspirant/p/8994227.html))
 
+#### 不用应用环境下的会话保持
+
+- ([会话保持](http://blog.51cto.com/virtualadc/592454))
+
 ----
 
 #### netty 可以干什么？ NIO，BIO ，AIO 都是什么？ 有什么区别
