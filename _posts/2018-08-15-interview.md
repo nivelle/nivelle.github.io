@@ -51,6 +51,7 @@ excerpt: interview
 
 - ([分库分表方案](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650994413&idx=1&sn=24a01089ee47793b5d82381b04a34499&chksm=bdbf0ebe8ac887a8a75a0cd9226bb7e0427f1a77c43323d14dc6932c7dc77555531bce5dce0f&scene=0))
 
+----
 
 #### 分布式事物？如何实现？TCC？ 网络出现问题，如何容错？
 
@@ -97,10 +98,6 @@ excerpt: interview
 
 - ([**redis基本知识**](https://github.com/CyC2018/CS-Notes/blob/master/notes/Redis.md#%E5%8D%81%E4%B8%89%E6%95%B0%E6%8D%AE%E6%B7%98%E6%B1%B0%E7%AD%96%E7%95%A5))
 
-#### dubbo的实现过程？注册中心挂了可以继续通信么？dubbo常见配置有哪些
-
-- ([dubbo常见特性](https://www.cnblogs.com/aspirant/p/9003255.html))
-
 #### zk原理? zk的应用？ paxos算法？
 
 - ([**zk原理**](http://nivelle.me/2016/04/12/Zookeeper%E5%AD%A6%E4%B9%A0-%E4%BA%8C-%E4%B9%8Bzk%E5%9F%BA%E7%A1%80/))
@@ -111,21 +108,28 @@ excerpt: interview
 
 - ([zk概述](https://www.cnblogs.com/felixzh/p/5869212.html))
 
+#### dubbo的实现过程？注册中心挂了可以继续通信么？dubbo常见配置有哪些
+
+- ([dubbo常见特性](https://www.cnblogs.com/aspirant/p/9003255.html))
+
 #### dubbo支持哪些序列化协议？hession?hession数据结构？ pb知道么？为啥PB的效率是最高的？
 
 - ([dubbo原理](https://juejin.im/post/5b1203f2e51d450689495cea))
 
 - ([dubbo学习](https://www.cnblogs.com/aspirant/p/9002631.html))
 
-#### netty 可以干什么？ NIO，BIO ，AIO 都是什么？ 有什么区别
-
-- ([**NIO,BIO,AIO**](https://www.cnblogs.com/aspirant/p/6877350.html))
-
 #### dubbo负载均衡策略和高可用策略有哪些？动态代理策略呢?为什么要进行系统拆分啊？ 拆分不用dubbo可以么？ dubbo和thirft什么区别？
 
 - ([rpc框架](http://www.cnblogs.com/aspnet2008/p/?page=1))
 
 - ([dubbo的负载均衡](https://www.cnblogs.com/aspirant/p/8994227.html))
+
+----
+
+#### netty 可以干什么？ NIO，BIO ，AIO 都是什么？ 有什么区别
+
+- ([**NIO,BIO,AIO**](https://www.cnblogs.com/aspirant/p/6877350.html))
+
 
 #### 为什么使用消息队列？消息队列的优点和缺点？
 
