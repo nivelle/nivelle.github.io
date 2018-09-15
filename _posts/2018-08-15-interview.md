@@ -115,6 +115,8 @@ excerpt: interview
 
 - ([dubbo原理](https://juejin.im/post/5b1203f2e51d450689495cea))
 
+- ([dubbo学习](https://www.cnblogs.com/aspirant/p/9002631.html))
+
 #### netty 可以干什么？ NIO，BIO ，AIO 都是什么？ 有什么区别
 
 - ([**NIO,BIO,AIO**](https://www.cnblogs.com/aspirant/p/6877350.html))
@@ -122,6 +124,8 @@ excerpt: interview
 #### dubbo负载均衡策略和高可用策略有哪些？动态代理策略呢?为什么要进行系统拆分啊？ 拆分不用dubbo可以么？ dubbo和thirft什么区别？
 
 - ([rpc框架](http://www.cnblogs.com/aspnet2008/p/?page=1))
+
+- ([dubbo的负载均衡](https://www.cnblogs.com/aspirant/p/8994227.html))
 
 #### 为什么使用消息队列？消息队列的优点和缺点？
 
