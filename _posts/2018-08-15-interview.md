@@ -167,6 +167,12 @@ excerpt: interview
 
 - ([限流](https://www.w3cschool.cn/architectroad/architectroad-optimization-of-seckilling-system.html))
 
+#### 负载均衡
+
+- [[六大负载均衡原理](https://www.cnblogs.com/aspirant/p/9087716.html))
+
+- [lvs](https://www.cnblogs.com/aspirant/p/9084740.html))
+
 #### 缓存如何使用？缓存使用不当带来什么问题**？
 
 - ([缓存界的三大问题](https://juejin.im/post/5aa8d3d9f265da2392360a37))
