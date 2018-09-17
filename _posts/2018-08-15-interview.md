@@ -180,9 +180,9 @@ excerpt: interview
 
 #### 负载均衡
 
-- [[六大负载均衡原理](https://www.cnblogs.com/aspirant/p/9087716.html))
+- ([六大负载均衡原理](https://www.cnblogs.com/aspirant/p/9087716.html))
 
-- [lvs](https://www.cnblogs.com/aspirant/p/9084740.html))
+- ([lvs](https://www.cnblogs.com/aspirant/p/9084740.html))
 
 #### 缓存如何使用？缓存使用不当带来什么问题**？
 
