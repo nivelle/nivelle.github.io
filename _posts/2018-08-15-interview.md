@@ -118,6 +118,8 @@ excerpt: interview
 
 - ([dubbo学习](https://www.cnblogs.com/aspirant/p/9002631.html))
 
+- ([xstream、protobuf、protostuff](https://www.cnblogs.com/xiaoMzjm/p/4555209.html))
+
 #### dubbo负载均衡策略和高可用策略有哪些？动态代理策略呢?为什么要进行系统拆分啊？ 拆分不用dubbo可以么？ dubbo和thirft什么区别？
 
 - ([rpc框架](http://www.cnblogs.com/aspnet2008/p/?page=1))
