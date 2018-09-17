@@ -114,8 +114,6 @@ excerpt: interview
 
 #### dubbo支持哪些序列化协议？hession?hession数据结构？ pb知道么？为啥PB的效率是最高的？
 
-- ([dubbo原理](https://juejin.im/post/5b1203f2e51d450689495cea))
-
 - ([dubbo学习](https://www.cnblogs.com/aspirant/p/9002631.html))
 
 - ([xstream、protobuf、protostuff](https://www.cnblogs.com/xiaoMzjm/p/4555209.html))
