@@ -130,6 +130,13 @@ excerpt: interview
 
 - ([会话保持](http://blog.51cto.com/virtualadc/592454))
 
+#### 自己实现RPC
+
+- ([简易RPC框架](https://www.cnblogs.com/ASPNET2008/p/6859211.html))
+
+- ([NettyRpc](http://www.cnblogs.com/luxiaoxun/p/5272384.html))
+
+- ([轻量级分布式 RPC 框架](https://my.oschina.net/huangyong/blog/361751))
 ----
 
 #### netty 可以干什么？ NIO，BIO ，AIO 都是什么？ 有什么区别
