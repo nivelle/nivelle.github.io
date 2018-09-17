@@ -132,8 +132,6 @@ excerpt: interview
 
 #### 自己实现RPC
 
-- ([简易RPC框架](https://www.cnblogs.com/ASPNET2008/p/6859211.html))
-
 - ([Dubbo](http://www.cnblogs.com/LBSer/p/4853234.html))
 
 - ([轻量级分布式 RPC 框架](https://my.oschina.net/huangyong/blog/361751))
