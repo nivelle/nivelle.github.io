@@ -213,17 +213,7 @@ excerpt: interview
 
 #### 常见数据结构
 
-- ([hashMap](http://nivelle.me/2017/11/28/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(1)-hashMap/))
-
-- ([ConcurrentHashMap](http://nivelle.me/2017/12/02/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(6)-ConcurrentHashMap/))
-
-- ([ArrayList](http://nivelle.me/2017/11/28/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(3)-ArrayList/))
-
-- ([LikedList](http://nivelle.me/2017/11/28/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(4)-LinkedList/))
-
-- ([hashSet](http://nivelle.me/2017/12/02/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84(5)-HashSet/))
-
-- ([队列](http://nivelle.me/2017/12/02/%E9%98%9F%E5%88%97/))
+- ([常见数据结构](https://blog.csdn.net/fighterandknight/article/category/6193841))
 
 - ([hashtable和hashMap](https://blog.csdn.net/tgxblue/article/details/8479147))
 
