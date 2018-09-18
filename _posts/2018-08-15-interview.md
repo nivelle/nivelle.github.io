@@ -120,9 +120,9 @@ excerpt: interview
 
 #### dubbo负载均衡策略和高可用策略有哪些？动态代理策略呢?为什么要进行系统拆分啊？ 拆分不用dubbo可以么？ dubbo和thirft什么区别？
 
-- ([rpc框架](http://www.cnblogs.com/aspnet2008/p/?page=1))
+- ([**rpc框架**](http://www.cnblogs.com/aspnet2008/p/?page=1))
 
-- ([dubbo的负载均衡](https://www.cnblogs.com/aspirant/p/8994227.html))
+- ([**dubbo的负载均衡**](https://www.cnblogs.com/aspirant/p/8994227.html))
 
 #### 不用应用环境下的会话保持
 
@@ -130,11 +130,11 @@ excerpt: interview
 
 #### 自己实现RPC
 
-- ([Dubbo](http://www.cnblogs.com/LBSer/p/4853234.html))
+- ([**Dubbo**](http://www.cnblogs.com/LBSer/p/4853234.html))
 
-- ([轻量级分布式 RPC 框架](https://my.oschina.net/huangyong/blog/361751))
+- ([**轻量级分布式 RPC 框架**](https://my.oschina.net/huangyong/blog/361751))
 
-- ([简单rpc](http://www.cnblogs.com/codingexperience/p/5930752.html))
+- ([**简单rpc**](http://www.cnblogs.com/codingexperience/p/5930752.html))
 
 ----
 
