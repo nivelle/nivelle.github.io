@@ -344,6 +344,8 @@ excerpt: interview
 
 - ([**序列化**](https://juejin.im/post/5b4c69dcf265da0fa959aa06))
 
+- ([位运算](https://blog.csdn.net/xiaopihaierletian/article/details/78162863))
+
 
 ### 链接收集
 
