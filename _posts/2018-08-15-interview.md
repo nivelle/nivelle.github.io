@@ -219,6 +219,8 @@ excerpt: interview
 
 - ([moudCount的作用](https://blog.csdn.net/qq_24235325/article/details/52450331))
 
+- ([CopyOnWriteArrayList](https://blog.csdn.net/linsongbin1/article/details/54581787))
+
 - ([hashtable和hashMap](https://blog.csdn.net/tgxblue/article/details/8479147))
 
 - ([**hashMap非线程安全分析**](http://www.importnew.com/22011.html))
