@@ -225,8 +225,6 @@ excerpt: interview
 
 - ([**hashMap非线程安全分析**](http://www.importnew.com/22011.html))
 
-- ([hashMapjdk7&8实现](https://my.oschina.net/hosee/blog/618953))
-
 - ([hashMap key==null 分析](https://blog.csdn.net/glory1234work2115/article/details/50825503))
 
 - ([**String**](https://blog.csdn.net/justloveyou_/article/details/52556427))
@@ -245,7 +243,7 @@ excerpt: interview
 
 - ([**Synchronized**](https://juejin.im/post/5b4eec7df265da0fa00a118f))
 
-#### threadLocal是什么？底层如何实现？鞋一个例子
+#### threadLocal是什么？底层如何实现？写一个例子
 
 - ([**threadLocal基本原理**](http://nivelle.me/2017/07/01/ThreadLocal%E5%8E%9F%E7%90%86%E5%AD%A6%E4%B9%A0/))
 
