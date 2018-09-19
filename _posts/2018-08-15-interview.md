@@ -215,6 +215,8 @@ excerpt: interview
 
 - ([常见数据结构](https://blog.csdn.net/fighterandknight/article/category/6193841))
 
+- ([常见数据结构2](https://blog.csdn.net/zxt0601/article/category/6697194))
+
 - ([hashtable和hashMap](https://blog.csdn.net/tgxblue/article/details/8479147))
 
 - ([**hashMap非线程安全分析**](http://www.importnew.com/22011.html))
