@@ -217,6 +217,8 @@ excerpt: interview
 
 - ([常见数据结构2](https://blog.csdn.net/zxt0601/article/category/6697194))
 
+- ([moudCount的作用](https://blog.csdn.net/qq_24235325/article/details/52450331))
+
 - ([hashtable和hashMap](https://blog.csdn.net/tgxblue/article/details/8479147))
 
 - ([**hashMap非线程安全分析**](http://www.importnew.com/22011.html))
