@@ -246,9 +246,13 @@ excerpt: interview
 
 - ([AQS](http://www.idouba.net/sync-implementation-by-aqs/))
 
+- ([线程池源码](https://javadoop.com/post/java-thread-pool))
+
 #### synchized和lock什么区别？ 底层细节
 
 - ([**Synchronized**](https://juejin.im/post/5b4eec7df265da0fa00a118f))
+
+- ([内存可见性](https://javadoop.com/post/java-memory-model))
 
 #### threadLocal是什么？底层如何实现？写一个例子
 
@@ -334,6 +338,12 @@ excerpt: interview
 #### NIO
 
 - ([javaNIO](https://juejin.im/post/5b21d775e51d4506b53ec412))
+
+- ([NIO细节](https://javadoop.com/post/java-nio))
+
+- ([Java 非阻塞 IO 和异步 IO](https://javadoop.com/post/nio-and-aio))
+
+- ([tomcat中的应用](https://javadoop.com/post/tomcat-nio))
 
 #### dump
 
