@@ -288,7 +288,9 @@ excerpt: interview
 
 - ([**使用CMS垃圾收集器产生的问题和解决方案**](https://my.oschina.net/hosee/blog/674181))
 
-- ([垃圾回收大全](https://www.cnblogs.com/aspirant/category/1195271.html))
+- ([垃圾回收机制](https://javadoop.com/post/jvm-memory-management))
+
+- ([G1](https://javadoop.com/post/g1))
 
 #### Integer x= 5, int y=5 比较x==y有哪些步骤
 
