@@ -18,7 +18,7 @@ wechat:fuxinzhong123
 
 公众号: progresstime(进步时间);blockvoice(区块发声);publicdata(大众数据)
 
-和朋友一起维护了个学习网站“墨客”（https://moker.io/）
+和朋友一起维护了个学习网站:[**墨客**]（https://moker.io/）
 
 
 ---
@@ -27,5 +27,5 @@ wechat:fuxinzhong123
 
 ---
 
-作为一个开发如果不会翻墙就好比现代士兵不会玩枪.分享一个lantern的邀请码:HB8GMZ ,立即下载 https://github.com/getlantern/forum
+作为一个开发如果不会翻墙就好比现代士兵不会玩枪.分享一个lantern的邀请码:HB8GMZ ,[**立即下载**](https://github.com/getlantern/forum)
 
