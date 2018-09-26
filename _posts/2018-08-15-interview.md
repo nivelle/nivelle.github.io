@@ -246,7 +246,7 @@ excerpt: interview
 
 - ([AQS](http://www.idouba.net/sync-implementation-by-aqs/))
 
-- ([线程池源码](https://javadoop.com/post/java-thread-pool))
+- ([**线程池源码**](https://javadoop.com/post/java-thread-pool))
 
 #### synchized和lock什么区别？ 底层细节
 
