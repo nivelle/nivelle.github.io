@@ -256,7 +256,7 @@ excerpt: interview
 
 #### threadLocal是什么？底层如何实现？写一个例子
 
-- ([**threadLocal基本原理**](http://nivelle.me/2017/07/01/ThreadLocal%E5%8E%9F%E7%90%86%E5%AD%A6%E4%B9%A0/))
+- ([**threadLocal基本原理**](https://blog.csdn.net/imzoer/article/details/8262101))
 
 #### volitile的工作原理
 
