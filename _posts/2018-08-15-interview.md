@@ -270,7 +270,7 @@ excerpt: interview
 
 #### 四种写法，写一个单例模式
 
-- ([彻底理解单例模式](https://blog.csdn.net/justloveyou_/article/details/64127789))
+- ([**彻底理解单例模式**](https://blog.csdn.net/justloveyou_/article/details/64127789))
 
 - ([设计模式](https://www.cnblogs.com/aspirant/category/1024672.html))
 
