@@ -246,7 +246,7 @@ excerpt: interview
 
 - ([**线程池**](https://blog.csdn.net/fngy123/article/details/48738409))
 
-- ([AQS](http://www.idouba.net/sync-implementation-by-aqs/))
+- ([AQS源码](https://javadoop.com/post/AbstractQueuedSynchronizer))
 
 - ([**线程池源码**](https://javadoop.com/post/java-thread-pool))
 
