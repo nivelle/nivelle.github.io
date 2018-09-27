@@ -264,6 +264,10 @@ excerpt: interview
 
 - ([volitile基本原理](https://www.cnblogs.com/dolphin0520/p/3920373.html))
 
+#### Thread and lock
+
+- ([thread and lock](https://javadoop.com/post/Threads-And-Locks-md#17.5.%20final%20属性的语义（final%20Field%20Semantics）))
+
 #### cas知道吗？如何实现？
 
 - ([**cas**](http://zl198751.iteye.com/blog/1848575))
