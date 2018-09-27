@@ -280,6 +280,8 @@ excerpt: interview
 
 - ([**常量区**](https://blog.csdn.net/qq_26222859/article/details/73135660))
 
+- ([jvm常见配置](https://www.cnblogs.com/parryyang/p/5750146.html))
+
 #### 线上频繁发生fullGC 如何处理？ CPU使用频率过高怎么办？
 
 - ([**Java GC是在什么时候，对什么东西，做了什么事情**](https://my.oschina.net/hosee/blog/674314))
@@ -288,11 +290,12 @@ excerpt: interview
 
 - ([**使用CMS垃圾收集器产生的问题和解决方案**](https://my.oschina.net/hosee/blog/674181))
 
-- ([垃圾回收机制](https://javadoop.com/post/jvm-memory-management))
+- ([**垃圾回收机制**](https://javadoop.com/post/jvm-memory-management))
 
-- ([G1](https://javadoop.com/post/g1))
+- ([**G1收集器**](https://javadoop.com/post/g1))
 
 - ([经典回答](https://www.zhihu.com/question/53613423))
+
 
 #### Integer x= 5, int y=5 比较x==y有哪些步骤
 
