@@ -292,6 +292,8 @@ excerpt: interview
 
 - ([G1](https://javadoop.com/post/g1))
 
+- ([经典回答](https://www.zhihu.com/question/53613423))
+
 #### Integer x= 5, int y=5 比较x==y有哪些步骤
 
 - ([**原生类型和包装器类型**](https://juejin.im/post/5ad158d2f265da2381560d83))
