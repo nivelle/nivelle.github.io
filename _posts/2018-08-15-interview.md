@@ -68,7 +68,7 @@
 
 #### redis主要数据类型？分别那种场景下使用？
 
-- （[**redis实战**](http://nivelle.me/2019/09/29/redis%E5%AE%9E%E6%88%98/)）
+- ([**redis实战**](http://nivelle.me/2019/09/29/redis%E5%AE%9E%E6%88%98/))
 
 #### redis的主从复制怎么实现的？redis集群模式是如何实现的？ redis的key是如何寻址的？
 
