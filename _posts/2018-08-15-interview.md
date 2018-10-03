@@ -1,16 +1,4 @@
----
-layout: post
-title:  "java必知必会"
-date:   2018-08-09 00:06:05
-categories: 技术
-tags: interview
-excerpt: interview
----
-
-* content
-{:toc}
-
-
+## java面试通关
 
 #### 使用mysql索引都有哪些原则？索引有什么数据结构？ B+tree 和 B tree 什么区别
 
@@ -24,17 +12,17 @@ excerpt: interview
   
 #### mysql 有哪些存储引擎？有什么区别？
 
-- ([mysql索引类型比较](https://www.cnblogs.com/changna1314/p/6878900.html)) 
+- ([**mysql索引类型比较**](https://www.cnblogs.com/changna1314/p/6878900.html)) 
 
 - ([mysql索引类型以及特点](https://my.oschina.net/junn/blog/183341))
 
-- ([mysqlAUTO_INCREMENT](https://blog.csdn.net/iamczb/article/details/43112689))
+- ([**mysqlAUTO_INCREMENT**](https://blog.csdn.net/iamczb/article/details/43112689))
 
 #### 设计高并发系统数据库层面应该怎么设计？ 数据库锁有哪些类型？如何实现
 
 - ([高并发系统设计-数据层](https://blog.csdn.net/chenpeng19910926/article/details/51789934))
 
-- ([mysqlAUTO_INCREMENT](https://blog.csdn.net/wangkehuai/article/details/46727203))
+- ([数据库高并发方案](https://blog.csdn.net/wangkehuai/article/details/46727203))
 
 - ([**mysql高并发方案**](https://blog.csdn.net/kidoo1012/article/details/54691561))
 
@@ -55,13 +43,14 @@ excerpt: interview
 
 #### 分布式事物？如何实现？TCC？ 网络出现问题，如何容错？
 
-- ([分布式事务](http://www.infoq.com/cn/articles/solution-of-distributed-system-transaction-consistency#))
+- ([分布式系统事务一致性解决方案
+](http://www.infoq.com/cn/articles/solution-of-distributed-system-transaction-consistency#))
 
 - ([分布式事务阶段提交](http://int64.me/2016/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A12PC%20&&%203PC.html))
 
 - ([TCC](https://juejin.im/post/5a74f3bc6fb9a0633f0df127))
 
-- ([分布式事务实现](https://blog.csdn.net/tzs_1041218129/article/details/80086991))
+- ([**分布式事务实现**](https://blog.csdn.net/tzs_1041218129/article/details/80086991))
 
 #### 分布式寻址方式方式有哪些算法？ 一致性hash算法
 
@@ -69,34 +58,32 @@ excerpt: interview
 
 - ([**递归算法**](https://blog.csdn.net/justloveyou_/article/details/71787149))
 
+---
+
 #### redis和 memcheched什么区别？为什么单线程的redis比多线程的memched效率高？
 
-- ([redis的特点和原理](https://juejin.im/post/5ad6e4066fb9a028d82c4b66))
+- ([**redis的特点和原理**](https://juejin.im/post/5ad6e4066fb9a028d82c4b66))
+
+- ([**redis和memcheched的比较**](https://www.imooc.com/article/23549))
 
 #### redis主要数据类型？分别那种场景下使用？
 
- - ([动态字符串](http://nivelle.me/2017/07/24/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E4%B8%80)/))
-
-- ([链表](http://nivelle.me/2017/07/24/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E4%BA%8C)%E4%B9%8B%E9%93%BE%E8%A1%A8/))
-
-- ([跳跃表](http://nivelle.me/2017/09/07/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E4%B8%89)%E4%B9%8B%E8%B7%B3%E8%B7%83%E8%A1%A8/))
-
-- ([字典](http://nivelle.me/2017/09/04/redis%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0(%E5%9B%9B)%E4%B9%8B%E5%AD%97%E5%85%B8/)) 
-
+- （[**redis实战**](http://nivelle.me/2019/09/29/redis%E5%AE%9E%E6%88%98/)）
 
 #### redis的主从复制怎么实现的？redis集群模式是如何实现的？ redis的key是如何寻址的？
 
-- ([redis面试总结](http://www.cnblogs.com/DarrenChan/p/8796922.html))
-
-- ([主从复制](https://my.oschina.net/zhaolin/blog/752520))
+- ([**redis主从复制**](https://my.oschina.net/zhaolin/blog/752520))
 
 #### 使用redis如何设计分布式锁？ 使用zk可以吗？如何实现？两种效率更高**？
 
-- ([分布式锁](http://www.hollischuang.com/archives/1716))
+- ([**分布式锁三种实现**](http://www.hollischuang.com/archives/1716))
 
 #### redis基本知识
 
 - ([**redis基本知识**](https://github.com/CyC2018/CS-Notes/blob/master/notes/Redis.md#%E5%8D%81%E4%B8%89%E6%95%B0%E6%8D%AE%E6%B7%98%E6%B1%B0%E7%AD%96%E7%95%A5))
+
+
+---
 
 #### zk原理? zk的应用？ paxos算法？
 
@@ -110,11 +97,11 @@ excerpt: interview
 
 #### dubbo的实现过程？注册中心挂了可以继续通信么？dubbo常见配置有哪些
 
-- ([dubbo常见特性](https://www.cnblogs.com/aspirant/p/9003255.html))
+- ([**dubbo常见配置**](http://www.cnblogs.com/yxh1008/p/9251693.html))
 
 #### dubbo支持哪些序列化协议？hession?hession数据结构？ pb知道么？为啥PB的效率是最高的？
 
-- ([dubbo学习](https://www.cnblogs.com/aspirant/p/9002631.html))
+- ([**dubbo学习**](https://www.cnblogs.com/aspirant/p/9002631.html))
 
 - ([xstream、protobuf、protostuff](https://www.cnblogs.com/xiaoMzjm/p/4555209.html))
 
@@ -124,17 +111,23 @@ excerpt: interview
 
 - ([**dubbo的负载均衡**](https://www.cnblogs.com/aspirant/p/8994227.html))
 
+- ([**dubbo知识点**](https://mp.weixin.qq.com/s/PdWRHgm83XwPYP08KnkIsw))
+
+- ([**dubbo实现**](https://blog.csdn.net/Revivedsun/article/details/74514078)）
+
 #### 不用应用环境下的会话保持
 
 - ([会话保持](http://blog.51cto.com/virtualadc/592454))
 
 #### 自己实现RPC
 
-- ([**Dubbo**](http://www.cnblogs.com/LBSer/p/4853234.html))
+- ([**Dubbo原理简介**](http://www.cnblogs.com/LBSer/p/4853234.html))
 
 - ([**轻量级分布式 RPC 框架**](https://my.oschina.net/huangyong/blog/361751))
 
 - ([**简单rpc**](http://www.cnblogs.com/codingexperience/p/5930752.html))
+
+- ([dubbo源码](https://my.oschina.net/ywbrj042?tab=popular))
 
 ----
 
@@ -145,7 +138,7 @@ excerpt: interview
 
 #### 为什么使用消息队列？消息队列的优点和缺点？
 
-- （[消息队列的意义](https://www.w3cschool.cn/architectroad/architectroad-message-queue.html)）
+- ([消息队列的意义](https://www.w3cschool.cn/architectroad/architectroad-message-queue.html)）
 
 #### 如何保证消息队列的高可用？如何保证消息不被重复消费？
 
@@ -167,13 +160,15 @@ excerpt: interview
 
 #### 如何设计一个高并发高可用系统？
 
-- ([高并发](https://www.w3cschool.cn/architectroad/architectroad-high-concurrent.html))
+- ([**高并发**](https://www.w3cschool.cn/architectroad/architectroad-high-concurrent.html))
 
-- ([高可用](https://www.w3cschool.cn/architectroad/architectroad-high-availability.html))
+- ([**高可用**](https://www.w3cschool.cn/architectroad/architectroad-high-availability.html))
 
 #### 如何限流？工程中怎么做的？说下具体实现？
 
-- ([限流](https://www.w3cschool.cn/architectroad/architectroad-optimization-of-seckilling-system.html))
+- ([**限流**](https://www.w3cschool.cn/architectroad/architectroad-optimization-of-seckilling-system.html))
+
+- ([**常见限流方案**](http://manzhizhen.iteye.com/blog/2311691))
 
 #### 负载均衡
 
@@ -203,6 +198,8 @@ excerpt: interview
 
 - ([大数据排序](https://blog.csdn.net/michellechouu/article/details/27230451))
 
+- ([海量数据找topK](https://www.cnblogs.com/DarrenChan/p/8796749.html))
+
 #### hashcode相等两个类一定相等吗？ equals 呢？ 相反呢？
 
 - ([**hashCode()和equals()**](https://www.cnblogs.com/skywang12345/p/3324958.html))
@@ -217,25 +214,25 @@ excerpt: interview
 
 - ([常见数据结构2](https://blog.csdn.net/zxt0601/article/category/6697194))
 
-- ([arrayList线程不安全分析](https://www.jianshu.com/p/41be1efe5d65))
+- ([**arrayList线程不安全分析**](https://www.jianshu.com/p/41be1efe5d65))
 
-- ([moudCount的作用](https://blog.csdn.net/qq_24235325/article/details/52450331))
+- ([**moudCount的作用**](https://blog.csdn.net/qq_24235325/article/details/52450331))
 
-- ([CopyOnWriteArrayList](https://blog.csdn.net/linsongbin1/article/details/54581787))
+- ([**CopyOnWriteArrayList**](https://blog.csdn.net/linsongbin1/article/details/54581787))
 
-- ([hashtable和hashMap](https://blog.csdn.net/tgxblue/article/details/8479147))
+- ([**hashtable和hashMap**](https://blog.csdn.net/tgxblue/article/details/8479147))
 
 - ([**hashMap非线程安全分析**](http://www.importnew.com/22011.html))
 
-- ([hashMap key==null 分析](https://blog.csdn.net/glory1234work2115/article/details/50825503))
+- ([**hashMap key==null 分析**](https://blog.csdn.net/glory1234work2115/article/details/50825503))
 
 - ([**String**](https://blog.csdn.net/justloveyou_/article/details/52556427))
 
-- ([hashMap分析](http://note.youdao.com/noteshare?id=e5a60b1100b28bb62c7b9a101efe477c))
+- ([**hashMap分析**](http://note.youdao.com/noteshare?id=e5a60b1100b28bb62c7b9a101efe477c))
 
-- ([hashMap分析2](https://blog.csdn.net/tuke_tuke/article/details/51588156))
+- ([**hashMap分析2**](https://blog.csdn.net/tuke_tuke/article/details/51588156))
 
-- ([ConcurrentHashMap分析](http://www.importnew.com/28263.html))
+- ([**ConcurrentHashMap分析**](http://www.importnew.com/28263.html))
 
 
 #### 线程池用过么？都有哪些参数？ 底层如何实现？
@@ -266,7 +263,7 @@ excerpt: interview
 
 #### Thread and lock
 
-- ([thread and lock](https://javadoop.com/post/Threads-And-Locks-md#17.5.%20final%20属性的语义（final%20Field%20Semantics）))
+- ([**thread and lock**](https://javadoop.com/post/Threads-And-Locks-md#17.5.%20final%20属性的语义（final%20Field%20Semantics）))
 
 #### cas知道吗？如何实现？
 
@@ -327,14 +324,16 @@ excerpt: interview
 
 - ([**ioc原理**](https://blog.csdn.net/it_man/article/details/4402245))
 
-- ([IOC源码分析](https://javadoop.com/post/spring-ioc))
+- ([**IOC源码分析**](https://javadoop.com/post/spring-ioc))
 
 - ([AOP源码分析](https://javadoop.com/post/spring-aop-source))
+
+- ([**spring头文件原理**](https://www.cnblogs.com/mesopotamia/p/4948861.html))
 
 
 #### https
 
-- ([https原理](https://juejin.im/post/5a2ff29c6fb9a045132aac5a))
+- ([**https原理**](https://juejin.im/post/5a2ff29c6fb9a045132aac5a))
 
 #### git原理
 
