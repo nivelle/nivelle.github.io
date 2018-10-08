@@ -252,6 +252,8 @@
 
 - ([stack实现](https://blog.csdn.net/javazejian/article/details/53362993))
 
+- （[跳表](https://blog.csdn.net/fjslovejhl/article/details/18941129)）
+
 
 #### 线程池用过么？都有哪些参数？ 底层如何实现？
 
