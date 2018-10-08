@@ -1,3 +1,13 @@
+---
+layout: post
+title:  "java面试通关"
+date:   2018-09-22 01:06:05
+categories: 技术
+tags: interview
+excerpt: java面试通关
+---
+
+
 ## java面试通关
 
 #### 使用mysql索引都有哪些原则？索引有什么数据结构？ B+tree 和 B tree 什么区别
