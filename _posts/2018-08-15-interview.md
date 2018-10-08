@@ -47,7 +47,7 @@
 
 #### 分布式事物？如何实现？TCC？ 网络出现问题，如何容错？
 
-- ([2pc和3pc](https://www.jianshu.com/p/6fb2c5b1b664))
+- ([**2pc和3pc**](https://www.jianshu.com/p/6fb2c5b1b664))
 
 - ([分布式系统事务一致性解决方案
 ](http://www.infoq.com/cn/articles/solution-of-distributed-system-transaction-consistency#))
