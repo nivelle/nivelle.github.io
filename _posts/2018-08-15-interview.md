@@ -1,13 +1,3 @@
----
-layout: post
-title:  "java面试通关"
-date:   2018-09-22 01:06:05
-categories: 技术
-tags: interview
-excerpt: java面试通关
----
-
-
 ## java面试通关
 
 #### 使用mysql索引都有哪些原则？索引有什么数据结构？ B+tree 和 B tree 什么区别
@@ -28,6 +18,8 @@ excerpt: java面试通关
 
 - ([**mysqlAUTO_INCREMENT**](https://blog.csdn.net/iamczb/article/details/43112689))
 
+- ([mysql select原理](https://www.jianshu.com/p/NsWbRv))
+
 #### 设计高并发系统数据库层面应该怎么设计？ 数据库锁有哪些类型？如何实现
 
 - ([高并发系统设计-数据层](https://blog.csdn.net/chenpeng19910926/article/details/51789934))
@@ -45,6 +37,8 @@ excerpt: java面试通关
 
 - ([**数据库事务使用**](http://nivelle.me/2017/06/10/%E4%BA%8B%E5%8A%A1%E4%BD%BF%E7%94%A8/))
 
+- ([**mysql日志类型**](https://www.cnblogs.com/wy123/p/8365234.html))
+
 #### 如何设计可以动态扩容的分库分表方案？ 以及底层原理？常见的分库分表中间件？优缺点？ 如何让未分库分表的数据动态切换到分库分表的系统上？分库分表解决主键问题?
 
 - ([分库分表方案](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650994413&idx=1&sn=24a01089ee47793b5d82381b04a34499&chksm=bdbf0ebe8ac887a8a75a0cd9226bb7e0427f1a77c43323d14dc6932c7dc77555531bce5dce0f&scene=0))
@@ -52,6 +46,8 @@ excerpt: java面试通关
 ----
 
 #### 分布式事物？如何实现？TCC？ 网络出现问题，如何容错？
+
+- ([2pc和3pc](https://www.jianshu.com/p/6fb2c5b1b664))
 
 - ([分布式系统事务一致性解决方案
 ](http://www.infoq.com/cn/articles/solution-of-distributed-system-transaction-consistency#))
@@ -182,6 +178,8 @@ excerpt: java面试通关
 
 - ([**高可用**](https://www.w3cschool.cn/architectroad/architectroad-high-availability.html))
 
+- ([大型网站架构演化历程](http://www.hollischuang.com/archives/728))
+
 #### 如何限流？工程中怎么做的？说下具体实现？
 
 - ([**限流**](https://www.w3cschool.cn/architectroad/architectroad-optimization-of-seckilling-system.html))
@@ -252,6 +250,8 @@ excerpt: java面试通关
 
 - ([**ConcurrentHashMap分析**](http://www.importnew.com/28263.html))
 
+- ([stack实现](https://blog.csdn.net/javazejian/article/details/53362993))
+
 
 #### 线程池用过么？都有哪些参数？ 底层如何实现？
 
@@ -271,13 +271,17 @@ excerpt: java面试通关
 
 - ([内存可见性](https://javadoop.com/post/java-memory-model))
 
+- ([java锁保证内存可见性](http://ifeve.com/java%E9%94%81%E6%98%AF%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%81%E6%80%A7%E7%9A%84/))
+
 #### threadLocal是什么？底层如何实现？写一个例子
 
 - ([**threadLocal基本原理**](http://www.iteye.com/topic/103804))
 
 #### volitile的工作原理
 
-- ([volitile基本原理](https://www.cnblogs.com/dolphin0520/p/3920373.html))
+- ([volitile基本原理](http://www.hollischuang.com/archives/2673))
+
+- ([深入理解volatile](http://www.hollischuang.com/archives/2648))
 
 #### Thread and lock
 
@@ -336,6 +340,8 @@ excerpt: java面试通关
 
 - ([jvm](https://www.cnblogs.com/aspirant/category/1195271.html))
 
+- ([java调优](https://blog.csdn.net/lanchunhui/article/details/81055764))
+
 #### spring 哪些机制？aop如何实现？IOC如何实现
 
 - ([**自己实现AOP和IOC**](https://www.cnblogs.com/aspirant/p/9187973.html))
@@ -347,6 +353,8 @@ excerpt: java面试通关
 - ([AOP源码分析](https://javadoop.com/post/spring-aop-source))
 
 - ([**spring头文件原理**](https://www.cnblogs.com/mesopotamia/p/4948861.html))
+
+- ([spring初始化bean控制](https://zhuanlan.zhihu.com/p/30112785))
 
 
 #### https
@@ -393,6 +401,18 @@ excerpt: java面试通关
 - ([**序列化**](https://juejin.im/post/5b4c69dcf265da0fa959aa06))
 
 - ([位运算](https://blog.csdn.net/xiaopihaierletian/article/details/78162863))
+
+####  cookie 和 session
+
+- ([安全性](https://segmentfault.com/q/1010000007347730))
+
+#### OAuth2.0
+
+- ([OAuth2.0原理](https://my.oschina.net/wangzhenchao/blog/851773))
+
+#### 常见加密方法
+
+- （[加解密](https://blog.csdn.net/u013565368/article/details/53081195)）
 
 
 ### 链接收集
