@@ -68,11 +68,13 @@
 
 #### redis主要数据类型？分别那种场景下使用？
 
-- ([**redis实战**](http://nivelle.me/2019/09/29/redis%E5%AE%9E%E6%88%98/))
+- （[**redis实战**](http://nivelle.me/2019/09/29/redis%E5%AE%9E%E6%88%98/)）
 
 #### redis的主从复制怎么实现的？redis集群模式是如何实现的？ redis的key是如何寻址的？
 
 - ([**redis主从复制**](https://my.oschina.net/zhaolin/blog/752520))
+
+- ([**redis集群和哨兵模式配置**](https://www.cnblogs.com/jaycekon/p/6237562.html))
 
 #### 使用redis如何设计分布式锁？ 使用zk可以吗？如何实现？两种效率更高**？
 
@@ -95,6 +97,12 @@
 
 - ([zk概述](https://www.cnblogs.com/felixzh/p/5869212.html))
 
+- ([**zk启动过程分析**](http://shift-alt-ctrl.iteye.com/blog/1846507))
+
+- ([zk选举过程分析](http://shift-alt-ctrl.iteye.com/blog/1846562))
+
+- ([zkWatcher机制分析](http://shift-alt-ctrl.iteye.com/blog/1847320))
+
 #### dubbo的实现过程？注册中心挂了可以继续通信么？dubbo常见配置有哪些
 
 - ([**dubbo常见配置**](http://www.cnblogs.com/yxh1008/p/9251693.html))
@@ -103,7 +111,7 @@
 
 - ([**dubbo学习**](https://www.cnblogs.com/aspirant/p/9002631.html))
 
-- ([xstream、protobuf、protostuff](https://www.cnblogs.com/xiaoMzjm/p/4555209.html))
+- ([**xstream、protobuf、protostuff**](https://www.cnblogs.com/xiaoMzjm/p/4555209.html))
 
 #### dubbo负载均衡策略和高可用策略有哪些？动态代理策略呢?为什么要进行系统拆分啊？ 拆分不用dubbo可以么？ dubbo和thirft什么区别？
 
@@ -357,7 +365,7 @@
 
 - ([NIO细节](https://javadoop.com/post/java-nio))
 
-- ([Java 非阻塞 IO 和异步 IO](https://javadoop.com/post/nio-and-aio))
+- ([**Java 非阻塞 IO 和异步 IO**](https://javadoop.com/post/nio-and-aio))
 
 - ([tomcat中的应用](https://javadoop.com/post/tomcat-nio))
 
