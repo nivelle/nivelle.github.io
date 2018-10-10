@@ -10,6 +10,7 @@ excerpt: interview
 * content
 {:toc}
 
+## java面试通关
 
 #### 使用mysql索引都有哪些原则？索引有什么数据结构？ B+tree 和 B tree 什么区别
 
@@ -20,6 +21,8 @@ excerpt: interview
 - ([mysql索引实现](https://www.cnblogs.com/zlcxbb/p/5757245.html))
 
 - ([索引使用](https://juejin.im/post/5b14e0fd6fb9a01e8c5fc663))
+
+- ([mysql内核](https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651961620&idx=1&sn=d858c302799cad451656129885214767&chksm=bd2d0cc88a5a85de11ed376570f78a22954e88aad06f0138b3fbfb7be1968699421ac0b99889&mpshare=1&scene=1&srcid=1010RFt5df62olAvMxh6eNaK#rd))
   
 #### mysql 有哪些存储引擎？有什么区别？
 
@@ -54,7 +57,10 @@ excerpt: interview
 
 - ([分库分表方案以及问题](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650994413&idx=1&sn=24a01089ee47793b5d82381b04a34499&chksm=bdbf0ebe8ac887a8a75a0cd9226bb7e0427f1a77c43323d14dc6932c7dc77555531bce5dce0f&scene=0))
 
+
 - ([分库分表具体方案](https://mp.weixin.qq.com/s?__biz=MzUxNTU4NjAwMw==&mid=2247483669&idx=1&sn=b1e63b6734ba4b43095b9c70fa97276f&chksm=f9b523a9cec2aabf0a2acc632e1c1b0510c95a3afa21ed1c5a1d21f6378ccfbe6d48624cffa7&scene=21#wechat_redirect))
+
+
 ----
 
 #### 分布式事物？如何实现？TCC？ 网络出现问题，如何容错？
@@ -213,13 +219,6 @@ excerpt: interview
 
 - ([服务降级](http://jinnianshilongnian.iteye.com/blog/2306477))
 
-#### http的工作流程？越细节越好。  http1.0 1.1 1.2有哪些区别
-
-- ([一次url请求](https://github.com/skyline75489/what-happens-when-zh_CN))
-
-#### tcp 三次握手，四层分手的工作流程〉为什么不是其他次数？
-
-- ([计算机网络面试常见](https://www.jianshu.com/p/d0dd47afabad))
 
 #### 海量数据如何去重？
 
@@ -374,6 +373,27 @@ excerpt: interview
 
 - ([**https原理**](https://juejin.im/post/5a2ff29c6fb9a045132aac5a))
 
+#### http的工作流程？越细节越好。  http1.0 1.1 1.2有哪些区别
+
+- ([一次url请求](https://github.com/skyline75489/what-happens-when-zh_CN))
+
+#### tcp 三次握手，四层分手的工作流程〉为什么不是其他次数？
+
+- ([计算机网络面试常见](https://www.jianshu.com/p/d0dd47afabad))
+
+####  get/post区别
+
+- ([get/post](https://juejin.im/entry/599eb96ef265da24722fc15b))
+
+####  cookie 和 session
+
+- ([**安全性**](https://segmentfault.com/q/1010000007347730))
+
+#### OAuth2.0
+
+- ([OAuth2.0原理](https://my.oschina.net/wangzhenchao/blog/851773))
+
+
 #### git原理
 
 - ([git原理](https://juejin.im/post/5a65ac67f265da3e330473f7))
@@ -415,13 +435,6 @@ excerpt: interview
 
 - ([位运算](https://blog.csdn.net/xiaopihaierletian/article/details/78162863))
 
-####  cookie 和 session
-
-- ([**安全性**](https://segmentfault.com/q/1010000007347730))
-
-#### OAuth2.0
-
-- ([OAuth2.0原理](https://my.oschina.net/wangzhenchao/blog/851773))
 
 #### 常见加解密算法
 
@@ -430,6 +443,7 @@ excerpt: interview
 #### 注解原理
 
 - ([**注解原理**](https://blog.csdn.net/zhang0558/article/details/52643016))
+
 
 
 ### 链接收集
