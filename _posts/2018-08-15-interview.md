@@ -21,8 +21,6 @@ excerpt: interview
 - ([mysql索引实现](https://www.cnblogs.com/zlcxbb/p/5757245.html))
 
 - ([索引使用](https://juejin.im/post/5b14e0fd6fb9a01e8c5fc663))
-
-- ([mysql内核](https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651961620&idx=1&sn=d858c302799cad451656129885214767&chksm=bd2d0cc88a5a85de11ed376570f78a22954e88aad06f0138b3fbfb7be1968699421ac0b99889&mpshare=1&scene=1&srcid=1010RFt5df62olAvMxh6eNaK#rd))
   
 #### mysql 有哪些存储引擎？有什么区别？
 
@@ -455,3 +453,4 @@ excerpt: interview
 - ([计算机网络面试大全](https://www.cnblogs.com/aspirant/category/581827.html))
 - ([spring](https://www.cnblogs.com/aspirant/category/1012476.html))
 - ([java core](https://www.cnblogs.com/skywang12345/archive/2013/06/14/index.html))
+
