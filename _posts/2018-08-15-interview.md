@@ -18,7 +18,7 @@
 
 - ([**mysqlAUTO_INCREMENT**](https://blog.csdn.net/iamczb/article/details/43112689))
 
-- ([mysql select原理](https://www.jianshu.com/p/NsWbRv))
+- ([mysql优化原理](https://www.jianshu.com/p/d7665192aaaf))
 
 #### 设计高并发系统数据库层面应该怎么设计？ 数据库锁有哪些类型？如何实现
 
@@ -41,18 +41,16 @@
 
 #### 如何设计可以动态扩容的分库分表方案？ 以及底层原理？常见的分库分表中间件？优缺点？ 如何让未分库分表的数据动态切换到分库分表的系统上？分库分表解决主键问题?
 
-- ([分库分表方案](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650994413&idx=1&sn=24a01089ee47793b5d82381b04a34499&chksm=bdbf0ebe8ac887a8a75a0cd9226bb7e0427f1a77c43323d14dc6932c7dc77555531bce5dce0f&scene=0))
+- ([分库分表方案以及问题](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650994413&idx=1&sn=24a01089ee47793b5d82381b04a34499&chksm=bdbf0ebe8ac887a8a75a0cd9226bb7e0427f1a77c43323d14dc6932c7dc77555531bce5dce0f&scene=0))
 
+- ([分库分表具体方案](https://mp.weixin.qq.com/s?__biz=MzUxNTU4NjAwMw==&mid=2247483669&idx=1&sn=b1e63b6734ba4b43095b9c70fa97276f&chksm=f9b523a9cec2aabf0a2acc632e1c1b0510c95a3afa21ed1c5a1d21f6378ccfbe6d48624cffa7&scene=21#wechat_redirect))
 ----
 
 #### 分布式事物？如何实现？TCC？ 网络出现问题，如何容错？
 
 - ([**2pc和3pc**](https://www.jianshu.com/p/6fb2c5b1b664))
 
-- ([分布式系统事务一致性解决方案
-](http://www.infoq.com/cn/articles/solution-of-distributed-system-transaction-consistency#))
-
-- ([分布式事务阶段提交](http://int64.me/2016/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A12PC%20&&%203PC.html))
+- ([**分布式系统事务一致性解决方案**](http://www.infoq.com/cn/articles/solution-of-distributed-system-transaction-consistency#))
 
 - ([TCC](https://juejin.im/post/5a74f3bc6fb9a0633f0df127))
 
@@ -74,7 +72,7 @@
 
 #### redis主要数据类型？分别那种场景下使用？
 
-- （[**redis实战**](http://nivelle.me/2019/09/29/redis%E5%AE%9E%E6%88%98/)）
+-（[**redis实战**](http://nivelle.me/2019/09/29/redis%E5%AE%9E%E6%88%98/)）
 
 #### redis的主从复制怎么实现的？redis集群模式是如何实现的？ redis的key是如何寻址的？
 
@@ -90,6 +88,10 @@
 
 - ([**redis基本知识**](https://github.com/CyC2018/CS-Notes/blob/master/notes/Redis.md#%E5%8D%81%E4%B8%89%E6%95%B0%E6%8D%AE%E6%B7%98%E6%B1%B0%E7%AD%96%E7%95%A5))
 
+
+- ([**redis单线程**](https://mp.weixin.qq.com/s?__biz=MzUxNTU4NjAwMw==&mid=2247483725&idx=1&sn=e6c8a304d1618b63bf04a264ba604585&chksm=f9b523f1cec2aae7c771af0e157f819d88abdf8bdfa483838279b51fbb0f23ab2fdd32c5ae50&mpshare=1&scene=1&srcid=1009czaemdDdwr7Y04gSPbaj#rd))
+
+- ([**缓存概念**](https://blog.csdn.net/xlgen157387/article/details/79530877))
 
 ---
 
@@ -252,8 +254,6 @@
 
 - ([stack实现](https://blog.csdn.net/javazejian/article/details/53362993))
 
-- （[跳表](https://blog.csdn.net/fjslovejhl/article/details/18941129)）
-
 
 #### 线程池用过么？都有哪些参数？ 底层如何实现？
 
@@ -356,7 +356,7 @@
 
 - ([**spring头文件原理**](https://www.cnblogs.com/mesopotamia/p/4948861.html))
 
-- ([spring初始化bean控制](https://zhuanlan.zhihu.com/p/30112785))
+- ([**spring初始化bean控制**](https://zhuanlan.zhihu.com/p/30112785))
 
 
 #### https
@@ -406,15 +406,19 @@
 
 ####  cookie 和 session
 
-- ([安全性](https://segmentfault.com/q/1010000007347730))
+- ([**安全性**](https://segmentfault.com/q/1010000007347730))
 
 #### OAuth2.0
 
 - ([OAuth2.0原理](https://my.oschina.net/wangzhenchao/blog/851773))
 
-#### 常见加密方法
+#### 常见加解密算法
 
-- （[加解密](https://blog.csdn.net/u013565368/article/details/53081195)）
+- ([**加解密**](https://blog.csdn.net/u013565368/article/details/53081195))
+
+#### 注解原理
+
+- ([**注解原理**](https://blog.csdn.net/zhang0558/article/details/52643016))
 
 
 ### 链接收集
