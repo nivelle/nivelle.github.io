@@ -1,4 +1,15 @@
-## java面试通关
+---
+layout: post
+title:  "java必知必会"
+date:   2018-08-09 00:06:05
+categories: 技术
+tags: interview
+excerpt: interview
+---
+
+* content
+{:toc}
+
 
 #### 使用mysql索引都有哪些原则？索引有什么数据结构？ B+tree 和 B tree 什么区别
 
