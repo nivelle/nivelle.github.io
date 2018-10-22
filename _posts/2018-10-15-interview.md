@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "java必知必会"
-date:   2018-08-15 00:06:05
+date:   2018-10-15 00:06:05
 categories: 技术
 tags: interview
 excerpt: interview
@@ -52,14 +52,12 @@ excerpt: interview
 #### redis的主从复制怎么实现的？redis集群模式是如何实现的？ redis的key是如何寻址的？
 - ([**redis主从复制**](https://my.oschina.net/zhaolin/blog/752520))
 - ([**redis集群和哨兵模式配置**](https://www.cnblogs.com/jaycekon/p/6237562.html))
-#### 使用redis如何设计分布式锁？ 使用zk可以吗？如何实现？两种效率更高**？
-- ([**分布式锁三种实现**](http://www.hollischuang.com/archives/1716))
 #### redis基本知识
 - ([**redis基本知识**](https://github.com/CyC2018/CS-Notes/blob/master/notes/Redis.md#%E5%8D%81%E4%B8%89%E6%95%B0%E6%8D%AE%E6%B7%98%E6%B1%B0%E7%AD%96%E7%95%A5))
 - ([**redis单线程**](https://mp.weixin.qq.com/s?__biz=MzUxNTU4NjAwMw==&mid=2247483725&idx=1&sn=e6c8a304d1618b63bf04a264ba604585&chksm=f9b523f1cec2aae7c771af0e157f819d88abdf8bdfa483838279b51fbb0f23ab2fdd32c5ae50&mpshare=1&scene=1&srcid=1009czaemdDdwr7Y04gSPbaj#rd))
 - ([**缓存概念**](https://blog.csdn.net/xlgen157387/article/details/79530877))
 #### 缓存如何使用？缓存使用不当带来什么问题**？
-- ([缓存界的三大问题](https://juejin.im/post/5aa8d3d9f265da2392360a37))
+- ([**缓存界的三大问题**](https://juejin.im/post/5aa8d3d9f265da2392360a37))
 ---
 ## 分布式架构相关
 #### zk原理? zk的应用？ paxos算法？
@@ -139,8 +137,8 @@ excerpt: interview
 - ([**ConcurrentHashMap分析**](http://www.importnew.com/28263.html))
 - ([stack实现](https://blog.csdn.net/javazejian/article/details/53362993))
 - ([树结构](https://blog.csdn.net/DouBoomFly/article/details/70171410))
-- ([二叉树](https://blog.csdn.net/xiaoquantouer/article/details/65631708?utm_source=blogxgwz0))
-- ([B树](https://blog.csdn.net/guoziqing506/article/details/64122287?utm_source=blogxgwz8))
+- ([**二叉树**，](https://blog.csdn.net/xiaoquantouer/article/details/65631708?utm_source=blogxgwz0))
+- ([**B树**](https://blog.csdn.net/guoziqing506/article/details/64122287?utm_source=blogxgwz8))
 ---
 ## java基础相关
 #### hashcode相等两个类一定相等吗？ equals 呢 相反呢？
@@ -153,13 +151,13 @@ excerpt: interview
 - ([**线程池源码**](https://javadoop.com/post/java-thread-pool))
 #### synchized和lock什么区别？ 底层细节
 - ([**Synchronized**](https://juejin.im/post/5b4eec7df265da0fa00a118f))
-- ([内存可见性](https://javadoop.com/post/java-memory-model))
-- ([java锁保证内存可见性](http://ifeve.com/java%E9%94%81%E6%98%AF%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%81%E6%80%A7%E7%9A%84/))
+- ([**内存可见性**](https://javadoop.com/post/java-memory-model))
+- ([**java锁保证内存可见性**](http://ifeve.com/java%E9%94%81%E6%98%AF%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%81%E6%80%A7%E7%9A%84/))
 #### threadLocal是什么？底层如何实现？写一个例子
 - ([**threadLocal基本原理**](http://www.iteye.com/topic/103804))
 #### volitile的工作原理
-- ([volitile基本原理](http://www.hollischuang.com/archives/2673))
-- ([深入理解volatile](http://www.hollischuang.com/archives/2648))
+- ([**volitile基本原理**](http://www.hollischuang.com/archives/2673))
+- ([**深入理解volatile**](http://www.hollischuang.com/archives/2648))
 #### Thread and lock
 - ([**thread and lock**](https://javadoop.com/post/Threads-And-Locks-md#17.5.%20final%20属性的语义（final%20Field%20Semantics）))
 #### cas知道吗？如何实现？
@@ -202,14 +200,15 @@ excerpt: interview
 - ([图解tomcat类加载](https://www.cnblogs.com/aspirant/p/8991830.html))
 - ([**类加载时机和过程**](https://blog.csdn.net/justloveyou_/article/details/72466105))
 - ([**对象初始化**](https://blog.csdn.net/justloveyou_/article/details/72466416))
-**jvm优化？使用什么方法？达到什么效果**
+#### jvm优化？使用什么方法？达到什么效果**
 - ([jvm](https://www.cnblogs.com/aspirant/category/1195271.html))
 - ([java调优](https://blog.csdn.net/lanchunhui/article/details/81055764))
+- ([java常见调优](http://unixboy.iteye.com/blog/174173/))
 ---
 ## 框架相关
 #### spring 哪些机制？aop如何实现？IOC如何实现
 - ([**自己实现AOP和IOC**](https://www.cnblogs.com/aspirant/p/9187973.html))
-- ([**ioc原理**](https://blog.csdn.net/it_man/article/details/4402245))
+- ([**IOC原理**](https://blog.csdn.net/it_man/article/details/4402245))
 - ([**IOC源码分析**](https://javadoop.com/post/spring-ioc))
 - ([AOP源码分析](https://javadoop.com/post/spring-aop-source))
 - ([**spring头文件原理**](https://www.cnblogs.com/mesopotamia/p/4948861.html))
@@ -286,29 +285,99 @@ RejectedExecutionHandler
 
 - 你知道java中有好多数据结构，比如二叉树，你和能我讲一下红黑树和平衡二叉树的原理吗？具体怎么实现的？
 
+```
+
+
+```
+
 - 数据量大了以后，我们通常会使用MySQL主从配置，读写分离，你能和我讲一下mysql主从配置，读写分离的原理吗？它的底层是怎么实现的？
+
+```
+binlog 数据同步
+
+```
 
 - redis集群，你知道我们通常会使用redis集群，当时他的伸缩性不是很好，当你增加或者删除一个节点的时候，他需要重新计算数据的存放位置，你能设计一个算法，让他尽可能的少挪动原来节点中的数据吗？
 
+```
+哨兵模式
+
+```
+
 - 你能现场给我设计一个用于高并发的秒杀的系统吗？给我说说你的设计？
+
+```
+
+缓存，预热
+
+```
 
 - 实现线程安全的方式？你把你知道的方法都说出来，比如synchronized，lock等等，你还知道哪些，java中有好多线程安全的封装类，你用过哪些，和我说说，为什么使用它？你知道volatile这个关键词吗？你和我说说他的原理？
 
+```
+本质原因是多缓存。 主内存和本地内存 。 volatile:内存可见行，禁止指令重排序。final内存可见性。 内存屏障。 synchronized:monitorEnter,mointerExit. locK:cas. 
+
+```
+
 - 你和我说说jvm运行时的数据区吧，你说说你知道哪些，把你知道的都说出来？哪些是线程共享的，哪些是私有的？
+
+```
+计数器，本地方法栈，java虚拟机栈,方法区，堆。
+
+```
 
 - 你和我说说Garbage Collection吧，把你知道的全部说出来。包括回收的方法，怎么使用？什么时候使用，原理等。
 
+```
+标志-清除，标记-整理，复制。 hotspot,cms,G1
+
+```
+
 - 你和我说说数据库瓶颈把，说说哪些怎么分区？你们之前是怎么分区的？为什么要这么做？
 
-- 分布式的情况下，有时候我们需要实现锁，你知道怎么实现吗？把你知道的说出来？不同的方法，分别适用于那些场景？
+```
+数据库IO
+
+```
+
+- 分布式的情况下，有时候我们需要实现锁，你知道怎么实现吗？把你知道的说出来？不同的方法，分别适用于那些场景
+
+```
+分布式锁必须有的特点：可重入（避免死锁），同一个方法在同一时间只能被同一台机器的一个线程执行，可阻塞，高可用的获取锁和释放锁，有失效策略。
+
+数据库表（单点问题，非重入，for update 实现可阻塞/具有失效策略），redis , zk(零时顺序节点，集群部署，watcher时间)
+
+```
 
 - 你和我说说数据库的乐观锁和悲观锁把，他们怎么实现的，具体应用在哪些场景，怎么使用。
 
+```
+乐观锁：基于竞争不是很激烈，cas,version  悲观锁：互斥，上下文切换调度延时
+
+```
+
 - 你和我说说spring把，你把ioc和依赖注入和我讲一下，它是怎么实现的？再说说AOP，什么时候会用到aop，业务场景有哪些。他的原理是什么？有哪几种advice。
+
+```
+IOC : Inversion of Control  AOP:Aspect-Oriented Programming
+
+```
 
 - 你给我讲讲缓存穿透把，你知道什么是缓存穿透吗？讲一下，然后和我说一下怎么解决？
 
+```
+业务系统本身就不存在的数据。 1.缓存空数据（数据库查询结果为空的key也存储在缓存中）2.boomFilter(存所有可能的key不存在直接返回)
+
+```
+
 - 业务高并发时，你有什么好的方法解决？说出你知道的一些方法。
+
+```
+响应时间，吞吐量，QPS，并发用户数。 垂直扩展，水平扩展。反向代理层(dns,nginx)，站点层（web）,服务层（服务连接池）,数据层（范围，哈希）
+
+高可用：冗余+故障自动转移。 反向代理层（keepalived存活探测，相同virtual IP提供服务），站点层（nginx配置多个后端，自动探测活性），服务层（service-connection-pool）,缓存层（1. service对cache进行双读双写 2.哨兵模式），数据层（主从同步，读写分离，双主同步）
+
+```
 
 - 给你两个链表，一个长度为m，一个长度为n，请你设计一个算法，使得时间复杂度最低，算出他们的交集，并且告诉我你的时间复杂度。
 
@@ -324,6 +393,8 @@ RejectedExecutionHandler
 - ([大厂面试集锦](https://www.cnblogs.com/aspirant/p/8575628.html))
 - ([备战阿里](http://www.cnblogs.com/zhengbin/category/787240.html))
 - ([java core](https://www.cnblogs.com/skywang12345/archive/2013/06/14/index.html))
+
+
 
 
 
