@@ -56,7 +56,7 @@ excerpt: interview
 - ([**redis基本知识**](https://github.com/CyC2018/CS-Notes/blob/master/notes/Redis.md#%E5%8D%81%E4%B8%89%E6%95%B0%E6%8D%AE%E6%B7%98%E6%B1%B0%E7%AD%96%E7%95%A5))
 - ([**redis单线程**](https://mp.weixin.qq.com/s?__biz=MzUxNTU4NjAwMw==&mid=2247483725&idx=1&sn=e6c8a304d1618b63bf04a264ba604585&chksm=f9b523f1cec2aae7c771af0e157f819d88abdf8bdfa483838279b51fbb0f23ab2fdd32c5ae50&mpshare=1&scene=1&srcid=1009czaemdDdwr7Y04gSPbaj#rd))
 - ([**缓存概念**](https://blog.csdn.net/xlgen157387/article/details/79530877))
-#### 缓存如何使用？缓存使用不当带来什么问题**？
+#### 缓存如何使用？缓存使用不当带来什么问题**
 - ([**缓存界的三大问题**](https://juejin.im/post/5aa8d3d9f265da2392360a37))
 ---
 ## 分布式架构相关
@@ -88,15 +88,15 @@ excerpt: interview
 #### 如何设计一个高并发高可用系统？
 - ([**高并发**](https://www.w3cschool.cn/architectroad/architectroad-high-concurrent.html))
 - ([**高可用**](https://www.w3cschool.cn/architectroad/architectroad-high-availability.html))
-- ([大型网站架构演化历程](http://www.hollischuang.com/archives/728))
+- ([**大型网站架构演化历程**](http://www.hollischuang.com/archives/728))
 #### 如何限流？工程中怎么做的？说下具体实现？
 - ([**限流**](https://www.w3cschool.cn/architectroad/architectroad-optimization-of-seckilling-system.html))
 - ([**常见限流方案**](http://manzhizhen.iteye.com/blog/2311691))
 #### 负载均衡
 - ([**六大负载均衡原理**](https://www.cnblogs.com/aspirant/p/9087716.html))
 - ([lvs](https://www.cnblogs.com/aspirant/p/9084740.html))
-#### 如何降级？如何进行系统拆分，如何进行数据库拆分？
-- ([服务降级](http://jinnianshilongnian.iteye.com/blog/2306477))
+#### 如何降级？如何进行系统拆分，如何进行数据库拆分
+- ([**服务降级**](http://jinnianshilongnian.iteye.com/blog/2306477))
 ----
 ## 消息相关
 #### netty 可以干什么？ NIO，BIO ，AIO 都是什么？ 有什么区别
@@ -137,7 +137,7 @@ excerpt: interview
 - ([**ConcurrentHashMap分析**](http://www.importnew.com/28263.html))
 - ([stack实现](https://blog.csdn.net/javazejian/article/details/53362993))
 - ([树结构](https://blog.csdn.net/DouBoomFly/article/details/70171410))
-- ([**二叉树**，](https://blog.csdn.net/xiaoquantouer/article/details/65631708?utm_source=blogxgwz0))
+- ([**二叉树**](https://blog.csdn.net/xiaoquantouer/article/details/65631708?utm_source=blogxgwz0))
 - ([**B树**](https://blog.csdn.net/guoziqing506/article/details/64122287?utm_source=blogxgwz8))
 ---
 ## java基础相关
@@ -293,7 +293,7 @@ RejectedExecutionHandler
 - 数据量大了以后，我们通常会使用MySQL主从配置，读写分离，你能和我讲一下mysql主从配置，读写分离的原理吗？它的底层是怎么实现的？
 
 ```
-binlog 数据同步
+binlog 数据同步主从复制; 读写分离:代码层,代理控制.
 
 ```
 
@@ -317,6 +317,8 @@ binlog 数据同步
 ```
 本质原因是多缓存。 主内存和本地内存 。 volatile:内存可见行，禁止指令重排序。final内存可见性。 内存屏障。 synchronized:monitorEnter,mointerExit. locK:cas. 
 
+final 属性同时也允许程序员不需要使用同步就可以实现线程安全的不可变对象。
+
 ```
 
 - 你和我说说jvm运行时的数据区吧，你说说你知道哪些，把你知道的都说出来？哪些是线程共享的，哪些是私有的？
@@ -329,7 +331,17 @@ binlog 数据同步
 - 你和我说说Garbage Collection吧，把你知道的全部说出来。包括回收的方法，怎么使用？什么时候使用，原理等。
 
 ```
-标志-清除，标记-整理，复制。 hotspot,cms,G1
+1. 大部分对象都是短命的，它们在年轻的时候就会死去 2.极少老年对象对年轻对象的引用。 新生代考虑的是算法的速度，因为新生代垃圾回收是频繁的；老年代，需要考虑的是空间，因为老年代占用了大部分的堆内存。
+
+串行收集器：在年轻代和老年代都采用单线程，年轻代中使用 stop-the-world、复制 算法；老年代使用 stop-the-world、标记 -> 清理 -> 压缩 算法。
+
+并行收集器：在年轻代中使用 并行、stop-the-world、复制 算法；老年代使用串行收集器的 串行、stop-the-world、标记 -> 清理 -> 压缩 算法。
+
+并行压缩收集器：在年轻代中使用并行收集器的 并行、stop-the-world、复制 算法；老年代使用 并行、stop-the-world、标记 -> 清理 -> 压缩 算法。和并行收集器的区别是老年代使用了并行。
+
+CMS 收集器：在年轻使用并行收集器的 并行、stop-the-world、复制 算法；老年代使用 并发、标记 -> 清理 算法，不压缩。本文介绍的唯一一个并发收集器，也是唯一一个不对老年代进行压缩的收集器。
+
+避免fullGC:增加堆大小，或调整老年代和年轻代的比例,增加并发周期的线程数量，其实就是为了加快并发周期快点结束,让并发周期尽早开始，这个是通过设置堆使用占比来调整的（默认 45%）,在混合垃圾回收周期中回收更多的老年代区块
 
 ```
 
@@ -393,7 +405,6 @@ IOC : Inversion of Control  AOP:Aspect-Oriented Programming
 - ([大厂面试集锦](https://www.cnblogs.com/aspirant/p/8575628.html))
 - ([备战阿里](http://www.cnblogs.com/zhengbin/category/787240.html))
 - ([java core](https://www.cnblogs.com/skywang12345/archive/2013/06/14/index.html))
-
 
 
 
