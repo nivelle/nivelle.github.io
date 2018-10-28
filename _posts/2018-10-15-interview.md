@@ -138,7 +138,7 @@ excerpt: interview
 - ([stack实现](https://blog.csdn.net/javazejian/article/details/53362993))
 - ([树结构](https://blog.csdn.net/DouBoomFly/article/details/70171410))
 - ([**二叉树**](https://blog.csdn.net/xiaoquantouer/article/details/65631708?utm_source=blogxgwz0))
-- ([**B树**](https://blog.csdn.net/guoziqing506/article/details/64122287?utm_source=blogxgwz8))
+- ([B树](https://blog.csdn.net/guoziqing506/article/details/64122287?utm_source=blogxgwz8))
 ---
 ## java基础相关
 #### hashcode相等两个类一定相等吗？ equals 呢 相反呢？
@@ -409,9 +409,3 @@ IOC : Inversion of Control  AOP:Aspect-Oriented Programming
 - ([大厂面试集锦](https://www.cnblogs.com/aspirant/p/8575628.html))
 - ([备战阿里](http://www.cnblogs.com/zhengbin/category/787240.html))
 - ([java core](https://www.cnblogs.com/skywang12345/archive/2013/06/14/index.html))
-
-
-
-
-
-
