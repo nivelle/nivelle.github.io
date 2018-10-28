@@ -40,8 +40,8 @@ excerpt: interview
 - ([TCC](https://juejin.im/post/5a74f3bc6fb9a0633f0df127))
 - ([**分布式事务实现**](https://blog.csdn.net/tzs_1041218129/article/details/80086991))
 #### 分布式寻址方式方式有哪些算法？ 一致性hash算法
-- ([**一致性hash算法**](http://www.zsythink.net/archives/1182))
-- ([**递归算法**](https://blog.csdn.net/justloveyou_/article/details/71787149))
+- ([**一致性hash算法 **](http://www.zsythink.net/archives/1182))
+-（[递归算法](https://blog.csdn.net/justloveyou_/article/details/71787149))
 ---
 ## 缓存相关
 #### redis和 memcheched什么区别？为什么单线程的redis比多线程的memched效率高？
@@ -56,7 +56,7 @@ excerpt: interview
 - ([**redis基本知识**](https://github.com/CyC2018/CS-Notes/blob/master/notes/Redis.md#%E5%8D%81%E4%B8%89%E6%95%B0%E6%8D%AE%E6%B7%98%E6%B1%B0%E7%AD%96%E7%95%A5))
 - ([**redis单线程**](https://mp.weixin.qq.com/s?__biz=MzUxNTU4NjAwMw==&mid=2247483725&idx=1&sn=e6c8a304d1618b63bf04a264ba604585&chksm=f9b523f1cec2aae7c771af0e157f819d88abdf8bdfa483838279b51fbb0f23ab2fdd32c5ae50&mpshare=1&scene=1&srcid=1009czaemdDdwr7Y04gSPbaj#rd))
 - ([**缓存概念**](https://blog.csdn.net/xlgen157387/article/details/79530877))
-#### 缓存如何使用？缓存使用不当带来什么问题**
+#### 缓存如何使用？缓存使用不当带来什么问题
 - ([**缓存界的三大问题**](https://juejin.im/post/5aa8d3d9f265da2392360a37))
 ---
 ## 分布式架构相关
