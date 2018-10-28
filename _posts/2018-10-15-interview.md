@@ -41,7 +41,8 @@ excerpt: interview
 - ([**分布式事务实现**](https://blog.csdn.net/tzs_1041218129/article/details/80086991))
 #### 分布式寻址方式方式有哪些算法？ 一致性hash算法
 - （[**一致性hash算法**](http://www.zsythink.net/archives/1182)）
-- （[递归算法](https://blog.csdn.net/justloveyou_/article/details/71787149))
+- （[**递归算法**](https://blog.csdn.net/justloveyou_/article/details/71787149))
+
 ---
 ## 缓存相关
 #### redis和 memcheched什么区别？为什么单线程的redis比多线程的memched效率高？
@@ -57,7 +58,8 @@ excerpt: interview
 - ([**redis单线程**](https://mp.weixin.qq.com/s?__biz=MzUxNTU4NjAwMw==&mid=2247483725&idx=1&sn=e6c8a304d1618b63bf04a264ba604585&chksm=f9b523f1cec2aae7c771af0e157f819d88abdf8bdfa483838279b51fbb0f23ab2fdd32c5ae50&mpshare=1&scene=1&srcid=1009czaemdDdwr7Y04gSPbaj#rd))
 - ([**缓存概念**](https://blog.csdn.net/xlgen157387/article/details/79530877))
 #### 缓存如何使用？缓存使用不当带来什么问题
-- ([缓存界的三大问题](https://juejin.im/post/5aa8d3d9f265da2392360a37))
+- ([**缓存界的三大问题**](https://juejin.im/post/5aa8d3d9f265da2392360a37))
+
 ---
 ## 分布式架构相关
 #### zk原理? zk的应用？ paxos算法？
@@ -94,9 +96,10 @@ excerpt: interview
 - ([**常见限流方案**](http://manzhizhen.iteye.com/blog/2311691))
 #### 负载均衡
 - ([**六大负载均衡原理**](https://www.cnblogs.com/aspirant/p/9087716.html))
-- ([lvs](https://www.cnblogs.com/aspirant/p/9084740.html))
+- ([**lvs**](https://www.cnblogs.com/aspirant/p/9084740.html))
 #### 如何降级？如何进行系统拆分，如何进行数据库拆分
-- ([服务降级](http://jinnianshilongnian.iteye.com/blog/2306477))
+- ([**服务降级**](http://jinnianshilongnian.iteye.com/blog/2306477))
+
 ----
 ## 消息相关
 #### netty 可以干什么？ NIO，BIO ，AIO 都是什么？ 有什么区别
@@ -111,7 +114,8 @@ excerpt: interview
 - ([消息队列细节学习](https://blog.csdn.net/u013256816))
 - ([kafka数据一致性和zk的比较](https://www.cnblogs.com/aspirant/p/9179045.html))
 #### rabbitMQ基础
-- ([rabbitMQ](https://www.kancloud.cn/longxuan/rabbitmq-arron/117513))
+- ([**rabbitMQ**](https://www.kancloud.cn/longxuan/rabbitmq-arron/117513))
+
 ---
 ## 算法数据结构
 #### 海量数据如何去重？
@@ -138,7 +142,8 @@ excerpt: interview
 - ([stack实现](https://blog.csdn.net/javazejian/article/details/53362993))
 - ([树结构](https://blog.csdn.net/DouBoomFly/article/details/70171410))
 - ([**二叉树**](https://blog.csdn.net/xiaoquantouer/article/details/65631708?utm_source=blogxgwz0))
-- ([B树](https://blog.csdn.net/guoziqing506/article/details/64122287?utm_source=blogxgwz8))
+- ([**B树**](https://blog.csdn.net/guoziqing506/article/details/64122287?utm_source=blogxgwz8))
+
 ---
 ## java基础相关
 #### hashcode相等两个类一定相等吗？ equals 呢 相反呢？
@@ -180,7 +185,9 @@ excerpt: interview
 - ([**Java 非阻塞 IO 和异步 IO**](https://javadoop.com/post/nio-and-aio))
 - ([tomcat中的应用](https://javadoop.com/post/tomcat-nio))
 #### 基于socket的网络编程
+
 - ([socket](https://blog.csdn.net/zhangchenghaopeng/article/details/50571079))
+
 ---
 ## jvm相关
 #### jvm内存模型？用过哪些垃圾回收器？说说
@@ -205,7 +212,9 @@ excerpt: interview
 - ([java调优](https://my.oschina.net/feichexia/blog/196575))
 - ([java常见调优](http://unixboy.iteye.com/blog/174173/))
 #### 排查过程
+
 - ([死循环](https://mp.weixin.qq.com/s?__biz=MzI1NDQ3MjQxNA==&mid=2247487380&idx=1&sn=e8c350a946696940dc4c13b0b7fcfcd3&chksm=e9c5f625deb27f331eefc431a10d7c90bef50a2afd2c4f9299d2eb514982c6623b0569cf0e19&mpshare=1&scene=1&srcid=#rd))
+
 ---
 ## 框架相关
 #### spring 哪些机制？aop如何实现？IOC如何实现
@@ -217,7 +226,8 @@ excerpt: interview
 - ([**spring初始化bean控制**](https://zhuanlan.zhihu.com/p/30112785))
 #### springboot
 - ([**springboot原理**](https://blog.csdn.net/hengyunabc/article/details/50120001))
-- ([springboot源码](https://fangjian0423.github.io/2017/04/30/springboot-startup-analysis/))
+- ([**springboot源码**](https://fangjian0423.github.io/2017/04/30/springboot-startup-analysis/))
+
 ---
 ## 网络相关
 #### https
@@ -236,6 +246,7 @@ excerpt: interview
 - ([**子网掩码的原理和应用**](https://blog.csdn.net/faker_wang/article/details/80747407))
 #### dump
 - ([dump使用](https://www.cnblogs.com/aspirant/p/8881047.html))
+
 ---
 ## 其他
 #### git原理
@@ -243,6 +254,7 @@ excerpt: interview
 #### 常见加解密算法
 - ([**加解密**](https://blog.csdn.net/u013565368/article/details/53081195))
 #### 注解原理
+
 - ([**注解原理**](https://blog.csdn.net/zhang0558/article/details/52643016))
 ---
 ## 附录
