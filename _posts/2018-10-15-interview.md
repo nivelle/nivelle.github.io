@@ -202,8 +202,10 @@ excerpt: interview
 - ([**对象初始化**](https://blog.csdn.net/justloveyou_/article/details/72466416))
 #### jvm优化？使用什么方法？达到什么效果**
 - ([jvm](https://www.cnblogs.com/aspirant/category/1195271.html))
-- ([java调优](https://blog.csdn.net/lanchunhui/article/details/81055764))
+- ([java调优](https://my.oschina.net/feichexia/blog/196575))
 - ([java常见调优](http://unixboy.iteye.com/blog/174173/))
+#### 排查过程
+- ([死循环](https://mp.weixin.qq.com/s?__biz=MzI1NDQ3MjQxNA==&mid=2247487380&idx=1&sn=e8c350a946696940dc4c13b0b7fcfcd3&chksm=e9c5f625deb27f331eefc431a10d7c90bef50a2afd2c4f9299d2eb514982c6623b0569cf0e19&mpshare=1&scene=1&srcid=#rd))
 ---
 ## 框架相关
 #### spring 哪些机制？aop如何实现？IOC如何实现
@@ -213,14 +215,16 @@ excerpt: interview
 - ([AOP源码分析](https://javadoop.com/post/spring-aop-source))
 - ([**spring头文件原理**](https://www.cnblogs.com/mesopotamia/p/4948861.html))
 - ([**spring初始化bean控制**](https://zhuanlan.zhihu.com/p/30112785))
+#### springboot
+- ([**springboot原理**](https://blog.csdn.net/hengyunabc/article/details/50120001))
 ---
 ## 网络相关
 #### https
 - ([**https原理**](https://juejin.im/post/5a2ff29c6fb9a045132aac5a))
 #### http的工作流程？越细节越好。  http1.0 1.1 1.2有哪些区别
-- ([一次url请求](https://github.com/skyline75489/what-happens-when-zh_CN))
+- ([**一次url请求**](https://github.com/skyline75489/what-happens-when-zh_CN))
 #### tcp 三次握手，四层分手的工作流程〉为什么不是其他次数？
-- ([计算机网络面试常见](https://www.jianshu.com/p/d0dd47afabad))
+- ([**计算机网络面试常见**](https://www.jianshu.com/p/d0dd47afabad))
 ####  get/post区别
 - ([**get/post**](https://juejin.im/entry/599eb96ef265da24722fc15b))
 ####  cookie 和 session
@@ -405,6 +409,8 @@ IOC : Inversion of Control  AOP:Aspect-Oriented Programming
 - ([大厂面试集锦](https://www.cnblogs.com/aspirant/p/8575628.html))
 - ([备战阿里](http://www.cnblogs.com/zhengbin/category/787240.html))
 - ([java core](https://www.cnblogs.com/skywang12345/archive/2013/06/14/index.html))
+
+
 
 
 
