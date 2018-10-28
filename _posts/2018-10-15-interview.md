@@ -40,8 +40,8 @@ excerpt: interview
 - ([TCC](https://juejin.im/post/5a74f3bc6fb9a0633f0df127))
 - ([**分布式事务实现**](https://blog.csdn.net/tzs_1041218129/article/details/80086991))
 #### 分布式寻址方式方式有哪些算法？ 一致性hash算法
-- ([**一致性hash算法 **](http://www.zsythink.net/archives/1182))
--（[递归算法](https://blog.csdn.net/justloveyou_/article/details/71787149))
+- （[**一致性hash算法 **](http://www.zsythink.net/archives/1182)）
+- （[递归算法](https://blog.csdn.net/justloveyou_/article/details/71787149))
 ---
 ## 缓存相关
 #### redis和 memcheched什么区别？为什么单线程的redis比多线程的memched效率高？
@@ -96,7 +96,7 @@ excerpt: interview
 - ([**六大负载均衡原理**](https://www.cnblogs.com/aspirant/p/9087716.html))
 - ([lvs](https://www.cnblogs.com/aspirant/p/9084740.html))
 #### 如何降级？如何进行系统拆分，如何进行数据库拆分
-- ([**服务降级**](http://jinnianshilongnian.iteye.com/blog/2306477))
+- ([服务降级](http://jinnianshilongnian.iteye.com/blog/2306477))
 ----
 ## 消息相关
 #### netty 可以干什么？ NIO，BIO ，AIO 都是什么？ 有什么区别
