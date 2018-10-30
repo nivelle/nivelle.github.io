@@ -67,4 +67,5 @@ icon: bookmark
 * [数据库介绍](https://draveness.me/)
 * [spring4all](http://www.spring4all.com/)
 * [crossoverjie](https://crossoverjie.top)
-* [javadoop](javadoop)
+* [javadoop](https://javadoop.com/)
+* [风一样的码农](https://www.cnblogs.com/chenpi/)
