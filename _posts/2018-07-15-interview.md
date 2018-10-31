@@ -188,6 +188,9 @@ excerpt: interview
 
 - ([socket](https://blog.csdn.net/zhangchenghaopeng/article/details/50571079))
 
+#### jui总结
+-([juc总结](https://www.cnblogs.com/chenpi/p/5614290.html#_label3))
+
 ---
 ## jvm相关
 #### jvm内存模型？用过哪些垃圾回收器？说说
