@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "java必知必会"
-date:   2018-10-15 00:06:05
+date:   2018-07-15 00:06:05
 categories: 技术
 tags: interview
 excerpt: interview
