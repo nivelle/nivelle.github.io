@@ -227,9 +227,12 @@ excerpt: interview
 - ([AOP源码分析](https://javadoop.com/post/spring-aop-source))
 - ([**spring头文件原理**](https://www.cnblogs.com/mesopotamia/p/4948861.html))
 - ([**spring初始化bean控制**](https://zhuanlan.zhihu.com/p/30112785))
+- ([常见知识点](https://juejin.im/post/5b065000f265da0de45235e6))
+- ([常见知识点2](http://www.importnew.com/15851.html))
 #### springboot
 - ([**springboot原理**](https://blog.csdn.net/hengyunabc/article/details/50120001))
 - ([**springboot源码**](http://fangjian0423.github.io/categories/springboot/))
+
 
 ---
 ## 网络相关
