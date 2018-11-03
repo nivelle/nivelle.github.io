@@ -110,6 +110,7 @@ excerpt: interview
 - ([**消息队列的幂等**](https://www.w3cschool.cn/architectroad/architectroad-message-idempotence.html))
 - ([**消息队列的高可用**](https://www.w3cschool.cn/architectroad/architectroad-message-delivery.html))
 #### kafka，activemq,rabbitmq,rocketmq 都有什么优点和缺点？如何自己设计一个消息队列，该如何进行架构设计
+- ([消息队列对比](https://juejin.im/post/5b32044ef265da59654c3027))
 - ([消息队列大全](https://www.cnblogs.com/aspirant/category/1195858.html))
 - ([消息队列细节学习](https://blog.csdn.net/u013256816))
 - ([kafka数据一致性和zk的比较](https://www.cnblogs.com/aspirant/p/9179045.html))
