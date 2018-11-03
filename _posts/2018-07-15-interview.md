@@ -115,6 +115,7 @@ excerpt: interview
 - ([kafka数据一致性和zk的比较](https://www.cnblogs.com/aspirant/p/9179045.html))
 #### rabbitMQ基础
 - ([**rabbitMQ**](https://www.kancloud.cn/longxuan/rabbitmq-arron/117513))
+- ([知识点](https://blog.csdn.net/qq_30764991/article/details/80573352))
 
 ---
 ## 算法数据结构
