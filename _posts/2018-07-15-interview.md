@@ -161,7 +161,7 @@ excerpt: interview
 - ([**内存可见性**](https://javadoop.com/post/java-memory-model))
 - ([**java锁保证内存可见性**](http://ifeve.com/java%E9%94%81%E6%98%AF%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%81%E6%80%A7%E7%9A%84/))
 #### threadLocal是什么？底层如何实现？写一个例子
-- ([**threadLocal基本原理**](http://www.iteye.com/topic/103804))
+- ([**threadLocal基本原理**](https://juejin.im/post/5a0e985df265da430e4ebb92))
 #### volitile的工作原理
 - ([**volitile基本原理**](http://www.hollischuang.com/archives/2673))
 - ([**深入理解volatile**](http://www.hollischuang.com/archives/2648))
