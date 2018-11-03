@@ -2,7 +2,7 @@
 layout: post
 title:  "springcloud和dubbo"
 date:   2018-08-24 01:06:05
-categories: 技术
+categories: 知识点
 tags: 分布式
 excerpt: 分布式
 ---
