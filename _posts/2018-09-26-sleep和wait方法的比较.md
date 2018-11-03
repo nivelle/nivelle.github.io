@@ -2,7 +2,7 @@
 layout: post
 title:  "sleep和wait方法的比较"
 date:   2018-08-24 01:06:05
-categories: 技术
+categories: 知识点
 tags: 并发
 excerpt: 同步原理
 ---
