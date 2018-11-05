@@ -146,6 +146,7 @@ excerpt: interview
 - ([树结构](https://blog.csdn.net/DouBoomFly/article/details/70171410))
 - ([**二叉树**](https://blog.csdn.net/xiaoquantouer/article/details/65631708?utm_source=blogxgwz0))
 - ([**B树**](https://blog.csdn.net/guoziqing506/article/details/64122287?utm_source=blogxgwz8))
+- ([阻塞队列](https://javadoop.com/post/java-concurrent-queue))
 
 ---
 ## java基础相关
@@ -188,7 +189,6 @@ excerpt: interview
 - ([**Java 非阻塞 IO 和异步 IO**](https://javadoop.com/post/nio-and-aio))
 - ([tomcat中的应用](https://javadoop.com/post/tomcat-nio))
 #### 基于socket的网络编程
-
 - ([socket](https://blog.csdn.net/zhangchenghaopeng/article/details/50571079))
 ---
 ## jvm相关
