@@ -202,7 +202,7 @@ excerpt: interview
 - ([**什么时候会发生FullGC**](https://my.oschina.net/hosee/blog/674261))
 - ([**使用CMS垃圾收集器产生的问题和解决方案**](https://my.oschina.net/hosee/blog/674181))
 - ([**垃圾回收机制**](https://javadoop.com/post/jvm-memory-management))
-- ([**G1收集器**](https://javadoop.com/post/g1))
+- ([**G1收集器**](http://ifeve.com/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3g1%E5%9E%83%E5%9C%BE%E6%94%B6%E9%9B%86%E5%99%A8/))
 - ([经典回答](https://www.zhihu.com/question/53613423))
 #### 类加载机制？ 类加载器？分别加载哪些文件？手写一个
 - ([**加载器原理**](https://blog.csdn.net/justloveyou_/article/details/72217806))
