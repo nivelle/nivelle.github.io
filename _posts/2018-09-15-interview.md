@@ -153,8 +153,8 @@ excerpt: interview
 - ([**hashCode()和equals()**](https://www.cnblogs.com/skywang12345/p/3324958.html))
 #### 线程池用过么？都有哪些参数？ 底层如何实现？
 - ([多线程面试](https://www.cnblogs.com/aspirant/category/1017858.html))
+- ([juc总结](https://www.cnblogs.com/chenpi/p/5614290.html#_label3))
 - ([**任务的抽象**](https://blog.csdn.net/justloveyou_/article/details/79846241))
-- ([**线程池**](https://blog.csdn.net/fngy123/article/details/48738409))
 - ([AQS源码](https://javadoop.com/post/AbstractQueuedSynchronizer))
 - ([**线程池源码**](https://javadoop.com/post/java-thread-pool))
 #### synchized和lock什么区别？ 底层细节
@@ -190,10 +190,6 @@ excerpt: interview
 #### 基于socket的网络编程
 
 - ([socket](https://blog.csdn.net/zhangchenghaopeng/article/details/50571079))
-
-#### jui总结
-- ([juc总结](https://www.cnblogs.com/chenpi/p/5614290.html#_label3))
-
 ---
 ## jvm相关
 #### jvm内存模型？用过哪些垃圾回收器？说说
