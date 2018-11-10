@@ -69,5 +69,5 @@ icon: bookmark
 * [crossoverjie](https://crossoverjie.top)
 * [javadoop](https://javadoop.com/)
 * [风一样的码农](https://www.cnblogs.com/chenpi/)
-* [面试大全]（https://www.cnblogs.com/aspirant/）
-* [redis设计与实现作者]（http://blog.huangz.me/）
+* [面试大全](https://www.cnblogs.com/aspirant/)
+* [redis设计与实现作者](http://blog.huangz.me/)
