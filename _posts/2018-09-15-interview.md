@@ -228,6 +228,7 @@ excerpt: interview
 - ([**spring初始化bean控制**](https://zhuanlan.zhihu.com/p/30112785))
 - ([常见知识点](https://juejin.im/post/5b065000f265da0de45235e6))
 - ([常见知识点2](http://www.importnew.com/15851.html))
+- ([spring考点细节](https://blog.csdn.net/congcong68/article/category/2650725))
 #### springboot
 - ([**springboot原理**](https://blog.csdn.net/hengyunabc/article/details/50120001))
 - ([**springboot源码**](http://fangjian0423.github.io/categories/springboot/))
