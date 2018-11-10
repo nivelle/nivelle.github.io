@@ -233,6 +233,7 @@ excerpt: interview
 - ([spring的bean加载过程](https://blog.csdn.net/qq_18860653/article/details/53218117))
 - ([spring常见扩展点](https://leokongwq.github.io/2017/04/02/spring-expandPoint.html))
 - ([FactoryBean和beanFactory](https://juejin.im/entry/59e3662ef265da43283fe441))
+- ([dispatcher](http://jinnianshilongnian.iteye.com/blog/1602617))
 #### springboot
 - ([**springboot原理**](https://blog.csdn.net/hengyunabc/article/details/50120001))
 - ([**springboot源码**](http://fangjian0423.github.io/categories/springboot/))
