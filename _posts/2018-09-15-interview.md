@@ -49,7 +49,7 @@ excerpt: interview
 - ([**redis的特点和原理**](https://juejin.im/post/5ad6e4066fb9a028d82c4b66))
 - ([**redis和memcheched的比较**](https://www.imooc.com/article/23549))
 #### redis主要数据类型？分别那种场景下使用？
-- ([**redis实战**](http://nivelle.me/2019/09/29/redis%E5%AE%9E%E6%88%98/))
+- ([**redis实战**](http://nivelle.me/2018/09/29/redis%E5%AE%9E%E6%88%98/))
 #### redis的主从复制怎么实现的？redis集群模式是如何实现的？ redis的key是如何寻址的？
 - ([**redis主从复制**](https://my.oschina.net/zhaolin/blog/752520))
 - ([**redis集群和哨兵模式配置**](https://www.cnblogs.com/jaycekon/p/6237562.html))
