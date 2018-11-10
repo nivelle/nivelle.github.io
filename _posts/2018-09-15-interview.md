@@ -229,6 +229,7 @@ excerpt: interview
 - ([常见知识点](https://juejin.im/post/5b065000f265da0de45235e6))
 - ([常见知识点2](http://www.importnew.com/15851.html))
 - ([spring考点细节](https://blog.csdn.net/congcong68/article/category/2650725))
+- ([spring事务失效原因和解决办法](https://blog.csdn.net/dream_broken/article/details/72911148))
 #### springboot
 - ([**springboot原理**](https://blog.csdn.net/hengyunabc/article/details/50120001))
 - ([**springboot源码**](http://fangjian0423.github.io/categories/springboot/))
