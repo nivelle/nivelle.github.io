@@ -53,6 +53,7 @@ excerpt: interview
 #### redis的主从复制怎么实现的？redis集群模式是如何实现的？ redis的key是如何寻址的？
 - ([**redis主从复制**](https://my.oschina.net/zhaolin/blog/752520))
 - ([**redis集群和哨兵模式配置**](https://www.cnblogs.com/jaycekon/p/6237562.html))
+- ([集群原理]（http://shift-alt-ctrl.iteye.com/blog/2285470）)
 #### redis基本知识
 - ([**redis基本知识**](https://github.com/CyC2018/CS-Notes/blob/master/notes/Redis.md#%E5%8D%81%E4%B8%89%E6%95%B0%E6%8D%AE%E6%B7%98%E6%B1%B0%E7%AD%96%E7%95%A5))
 - ([**redis单线程**](https://mp.weixin.qq.com/s?__biz=MzUxNTU4NjAwMw==&mid=2247483725&idx=1&sn=e6c8a304d1618b63bf04a264ba604585&chksm=f9b523f1cec2aae7c771af0e157f819d88abdf8bdfa483838279b51fbb0f23ab2fdd32c5ae50&mpshare=1&scene=1&srcid=1009czaemdDdwr7Y04gSPbaj#rd))
