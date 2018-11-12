@@ -19,7 +19,6 @@ excerpt: interview
 - ([索引使用](https://juejin.im/post/5b14e0fd6fb9a01e8c5fc663))
 #### mysql 有哪些存储引擎？有什么区别？
 - ([**mysql索引类型比较**](https://www.cnblogs.com/changna1314/p/6878900.html)) 
-- ([mysql索引类型以及特点](https://my.oschina.net/junn/blog/183341))
 - ([**mysqlAUTO_INCREMENT**](https://blog.csdn.net/iamczb/article/details/43112689))
 - ([mysql优化原理](https://www.jianshu.com/p/d7665192aaaf))
 #### 设计高并发系统数据库层面应该怎么设计？ 数据库锁有哪些类型？如何实现
