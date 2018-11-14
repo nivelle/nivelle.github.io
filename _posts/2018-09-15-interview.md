@@ -23,7 +23,6 @@ excerpt: interview
 - ([**索引使用B+tree树的原因**](https://juejin.im/post/5b25bc1051882574b00fb7da))
 #### 设计高并发系统数据库层面应该怎么设计？ 数据库锁有哪些类型？如何实现
 - ([高并发系统设计-数据层](https://blog.csdn.net/chenpeng19910926/article/details/51789934))
-- ([数据库高并发方案](https://blog.csdn.net/wangkehuai/article/details/46727203))
 - ([**mysql高并发方案**](https://blog.csdn.net/kidoo1012/article/details/54691561))
 - ([架构设计 数据库方案](https://www.w3cschool.cn/architectroad/architectroad-arv823bf.html))
 
