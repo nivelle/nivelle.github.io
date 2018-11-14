@@ -274,10 +274,10 @@ excerpt: interview
 
 ## 系统设计
 
-- （[秒杀设计一](https://juejin.im/entry/59c34acef265da066d33456c)）
-- （[秒杀设计二](https://www.ibm.com/developerworks/cn/web/wa-design-small-and-good-kill-system/index.html)）
-- （[秒杀设计三](https://www.zhihu.com/question/54895548)）
-- （[秒杀设计四](https://www.infoq.cn/article/yhd-11-11-queuing-system-design)）
+- ([秒杀设计一](https://juejin.im/entry/59c34acef265da066d33456c))
+- ([秒杀设计二](https://www.ibm.com/developerworks/cn/web/wa-design-small-and-good-kill-system/index.html))
+- ([秒杀设计三](https://www.zhihu.com/question/54895548))
+
 
 ---
 
