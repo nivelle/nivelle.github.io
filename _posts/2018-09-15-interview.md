@@ -16,6 +16,7 @@ excerpt: interview
 #### 使用mysql索引都有哪些原则？索引有什么数据结构？ B+tree 和 B tree 什么区别
 - ([mysql索引实现](https://www.cnblogs.com/zlcxbb/p/5757245.html))
 - ([索引使用](https://juejin.im/post/5b14e0fd6fb9a01e8c5fc663))
+
 #### mysql 有哪些存储引擎？有什么区别？
 - ([**mysql索引类型比较**](https://www.cnblogs.com/changna1314/p/6878900.html)) 
 - ([**mysqlAUTO_INCREMENT**](https://blog.csdn.net/iamczb/article/details/43112689))
