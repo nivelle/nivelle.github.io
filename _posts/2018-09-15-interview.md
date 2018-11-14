@@ -27,6 +27,7 @@ excerpt: interview
 - ([数据库高并发方案](https://blog.csdn.net/wangkehuai/article/details/46727203))
 - ([**mysql高并发方案**](https://blog.csdn.net/kidoo1012/article/details/54691561))
 - ([架构设计 数据库方案](https://www.w3cschool.cn/architectroad/architectroad-arv823bf.html))
+- ([**数据库锁**](https://mp.weixin.qq.com/s/tmkRAmc1M_Y23ynduBeP3Q))
 #### 数据库事物有哪些？
 - ([**数据库事务基础**](http://nivelle.me/2017/06/05/%E4%BA%8B%E7%89%A9%E5%AD%A6%E4%B9%A0(%E4%B8%80)%E4%B9%8B%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/))
 - ([**数据库事务使用**](http://nivelle.me/2017/06/10/%E4%BA%8B%E5%8A%A1%E4%BD%BF%E7%94%A8/))
@@ -34,7 +35,7 @@ excerpt: interview
 #### 如何设计可以动态扩容的分库分表方案？ 以及底层原理？常见的分库分表中间件？优缺点？ 如何让未分库分表的数据动态切换到分库分表的系统上？分库分表解决主键问题?
 - ([**分库分表方案以及问题**](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650994413&idx=1&sn=24a01089ee47793b5d82381b04a34499&chksm=bdbf0ebe8ac887a8a75a0cd9226bb7e0427f1a77c43323d14dc6932c7dc77555531bce5dce0f&scene=0))
 - ([**分库分表具体方案**](https://mp.weixin.qq.com/s?__biz=MzUxNTU4NjAwMw==&mid=2247483669&idx=1&sn=b1e63b6734ba4b43095b9c70fa97276f&chksm=f9b523a9cec2aabf0a2acc632e1c1b0510c95a3afa21ed1c5a1d21f6378ccfbe6d48624cffa7&scene=21#wechat_redirect))
-- ([跨库分页](https://www.jianshu.com/p/198ee07ddd7c))
+- ([**跨库分页**](https://www.jianshu.com/p/198ee07ddd7c))
 - ([mysql实践](http://dataunion.org/14895.html))
 #### 分布式事物？如何实现？TCC？ 网络出现问题，如何容错？
 - ([**2pc和3pc**](https://www.jianshu.com/p/6fb2c5b1b664))
