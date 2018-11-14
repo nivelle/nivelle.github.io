@@ -14,7 +14,6 @@ excerpt: interview
 
 ### 数据库相关
 #### 使用mysql索引都有哪些原则？索引有什么数据结构？ B+tree 和 B tree 什么区别
-- ([**mysql索引章节**](http://nivelle.me/2017/05/04/索引/))
 - ([mysql索引实现](https://www.cnblogs.com/zlcxbb/p/5757245.html))
 - ([索引使用](https://juejin.im/post/5b14e0fd6fb9a01e8c5fc663))
 #### mysql 有哪些存储引擎？有什么区别？
@@ -43,8 +42,8 @@ excerpt: interview
 - ([TCC](https://juejin.im/post/5a74f3bc6fb9a0633f0df127))
 - ([**分布式事务实现**](https://blog.csdn.net/tzs_1041218129/article/details/80086991))
 #### 分布式寻址方式方式有哪些算法？ 一致性hash算法
-- （[**一致性hash算法**](http://www.zsythink.net/archives/1182)）
-- （[**递归算法**](https://blog.csdn.net/justloveyou_/article/details/71787149))
+- ([**一致性hash算法**](http://www.zsythink.net/archives/1182))
+- ([**递归算法**](https://blog.csdn.net/justloveyou_/article/details/71787149))
 
 ---
 ## 缓存相关
