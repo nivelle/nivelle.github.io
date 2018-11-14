@@ -31,7 +31,6 @@ excerpt: interview
 - ([**mysql日志类型**](https://www.cnblogs.com/wy123/p/8365234.html))
 #### 如何设计可以动态扩容的分库分表方案？ 以及底层原理？常见的分库分表中间件？优缺点？ 如何让未分库分表的数据动态切换到分库分表的系统上？分库分表解决主键问题?
 - ([**分库分表方案以及问题**](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650994413&idx=1&sn=24a01089ee47793b5d82381b04a34499&chksm=bdbf0ebe8ac887a8a75a0cd9226bb7e0427f1a77c43323d14dc6932c7dc77555531bce5dce0f&scene=0))
-- ([**分库分表具体方案**](https://mp.weixin.qq.com/s?__biz=MzUxNTU4NjAwMw==&mid=2247483669&idx=1&sn=b1e63b6734ba4b43095b9c70fa97276f&chksm=f9b523a9cec2aabf0a2acc632e1c1b0510c95a3afa21ed1c5a1d21f6378ccfbe6d48624cffa7&scene=21#wechat_redirect))
 - ([**跨库分页**](https://www.jianshu.com/p/198ee07ddd7c))
 - ([mysql实践](http://dataunion.org/14895.html))
 #### 分布式事物？如何实现？TCC？ 网络出现问题，如何容错？
