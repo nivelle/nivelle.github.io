@@ -20,7 +20,7 @@ excerpt: interview
 - ([**mysql索引类型比较**](https://www.cnblogs.com/changna1314/p/6878900.html)) 
 - ([**mysqlAUTO_INCREMENT**](https://blog.csdn.net/iamczb/article/details/43112689))
 - ([mysql优化原理](https://www.jianshu.com/p/d7665192aaaf))
-- ([索引使用B+tree树的原因](https://juejin.im/post/5b25bc1051882574b00fb7da))
+- ([**索引使用B+tree树的原因**](https://juejin.im/post/5b25bc1051882574b00fb7da))
 #### 设计高并发系统数据库层面应该怎么设计？ 数据库锁有哪些类型？如何实现
 - ([高并发系统设计-数据层](https://blog.csdn.net/chenpeng19910926/article/details/51789934))
 - ([数据库高并发方案](https://blog.csdn.net/wangkehuai/article/details/46727203))
