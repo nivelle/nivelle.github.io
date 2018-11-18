@@ -158,7 +158,7 @@ excerpt: interview
 - ([多线程面试](https://www.cnblogs.com/aspirant/category/1017858.html))
 - ([juc总结](https://www.cnblogs.com/chenpi/p/5614290.html#_label3))
 - ([**任务的抽象**](https://blog.csdn.net/justloveyou_/article/details/79846241))
-- ([AQS源码](https://javadoop.com/post/AbstractQueuedSynchronizer))
+- ([AQS源码](https://mp.weixin.qq.com/s/LYm1AkS74fDWeUqhfCGaKQ))
 - ([**线程池源码**](https://javadoop.com/post/java-thread-pool))
 #### synchized和lock什么区别？ 底层细节
 - ([**Synchronized**](https://juejin.im/post/5b4eec7df265da0fa00a118f))
