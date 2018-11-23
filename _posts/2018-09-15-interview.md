@@ -116,6 +116,7 @@ excerpt: interview
 - ([消息队列大全](https://www.cnblogs.com/aspirant/category/1195858.html))
 - ([消息队列细节学习](https://blog.csdn.net/u013256816))
 - ([kafka数据一致性和zk的比较](https://www.cnblogs.com/aspirant/p/9179045.html))
+- ([kafka原理学习](https://mp.weixin.qq.com/s/NZpWoDZ92wCHLaOrTPLb8w))
 #### rabbitMQ基础
 - ([**rabbitMQ**](https://www.kancloud.cn/longxuan/rabbitmq-arron/117513))
 - ([知识点](https://blog.csdn.net/qq_30764991/article/details/80573352))
