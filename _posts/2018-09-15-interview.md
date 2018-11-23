@@ -193,6 +193,8 @@ excerpt: interview
 - ([tomcat中的应用](https://javadoop.com/post/tomcat-nio))
 #### 基于socket的网络编程
 - ([socket](https://blog.csdn.net/zhangchenghaopeng/article/details/50571079))
+#### jMM
+- ([jmm](https://www.cnblogs.com/jiangds/p/6510583.html?from=groupmessage&isappinstalled=0))
 
 ---
 ## jvm相关
