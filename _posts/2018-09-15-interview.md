@@ -133,8 +133,7 @@ excerpt: interview
 - ([**快速排序**](https://blog.csdn.net/IT_ZJYANG/article/details/53406764))
 - （[排序算法](https://juejin.im/post/5a96d6b15188255efc5f8bbd#heading-22)）
 #### 常见数据结构
-- ([常见数据结构](https://blog.csdn.net/fighterandknight/article/category/6193841))
-- ([常见数据结构2](https://blog.csdn.net/zxt0601/article/category/6697194))
+- ([常见数据结构](https://blog.csdn.net/zxt0601/article/category/6697194))
 - ([**arrayList线程不安全分析**](https://www.jianshu.com/p/41be1efe5d65))
 - ([**moudCount的作用**](https://blog.csdn.net/qq_24235325/article/details/52450331))
 - ([**CopyOnWriteArrayList**](https://blog.csdn.net/linsongbin1/article/details/54581787))
