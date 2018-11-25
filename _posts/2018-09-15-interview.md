@@ -89,6 +89,8 @@ excerpt: interview
 - ([socket](https://blog.csdn.net/zhangchenghaopeng/article/details/50571079))
 #### jMM
 - ([jmm](https://www.cnblogs.com/jiangds/p/6510583.html?from=groupmessage&isappinstalled=0))
+#### 注解原理
+- ([**注解原理**](https://blog.csdn.net/zhang0558/article/details/52643016))
 
 ### 数据库相关
 #### 使用mysql索引都有哪些原则？索引有什么数据结构？ B+tree 和 B tree 什么区别
@@ -246,8 +248,6 @@ excerpt: interview
 #### springboot
 - ([**springboot原理**](https://blog.csdn.net/hengyunabc/article/details/50120001))
 - ([**springboot源码**](http://fangjian0423.github.io/categories/springboot/))
-#### 设计模式
-- （[设计模式](https://javadoop.com/post/design-pattern#%E8%A3%85%E9%A5%B0%E6%A8%A1%E5%BC%8F)）
 
 
 ---
@@ -275,9 +275,7 @@ excerpt: interview
 - ([git原理](https://juejin.im/post/5a65ac67f265da3e330473f7))
 #### 常见加解密算法
 - ([**加解密**](https://blog.csdn.net/u013565368/article/details/53081195))
-#### 注解原理
 
-- ([**注解原理**](https://blog.csdn.net/zhang0558/article/details/52643016))
 
 ## 系统设计
 
