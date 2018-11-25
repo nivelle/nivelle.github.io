@@ -244,6 +244,8 @@ excerpt: interview
 #### springboot
 - ([**springboot原理**](https://blog.csdn.net/hengyunabc/article/details/50120001))
 - ([**springboot源码**](http://fangjian0423.github.io/categories/springboot/))
+#### 设计模式
+- （[设计模式](https://javadoop.com/post/design-pattern#%E8%A3%85%E9%A5%B0%E6%A8%A1%E5%BC%8F)）
 
 
 ---
