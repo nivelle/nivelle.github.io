@@ -12,6 +12,84 @@ excerpt: interview
 
 ## java interview
 
+---
+## 算法数据结构
+#### 海量数据如何去重？
+- ([海量数据去重](https://blog.csdn.net/paul_wei2008/article/details/21170999))
+- ([大数据排序](https://blog.csdn.net/michellechouu/article/details/27230451))
+- ([海量数据找topK](https://www.cnblogs.com/DarrenChan/p/8796749.html))
+#### 排序算法
+- ([堆排序](https://blog.csdn.net/Sun_Ru/article/details/52004044))
+- ([**冒泡排序**](https://blog.csdn.net/IT_ZJYANG/article/details/51010651))
+- ([**快速排序**](https://blog.csdn.net/IT_ZJYANG/article/details/53406764))
+- （[排序算法](https://juejin.im/post/5a96d6b15188255efc5f8bbd#heading-22)）
+#### 常见数据结构
+- ([常见数据结构](https://blog.csdn.net/zxt0601/article/category/6697194))
+- （[hashMap比较](https://juejin.im/post/5aa5d8d26fb9a028d2079264))
+- ([**arrayList线程不安全分析**](https://www.jianshu.com/p/41be1efe5d65))
+- ([**moudCount的作用**](https://blog.csdn.net/qq_24235325/article/details/52450331))
+- ([**CopyOnWriteArrayList**](https://blog.csdn.net/linsongbin1/article/details/54581787))
+- ([**hashtable和hashMap**](https://blog.csdn.net/tgxblue/article/details/8479147))
+- ([**hashMap非线程安全分析**](http://www.importnew.com/22011.html))
+- ([**hashMap key==null 分析**](https://blog.csdn.net/glory1234work2115/article/details/50825503))
+- ([**String**](https://blog.csdn.net/justloveyou_/article/details/52556427))
+- ([**hashMap分析**](http://note.youdao.com/noteshare?id=e5a60b1100b28bb62c7b9a101efe477c))
+- ([**hashMap分析2**](https://blog.csdn.net/tuke_tuke/article/details/51588156))
+- ([**ConcurrentHashMap分析**](http://www.importnew.com/28263.html))
+- ([stack实现](https://blog.csdn.net/javazejian/article/details/53362993))
+- ([树结构](https://blog.csdn.net/DouBoomFly/article/details/70171410))
+- ([**二叉树**](https://blog.csdn.net/xiaoquantouer/article/details/65631708?utm_source=blogxgwz0))
+- ([**B树**](https://blog.csdn.net/guoziqing506/article/details/64122287?utm_source=blogxgwz8))
+- ([阻塞队列](https://javadoop.com/post/java-concurrent-queue))
+- （[红黑树]（http://daoluan.net/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%AE%97%E6%B3%95/2013/09/25/rbtree-is-not-difficult.html）
+
+
+---
+## java基础相关
+#### hashcode相等两个类一定相等吗？ equals 呢 相反呢？
+- ([**hashCode()和equals()**](https://www.cnblogs.com/skywang12345/p/3324958.html))
+#### 线程池用过么？都有哪些参数？ 底层如何实现？
+- ([多线程面试](https://www.cnblogs.com/aspirant/category/1017858.html))
+- ([juc总结](https://www.cnblogs.com/chenpi/p/5614290.html#_label3))
+- ([AQC](https://juejin.im/entry/5ae02a7c6fb9a07ac76e7b70))
+- ([**任务的抽象**](https://blog.csdn.net/justloveyou_/article/details/79846241))
+- ([AQS源码](https://mp.weixin.qq.com/s/LYm1AkS74fDWeUqhfCGaKQ))
+- ([**线程池源码**](https://javadoop.com/post/java-thread-pool))
+#### synchized和lock什么区别？ 底层细节
+- ([**Synchronized**](https://juejin.im/post/5b4eec7df265da0fa00a118f))
+- ([**内存可见性**](https://javadoop.com/post/java-memory-model))
+- ([**java锁保证内存可见性**](http://ifeve.com/java%E9%94%81%E6%98%AF%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%81%E6%80%A7%E7%9A%84/))
+#### threadLocal是什么？底层如何实现？写一个例子
+- ([**threadLocal基本原理**](https://juejin.im/post/5a0e985df265da430e4ebb92))
+#### volitile的工作原理
+- ([**volitile基本原理**](http://www.hollischuang.com/archives/2673))
+- ([**深入理解volatile**](http://www.hollischuang.com/archives/2648))
+#### Thread and lock
+- ([**thread and lock**](https://javadoop.com/post/Threads-And-Locks-md#17.5.%20final%20属性的语义（final%20Field%20Semantics）))
+#### cas知道吗？如何实现？
+- ([**cas**](http://zl198751.iteye.com/blog/1848575))
+#### 四种写法，写一个单例模式
+- ([**彻底理解单例模式**](https://blog.csdn.net/justloveyou_/article/details/64127789))
+- ([设计模式](https://www.cnblogs.com/aspirant/category/1024672.html))
+#### Integer x= 5, int y=5 比较x==y有哪些步骤
+- ([**原生类型和包装器类型**](https://juejin.im/post/5ad158d2f265da2381560d83))
+#### javaCore
+- ([**序列化**](https://juejin.im/post/5b4c69dcf265da0fa959aa06))
+- ([位运算](https://blog.csdn.net/xiaopihaierletian/article/details/78162863))
+#### 动态代理
+- ([**基于CGLIB**](https://juejin.im/post/5b3e05caf265da0f652364ce))
+- ([**基于JDK**](https://juejin.im/post/5b39dee0e51d4558cc35e3a5))
+- ([**代码实现**](https://my.oschina.net/hosee/blog/656945))
+#### NIO
+- ([javaNIO](https://juejin.im/post/5b21d775e51d4506b53ec412))
+- ([NIO细节](https://javadoop.com/post/java-nio))
+- ([**Java 非阻塞 IO 和异步 IO**](https://javadoop.com/post/nio-and-aio))
+- ([tomcat中的应用](https://javadoop.com/post/tomcat-nio))
+#### 基于socket的网络编程
+- ([socket](https://blog.csdn.net/zhangchenghaopeng/article/details/50571079))
+#### jMM
+- ([jmm](https://www.cnblogs.com/jiangds/p/6510583.html?from=groupmessage&isappinstalled=0))
+
 ### 数据库相关
 #### 使用mysql索引都有哪些原则？索引有什么数据结构？ B+tree 和 B tree 什么区别
 - ([mysql索引实现](https://www.cnblogs.com/zlcxbb/p/5757245.html))
@@ -122,84 +200,6 @@ excerpt: interview
 - ([知识点](https://blog.csdn.net/qq_30764991/article/details/80573352))
 
 ---
-## 算法数据结构
-#### 海量数据如何去重？
-- ([海量数据去重](https://blog.csdn.net/paul_wei2008/article/details/21170999))
-- ([大数据排序](https://blog.csdn.net/michellechouu/article/details/27230451))
-- ([海量数据找topK](https://www.cnblogs.com/DarrenChan/p/8796749.html))
-#### 排序算法
-- ([堆排序](https://blog.csdn.net/Sun_Ru/article/details/52004044))
-- ([**冒泡排序**](https://blog.csdn.net/IT_ZJYANG/article/details/51010651))
-- ([**快速排序**](https://blog.csdn.net/IT_ZJYANG/article/details/53406764))
-- （[排序算法](https://juejin.im/post/5a96d6b15188255efc5f8bbd#heading-22)）
-#### 常见数据结构
-- ([常见数据结构](https://blog.csdn.net/zxt0601/article/category/6697194))
-- （[hashMap比较](https://juejin.im/post/5aa5d8d26fb9a028d2079264))
-- ([**arrayList线程不安全分析**](https://www.jianshu.com/p/41be1efe5d65))
-- ([**moudCount的作用**](https://blog.csdn.net/qq_24235325/article/details/52450331))
-- ([**CopyOnWriteArrayList**](https://blog.csdn.net/linsongbin1/article/details/54581787))
-- ([**hashtable和hashMap**](https://blog.csdn.net/tgxblue/article/details/8479147))
-- ([**hashMap非线程安全分析**](http://www.importnew.com/22011.html))
-- ([**hashMap key==null 分析**](https://blog.csdn.net/glory1234work2115/article/details/50825503))
-- ([**String**](https://blog.csdn.net/justloveyou_/article/details/52556427))
-- ([**hashMap分析**](http://note.youdao.com/noteshare?id=e5a60b1100b28bb62c7b9a101efe477c))
-- ([**hashMap分析2**](https://blog.csdn.net/tuke_tuke/article/details/51588156))
-- ([**ConcurrentHashMap分析**](http://www.importnew.com/28263.html))
-- ([stack实现](https://blog.csdn.net/javazejian/article/details/53362993))
-- ([树结构](https://blog.csdn.net/DouBoomFly/article/details/70171410))
-- ([**二叉树**](https://blog.csdn.net/xiaoquantouer/article/details/65631708?utm_source=blogxgwz0))
-- ([**B树**](https://blog.csdn.net/guoziqing506/article/details/64122287?utm_source=blogxgwz8))
-- ([阻塞队列](https://javadoop.com/post/java-concurrent-queue))
-- （[红黑树]（http://daoluan.net/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%AE%97%E6%B3%95/2013/09/25/rbtree-is-not-difficult.html）
-
-
----
-## java基础相关
-#### hashcode相等两个类一定相等吗？ equals 呢 相反呢？
-- ([**hashCode()和equals()**](https://www.cnblogs.com/skywang12345/p/3324958.html))
-#### 线程池用过么？都有哪些参数？ 底层如何实现？
-- ([多线程面试](https://www.cnblogs.com/aspirant/category/1017858.html))
-- ([juc总结](https://www.cnblogs.com/chenpi/p/5614290.html#_label3))
-- ([AQC](https://juejin.im/entry/5ae02a7c6fb9a07ac76e7b70))
-- ([**任务的抽象**](https://blog.csdn.net/justloveyou_/article/details/79846241))
-- ([AQS源码](https://mp.weixin.qq.com/s/LYm1AkS74fDWeUqhfCGaKQ))
-- ([**线程池源码**](https://javadoop.com/post/java-thread-pool))
-#### synchized和lock什么区别？ 底层细节
-- ([**Synchronized**](https://juejin.im/post/5b4eec7df265da0fa00a118f))
-- ([**内存可见性**](https://javadoop.com/post/java-memory-model))
-- ([**java锁保证内存可见性**](http://ifeve.com/java%E9%94%81%E6%98%AF%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%81%E6%80%A7%E7%9A%84/))
-#### threadLocal是什么？底层如何实现？写一个例子
-- ([**threadLocal基本原理**](https://juejin.im/post/5a0e985df265da430e4ebb92))
-#### volitile的工作原理
-- ([**volitile基本原理**](http://www.hollischuang.com/archives/2673))
-- ([**深入理解volatile**](http://www.hollischuang.com/archives/2648))
-#### Thread and lock
-- ([**thread and lock**](https://javadoop.com/post/Threads-And-Locks-md#17.5.%20final%20属性的语义（final%20Field%20Semantics）))
-#### cas知道吗？如何实现？
-- ([**cas**](http://zl198751.iteye.com/blog/1848575))
-#### 四种写法，写一个单例模式
-- ([**彻底理解单例模式**](https://blog.csdn.net/justloveyou_/article/details/64127789))
-- ([设计模式](https://www.cnblogs.com/aspirant/category/1024672.html))
-#### Integer x= 5, int y=5 比较x==y有哪些步骤
-- ([**原生类型和包装器类型**](https://juejin.im/post/5ad158d2f265da2381560d83))
-#### javaCore
-- ([**序列化**](https://juejin.im/post/5b4c69dcf265da0fa959aa06))
-- ([位运算](https://blog.csdn.net/xiaopihaierletian/article/details/78162863))
-#### 动态代理
-- ([**基于CGLIB**](https://juejin.im/post/5b3e05caf265da0f652364ce))
-- ([**基于JDK**](https://juejin.im/post/5b39dee0e51d4558cc35e3a5))
-- ([**代码实现**](https://my.oschina.net/hosee/blog/656945))
-#### NIO
-- ([javaNIO](https://juejin.im/post/5b21d775e51d4506b53ec412))
-- ([NIO细节](https://javadoop.com/post/java-nio))
-- ([**Java 非阻塞 IO 和异步 IO**](https://javadoop.com/post/nio-and-aio))
-- ([tomcat中的应用](https://javadoop.com/post/tomcat-nio))
-#### 基于socket的网络编程
-- ([socket](https://blog.csdn.net/zhangchenghaopeng/article/details/50571079))
-#### jMM
-- ([jmm](https://www.cnblogs.com/jiangds/p/6510583.html?from=groupmessage&isappinstalled=0))
-
----
 ## jvm相关
 #### jvm内存模型？用过哪些垃圾回收器？说说
 - ([**java内存模型**](https://juejin.im/post/5b7d69e4e51d4538ca5730cb))
@@ -294,4 +294,4 @@ excerpt: interview
 - ([java core](https://www.cnblogs.com/skywang12345/archive/2013/06/14/index.html))
 - ([经典面试](https://juejin.im/entry/58f2e3bf0ce463006baf31a1)）
 - ([面试大纲](https://www.jianshu.com/p/a07d1d4004b0))
-- （[面试大纲答案]（https://www.cnblogs.com/xyang/tag/%E9%9D%A2%E8%AF%95/））
+-（[面试大纲答案]（https://www.cnblogs.com/xyang/tag/%E9%9D%A2%E8%AF%95/））
