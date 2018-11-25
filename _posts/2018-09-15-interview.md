@@ -288,3 +288,4 @@ excerpt: interview
 - ([大厂面试集锦](https://www.cnblogs.com/aspirant/p/8575628.html))
 - ([备战阿里](http://www.cnblogs.com/zhengbin/category/787240.html))
 - ([java core](https://www.cnblogs.com/skywang12345/archive/2013/06/14/index.html))
+- （[经典面试](https://juejin.im/entry/58f2e3bf0ce463006baf31a1)）
