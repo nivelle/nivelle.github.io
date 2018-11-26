@@ -51,7 +51,6 @@ excerpt: interview
 #### 线程池用过么？都有哪些参数？ 底层如何实现？
 - ([多线程面试](https://www.cnblogs.com/aspirant/category/1017858.html))
 - ([juc总结](https://www.cnblogs.com/chenpi/p/5614290.html#_label3))
-- ([AQC](https://juejin.im/entry/5ae02a7c6fb9a07ac76e7b70))
 - ([**任务的抽象**](https://blog.csdn.net/justloveyou_/article/details/79846241))
 - ([AQS源码](https://mp.weixin.qq.com/s/LYm1AkS74fDWeUqhfCGaKQ))
 - ([**线程池源码**](https://javadoop.com/post/java-thread-pool))
