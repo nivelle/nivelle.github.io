@@ -140,8 +140,9 @@ excerpt: interview
 - ([**缓存概念**](https://blog.csdn.net/xlgen157387/article/details/79530877))
 #### 缓存如何使用？缓存使用不当带来什么问题
 - ([**缓存界的三大问题**](https://juejin.im/post/5aa8d3d9f265da2392360a37))
+
 #### 热点数据处理
--（[热点数据处理](https://mp.weixin.qq.com/s/1KJasUM5UcJ_WL_LzLtfrw))
+- ([**热点数据处理**](https://mp.weixin.qq.com/s/1KJasUM5UcJ_WL_LzLtfrw))
 
 ---
 ## 分布式架构相关
