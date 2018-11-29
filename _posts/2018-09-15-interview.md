@@ -70,6 +70,7 @@ excerpt: interview
 #### 四种写法，写一个单例模式
 - ([**彻底理解单例模式**](https://blog.csdn.net/justloveyou_/article/details/64127789))
 - ([设计模式](https://www.cnblogs.com/aspirant/category/1024672.html))
+- ([适配器装饰器模式](https://blog.csdn.net/uniquewonderq/article/details/79873251))
 #### Integer x= 5, int y=5 比较x==y有哪些步骤
 - ([**原生类型和包装器类型**](https://juejin.im/post/5ad158d2f265da2381560d83))
 #### javaCore
@@ -148,7 +149,6 @@ excerpt: interview
 ## 分布式架构相关
 #### zk原理? zk的应用？ paxos算法？
 - ([**zk原理**](http://nivelle.me/2016/04/12/Zookeeper%E5%AD%A6%E4%B9%A0-%E4%BA%8C-%E4%B9%8Bzk%E5%9F%BA%E7%A1%80/))
-- ([**zk应用**](http://nivelle.me/2017/04/12/Zookeeper%E5%AD%A6%E4%B9%A0-%E4%B8%89-%E4%B9%8Bzk%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF/))
 - ([**paxos算法**](https://www.cnblogs.com/linbingdong/p/6253479.html))
 - ([zk概述](https://www.cnblogs.com/felixzh/p/5869212.html))
 - ([**zk启动过程分析**](http://shift-alt-ctrl.iteye.com/blog/1846507))
