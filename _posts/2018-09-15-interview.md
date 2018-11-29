@@ -22,10 +22,10 @@ excerpt: interview
 - ([堆排序](https://blog.csdn.net/Sun_Ru/article/details/52004044))
 - ([**冒泡排序**](https://blog.csdn.net/IT_ZJYANG/article/details/51010651))
 - ([**快速排序**](https://blog.csdn.net/IT_ZJYANG/article/details/53406764))
-- （[排序算法](https://juejin.im/post/5a96d6b15188255efc5f8bbd#heading-22)）
+-（[排序算法](https://juejin.im/post/5a96d6b15188255efc5f8bbd#heading-22)）
 #### 常见数据结构
 - ([常见数据结构](https://blog.csdn.net/zxt0601/article/category/6697194))
-- （[hashMap比较](https://juejin.im/post/5aa5d8d26fb9a028d2079264))
+-（[hashMap比较](https://juejin.im/post/5aa5d8d26fb9a028d2079264))
 - ([**arrayList线程不安全分析**](https://www.jianshu.com/p/41be1efe5d65))
 - ([**moudCount的作用**](https://blog.csdn.net/qq_24235325/article/details/52450331))
 - ([**CopyOnWriteArrayList**](https://blog.csdn.net/linsongbin1/article/details/54581787))
@@ -154,6 +154,7 @@ excerpt: interview
 - ([**zk启动过程分析**](http://shift-alt-ctrl.iteye.com/blog/1846507))
 - ([zk选举过程分析](http://shift-alt-ctrl.iteye.com/blog/1846562))
 - ([zkWatcher机制分析](http://shift-alt-ctrl.iteye.com/blog/1847320))
+- （[集群节点个数](https://blog.csdn.net/u010476994/article/details/79806041)）
 #### dubbo的实现过程？注册中心挂了可以继续通信么？dubbo常见配置有哪些
 - ([**dubbo常见配置**](http://www.cnblogs.com/yxh1008/p/9251693.html))
 #### dubbo支持哪些序列化协议？hession?hession数据结构？ pb知道么？为啥PB的效率是最高的？
