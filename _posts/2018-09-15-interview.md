@@ -165,6 +165,7 @@ excerpt: interview
 - ([**dubbo的负载均衡**](https://www.cnblogs.com/aspirant/p/8994227.html))
 - ([**dubbo知识点**](https://mp.weixin.qq.com/s/PdWRHgm83XwPYP08KnkIsw))
 - ([**dubbo实现**](https://blog.csdn.net/Revivedsun/article/details/74514078)）
+- ([dubbo服务注册和发现](https://my.oschina.net/u/661116/blog/704985))
 #### 不用应用环境下的会话保持
 - ([会话保持](http://blog.51cto.com/virtualadc/592454))
 #### 自己实现RPC
