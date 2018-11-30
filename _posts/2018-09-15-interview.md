@@ -248,7 +248,8 @@ excerpt: interview
 - ([spring常见扩展点](https://leokongwq.github.io/2017/04/02/spring-expandPoint.html))
 - ([FactoryBean和beanFactory](https://juejin.im/entry/59e3662ef265da43283fe441))
 - ([dispatcher](http://jinnianshilongnian.iteye.com/blog/1602617))
-- ([sipring面试关注点](http://www.spring4all.com/article/951))
+- ([sipring面试关注点](https://github.com/Homiss/Java-interview-questions/blob/master/%E6%A1%86%E6%9E%B6/Spring%20%E9%9D%A2%E8%AF%95%E9%A2%98.md))
+
 #### springboot
 - ([**springboot原理**](https://blog.csdn.net/hengyunabc/article/details/50120001))
 - ([**springboot源码**](http://fangjian0423.github.io/categories/springboot/))
