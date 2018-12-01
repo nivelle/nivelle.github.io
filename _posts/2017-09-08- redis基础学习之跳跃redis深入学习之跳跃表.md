@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "redis基础学习之跳跃表"
+title:  "redis深入学习之跳跃表"
 date:   2017-09-07 01:06:05
 categories: noSQL
 tags: redis
