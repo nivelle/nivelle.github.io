@@ -2,9 +2,9 @@
 layout: post
 title:  "threadLocal详解"
 date:   2018-08-24 01:06:05
-categories: 知识点
-tags: threadLocal
-excerpt: threadLocal
+categories: 技术
+tags: 知识点
+excerpt: 知识点
 ---
 
 
@@ -16,7 +16,7 @@ excerpt: threadLocal
 用来提供线程内部的局部变量。这种变量在多线程环境下访问（通过get 和 set 方法访问）时能保证各个线程的变量相对独立于其他线程内的变量。ThreadLocal实例通常来说都是private static 类型的，用于关联线程和线程上下文。
 
 
-实现：ThreadLocal的实现是这样的：每个Thread维护一个ThreadLocalMap映射表，这个表的key是ThreadLocal实例本身，value是真正需要存储的Object,ThreadLocal本身并不存储值，它只是作为一个key来让线程从ThreadLocalMap获取value. ThreadLocalMap是使用ThreadLocal的弱引用作为key的，弱引用的对象在GC时会被回收。
+实现：ThreadLocal的实现是这样的：每个Thread维护一个ThreadLocalMap映射表，这个表的key是ThreadLocal实例本身，value是真正需要存储的Object,ThreadLocal本身并不存储值，它只是作为一个key来让线程从ThreadLocalMap获取value. ThreadLocalMap是使用ThreadLocal的弱引用作为key的，弱引用的对象在GC时会被回收。当垃圾收集器工作时，无论当前内存是否足够，都会回收掉只被弱引用关联的对象
 
 **四种类型的引用**：
 
@@ -44,6 +44,7 @@ excerpt: threadLocal
 - 判断当前的ThreadLocalMap是否存在：
 
 1.   如果存在，则调用map.set设置此实体entry
+
 2.   如果不存在，则调用createMap进行ThreadLocalMap对象的初始化，并将此实体entry作为第一个值存放至ThreadLocalMap中。
 
 - set()
