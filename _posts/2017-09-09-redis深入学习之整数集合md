@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "redis深入学习之整数集合"
-date:   2017-09-09 01:06:05
+date:   2017-09-07 01:06:05
 categories: noSQL
 tags: redis
 excerpt: redis
@@ -10,6 +10,7 @@ excerpt: redis
 
 * content
 {:toc}
+
 
 ### 整数集合
 
