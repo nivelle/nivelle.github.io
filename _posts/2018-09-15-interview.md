@@ -12,7 +12,7 @@ excerpt: interview
 
 ## java interview
 
----
+
 ## 算法数据结构
 #### 海量数据如何去重？
 - ([海量数据去重](https://blog.csdn.net/paul_wei2008/article/details/21170999))
@@ -20,7 +20,7 @@ excerpt: interview
 - ([海量数据找topK](https://www.cnblogs.com/DarrenChan/p/8796749.html))
 #### 排序算法
 - ([堆排序](https://blog.csdn.net/Sun_Ru/article/details/52004044))
-- ([**冒泡排序**](https://blog.csdn.net/IT_ZJYANG/article/details/51010651))
+- ([**冒泡排序**](https://blog.csdn.net/IT_ZJYANG/article/details/51010651)
 - ([**快速排序**](https://blog.csdn.net/IT_ZJYANG/article/details/53406764))
 -（[排序算法](https://juejin.im/post/5a96d6b15188255efc5f8bbd#heading-22)）
 
