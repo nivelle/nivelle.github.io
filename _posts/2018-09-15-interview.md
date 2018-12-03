@@ -22,11 +22,14 @@ excerpt: interview
 - ([堆排序](https://blog.csdn.net/Sun_Ru/article/details/52004044))
 - ([**冒泡排序**](https://blog.csdn.net/IT_ZJYANG/article/details/51010651)
 - ([**快速排序**](https://blog.csdn.net/IT_ZJYANG/article/details/53406764))
+
 -（[排序算法](https://juejin.im/post/5a96d6b15188255efc5f8bbd#heading-22)）
 
 #### 常见数据结构
 - ([常见数据结构](https://blog.csdn.net/zxt0601/article/category/6697194))
+
 -（[hashMap比较](https://juejin.im/post/5aa5d8d26fb9a028d2079264))
+
 - ([**arrayList线程不安全分析**](https://www.jianshu.com/p/41be1efe5d65))
 - ([**moudCount的作用**](https://blog.csdn.net/qq_24235325/article/details/52450331))
 - ([**CopyOnWriteArrayList**](https://blog.csdn.net/linsongbin1/article/details/54581787))
@@ -176,6 +179,7 @@ excerpt: interview
 - ([**轻量级分布式 RPC 框架**](https://my.oschina.net/huangyong/blog/361751))
 - ([**简单rpc**](http://www.cnblogs.com/codingexperience/p/5930752.html))
 - ([dubbo源码](https://my.oschina.net/ywbrj042?tab=popular))
+- （[dubbo调用链](https://blog.csdn.net/icool_ali/article/details/80985130)）
 #### 如何设计一个高并发高可用系统？
 - ([**高并发**](https://www.w3cschool.cn/architectroad/architectroad-high-concurrent.html))
 - ([**高可用**](https://www.w3cschool.cn/architectroad/architectroad-high-availability.html))
@@ -252,10 +256,12 @@ excerpt: interview
 - ([FactoryBean和beanFactory](https://juejin.im/entry/59e3662ef265da43283fe441))
 - ([dispatcher](http://jinnianshilongnian.iteye.com/blog/1602617))
 - ([sipring面试关注点](https://github.com/Homiss/Java-interview-questions/blob/master/%E6%A1%86%E6%9E%B6/Spring%20%E9%9D%A2%E8%AF%95%E9%A2%98.md))
+- ([初始化和生命周期](https://www.cnblogs.com/zhanglei93/p/6231882.html))
 
 #### springboot
 - ([**springboot原理**](https://blog.csdn.net/hengyunabc/article/details/50120001))
 - ([**springboot源码**](http://fangjian0423.github.io/categories/springboot/))
+- ([starter编写]（https://www.cnblogs.com/yuansc/p/9088212.html）)
 
 
 ---
