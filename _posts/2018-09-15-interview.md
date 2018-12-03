@@ -243,7 +243,7 @@ excerpt: interview
 - ([**IOC源码分析**](https://javadoop.com/post/spring-ioc))
 - ([AOP源码分析](https://javadoop.com/post/spring-aop-source))
 - ([**spring头文件原理**](https://www.cnblogs.com/mesopotamia/p/4948861.html))
-- ([**spring初始化bean控制**](https://zhuanlan.zhihu.com/p/30112785))
+- ([**spring初始化bean作用域和生命周期**](https://blog.csdn.net/fuzhongmin05/article/details/73389779))
 - ([面试top](http://www.importnew.com/15851.html))
 - ([spring考点细节](https://blog.csdn.net/congcong68/article/category/2650725))
 - ([spring事务失效原因和解决办法](https://blog.csdn.net/dream_broken/article/details/72911148))
