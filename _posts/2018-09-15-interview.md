@@ -69,6 +69,7 @@ excerpt: interview
 #### cas知道吗？如何实现？
 - ([**cas**](http://zl198751.iteye.com/blog/1848575))
 -（[notify丢失虚假唤醒](http://www.cnblogs.com/lnlvinso/p/4753554.html))
+
 #### 四种写法，写一个单例模式
 - ([**彻底理解单例模式**](https://blog.csdn.net/justloveyou_/article/details/64127789))
 - ([设计模式](https://www.cnblogs.com/aspirant/category/1024672.html))
