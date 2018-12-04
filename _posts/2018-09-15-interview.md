@@ -22,13 +22,11 @@ excerpt: interview
 - ([堆排序](https://blog.csdn.net/Sun_Ru/article/details/52004044))
 - ([**冒泡排序**](https://blog.csdn.net/IT_ZJYANG/article/details/51010651)
 - ([**快速排序**](https://blog.csdn.net/IT_ZJYANG/article/details/53406764))
-
--（[排序算法](https://juejin.im/post/5a96d6b15188255efc5f8bbd#heading-22)）
+- ([排序算法](https://juejin.im/post/5a96d6b15188255efc5f8bbd#heading-22)）
 
 #### 常见数据结构
 - ([常见数据结构](https://blog.csdn.net/zxt0601/article/category/6697194))
-
--（[hashMap比较](https://juejin.im/post/5aa5d8d26fb9a028d2079264))
+- ([hashMap比较](https://juejin.im/post/5aa5d8d26fb9a028d2079264))
 
 - ([**arrayList线程不安全分析**](https://www.jianshu.com/p/41be1efe5d65))
 - ([**moudCount的作用**](https://blog.csdn.net/qq_24235325/article/details/52450331))
