@@ -69,7 +69,7 @@ excerpt: interview
 - ([**thread and lock**](https://javadoop.com/post/Threads-And-Locks-md#17.5.%20final%20属性的语义（final%20Field%20Semantics）))
 #### cas知道吗？如何实现？
 - ([**cas**](http://zl198751.iteye.com/blog/1848575))
--（[notify丢失虚假唤醒](http://www.cnblogs.com/lnlvinso/p/4753554.html))
+- ([notify丢失虚假唤醒](http://www.cnblogs.com/lnlvinso/p/4753554.html))
 
 #### 四种写法，写一个单例模式
 - ([**彻底理解单例模式**](https://blog.csdn.net/justloveyou_/article/details/64127789))
