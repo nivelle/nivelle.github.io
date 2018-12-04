@@ -247,16 +247,14 @@ excerpt: interview
 - ([**IOC源码分析**](https://javadoop.com/post/spring-ioc))
 - ([AOP源码分析](https://javadoop.com/post/spring-aop-source))
 - ([**spring头文件原理**](https://www.cnblogs.com/mesopotamia/p/4948861.html))
-- ([**spring初始化bean作用域和生命周期**](https://blog.csdn.net/fuzhongmin05/article/details/73389779))
 - ([面试top](http://www.importnew.com/15851.html))
 - ([spring考点细节](https://blog.csdn.net/congcong68/article/category/2650725))
 - ([spring事务失效原因和解决办法](https://blog.csdn.net/dream_broken/article/details/72911148))
-- ([spring的bean加载过程](https://blog.csdn.net/qq_18860653/article/details/53218117))
 - ([spring常见扩展点](https://leokongwq.github.io/2017/04/02/spring-expandPoint.html))
 - ([FactoryBean和beanFactory](https://juejin.im/entry/59e3662ef265da43283fe441))
 - ([dispatcher](http://jinnianshilongnian.iteye.com/blog/1602617))
 - ([sipring面试关注点](https://github.com/Homiss/Java-interview-questions/blob/master/%E6%A1%86%E6%9E%B6/Spring%20%E9%9D%A2%E8%AF%95%E9%A2%98.md))
-- ([初始化和生命周期](https://www.cnblogs.com/zhanglei93/p/6231882.html))
+- ([初始化和生命周期](https://github.com/upcAutoLang/SpringBeanLIfeCycleDemo))
 
 #### springboot
 - ([**springboot原理**](https://blog.csdn.net/hengyunabc/article/details/50120001))
