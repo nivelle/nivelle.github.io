@@ -139,6 +139,7 @@ excerpt: interview
 - ([集群原理](http://shift-alt-ctrl.iteye.com/blog/2285470))
 - ([集群配置](http://www.cnblogs.com/hjwublog/p/5681700.html))
 - ([高级应用](https://www.cnblogs.com/hjwublog/category/848303.html))
+- ([redis原理](http://nivelle.me/category/#noSQL))
 #### redis基本知识
 - ([**redis基本知识**](http://nivelle.me/category/#noSQL))
 - ([**redis单线程**](https://mp.weixin.qq.com/s?__biz=MzUxNTU4NjAwMw==&mid=2247483725&idx=1&sn=e6c8a304d1618b63bf04a264ba604585&chksm=f9b523f1cec2aae7c771af0e157f819d88abdf8bdfa483838279b51fbb0f23ab2fdd32c5ae50&mpshare=1&scene=1&srcid=1009czaemdDdwr7Y04gSPbaj#rd))
