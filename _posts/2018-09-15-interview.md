@@ -273,6 +273,8 @@ excerpt: interview
 - ([**get/post**](https://juejin.im/entry/599eb96ef265da24722fc15b))
 ####  cookie 和 session
 - ([**安全性**](https://segmentfault.com/q/1010000007347730))
+- ([session实现](https://blog.csdn.net/qq_15096707/article/details/74012116))
+
 #### OAuth2.0
 - ([OAuth2.0原理](https://my.oschina.net/wangzhenchao/blog/851773))
 #### 子网掩码
