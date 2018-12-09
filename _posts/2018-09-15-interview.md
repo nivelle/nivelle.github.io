@@ -95,6 +95,7 @@ excerpt: interview
 - ([jmm](https://www.cnblogs.com/jiangds/p/6510583.html?from=groupmessage&isappinstalled=0))
 #### 注解原理
 - ([**注解原理**](https://blog.csdn.net/zhang0558/article/details/52643016))
+- ([快速失败，安全失败](https://blog.csdn.net/ch717828/article/details/46892051))
 
 ### 数据库相关
 #### 使用mysql索引都有哪些原则？索引有什么数据结构？ B+tree 和 B tree 什么区别
