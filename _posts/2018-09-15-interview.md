@@ -73,7 +73,7 @@ excerpt: interview
 
 #### 四种写法，写一个单例模式
 - ([**彻底理解单例模式**](https://blog.csdn.net/justloveyou_/article/details/64127789))
-- ([设计模式](https://www.cnblogs.com/aspirant/category/1024672.html))
+- ([设计模式](https://blog.csdn.net/carson_ho/article/category/6365482))
 - ([适配器装饰器模式](https://blog.csdn.net/uniquewonderq/article/details/79873251))
 #### Integer x= 5, int y=5 比较x==y有哪些步骤
 - ([**原生类型和包装器类型**](https://juejin.im/post/5ad158d2f265da2381560d83))
