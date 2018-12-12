@@ -259,7 +259,7 @@ excerpt: interview
 #### springboot
 - ([**springboot原理**](https://blog.csdn.net/hengyunabc/article/details/50120001))
 - ([**springboot源码**](http://fangjian0423.github.io/categories/springboot/))
-- ([starter编写]（https://www.cnblogs.com/yuansc/p/9088212.html）)
+- ([starter编写](https://www.cnblogs.com/yuansc/p/9088212.html))
 
 
 ---
