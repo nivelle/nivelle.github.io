@@ -2,7 +2,7 @@
 layout: post
 title:  "springBoot常见注解"
 date:   2018-12-24 01:06:05
-categories: 技术
+categories: 微服务
 tags: springboot
 excerpt: springboot注解
 ---
