@@ -15,8 +15,16 @@ excerpt: 学习大纲
 ### 底层基础
 
 #### Netty
+
+- 阅读《Netty权威指南》
+
 #### JVM
+
+- 阅读《实战java虚拟机》
+
 #### Tomcat
+
+- 阅读《Tomcat设计与实现》,并产出
 
 ### 运维
 
@@ -58,12 +66,6 @@ excerpt: 学习大纲
 #### Spring boot(自动配置，CLI,Actuator,热部署，核心注解)
 [springboot](http://fangjian0423.github.io/categories/springboot/)
 
-
-### Tomcat调优
-
-- web程序容器结构剖析
-- tomcat内部原理与线程模型
-- tomcat系统参数介绍与分析
 
 ### mysql调优
 
