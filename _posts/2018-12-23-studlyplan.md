@@ -26,6 +26,8 @@ excerpt: 学习大纲
 
 - 阅读《Tomcat设计与实现》,并产出
 
+--- 
+
 ### 运维
 
 #### docker
@@ -45,6 +47,8 @@ excerpt: 学习大纲
 - 分支合并和冲突解决
 - 交互式rebase
 
+---
+
 ### 源码
 
 #### Mybatis
@@ -55,7 +59,7 @@ excerpt: 学习大纲
 3. Mybatis二级缓存实现原理运行过程
 4. Mybatis 插件开发原理
 
-#### Spring5 
+#### Spring5 & SpringMVC
 
 [源码解析](https://zhuanlan.zhihu.com/p/28577417)
 1. IOC容器（IOC容器和依赖反转，BeanFactory和ApplicationContext,BeanDefinition,FactoryBean）
@@ -74,12 +78,18 @@ excerpt: 学习大纲
 - sql语句性能分析
 - sql性能优化
 
+
+--- 
+
 ### JVM调优
 
 - jvm原理剖析
 - jvm内存大小设置（每个线程栈大小，设置JVM最大堆内存，设置年轻代大小，设置持久代大小）
 - 垃圾回收器选择（窜行，并行（吞吐量有限），并发（响应实践优先））
 - 参数调优
+
+---
+
 
 ### 高并发分布式技术
 
@@ -89,6 +99,8 @@ excerpt: 学习大纲
 - dubbo (dubbo框架原理解剖，dubbo集群容错与负载均衡，消息中间件整合，源码分析)
 - 分布式缓存（redis数据结构与对象，持久化策略RDB与AOF,主从复制原理，哨兵机制，高可用redis集群架构，redis事务与管道，订阅与发布机制，性能优化与注意事项，穿透，击穿，雪崩）
 - 分布式消息队列（JMS,AMQP；rabbitMQ高可用性能集群搭建，rabbit核心知识要领，一切为了解耦，restAPI,Kafka高性能集群搭建，kafka日志消息处理原理，kafka实现生产者消费者模型实践，Kafka应用日志采集以及统计分析实战）
+
+--- 
 
 ### 分布式数据存储
 
