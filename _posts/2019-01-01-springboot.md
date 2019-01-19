@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "springBoot验证使用"
+date:   2019-01-01 01:06:05
+categories: 微服务
+tags: springboot
+excerpt: springboot校验
+---
+
+
+* content
+{:toc}
+
+
+### @Valid
+
+- 所属包：javax.validation.Valid
+
+#### 使用方法
+
+
+**位置：** @Valid：可以用在方法、构造函数、方法参数和成员属性（字段）上
+
+1. 在要校验的实体类的属性上加上诸如@Min的注解
+
+2. 在controller层的方法的要校验的参数上添加@Valid注解，并且需要传入BindingResult对象，或者抛出异常由异常处理类统一处理
+
+#### 特殊用法
+
+@Valid加在方法参数时并不能够自动进行嵌套验证，而是用在需要嵌套验证类的相应字段上，来配合方法参数上@Validated或@Valid来进行嵌套验证。
+
+### @Validated
+
+- 所属包：org.springframework.validation.annotation.Validated，它是对@Valid的封装
+
+
+#### 使用方法
+
+**位置：** @Validated：可以用在类型、方法和方法参数上。但是不能用在成员属性（字段）上
+
+##### 特殊用法：
+
+@Validated：提供了一个分组功能，可以在入参验证时，根据不同的分组采用不同的验证机制，@Validated没有添加groups属性时，默认验证没有分组的验证属性
+
+
