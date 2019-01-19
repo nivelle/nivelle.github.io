@@ -18,6 +18,8 @@ excerpt: 学习大纲
 
 - 阅读《Netty权威指南》
 
+#### nginx
+
 #### JVM
 
 - 阅读《实战java虚拟机》
@@ -25,6 +27,7 @@ excerpt: 学习大纲
 #### Tomcat
 
 - 阅读《Tomcat设计与实现》,并产出
+
 
 --- 
 
