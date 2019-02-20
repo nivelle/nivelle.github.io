@@ -27,6 +27,7 @@ icon: bookmark
 * [雅书](https://www.yabook.org/ruanjian/)
 * [hello girl](http://www.jqhtml.com/down/category/java)
 * [pan sousou](http://www.pansoso.com/)
+* [我的书屋](http://mebook.cc/)
 ## 工作
 
 * [远程工作资料](https://github.com/greatghoul/remote-working)

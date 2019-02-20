@@ -12,9 +12,7 @@ type: page
 
 程序猿，主要干java ，学习go,blockChain 中,喜欢看各种书，学英语。跑步走起
 
-交流群:612053921
-
-wechat:fuxinzhong123
+wechat:iamnivelle
 
 公众号: progresstime(进步时间);[附学习资料]
 blockvoice(区块发声);
